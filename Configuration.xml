@@ -249,7 +249,18 @@
 			<Catalog>Породы</Catalog>
 			<Catalog>Окрасы</Catalog>
 			<Catalog>Комнаты</Catalog>
+			<Catalog>НазначенияКомнат</Catalog>
+			<Catalog>Расходники</Catalog>
+			<Catalog>ВидыРасходников</Catalog>
+			<Catalog>Должности</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>ПричиныПередачиВПриют</Catalog>
+			<Document>ЗаявкаНаПередачуВПриют</Document>
+			<Document>ПеремещениеЖивотного</Document>
 			<Enum>Пол</Enum>
+			<Enum>ТипыШерсти</Enum>
+			<Enum>СтатусыПребыванияЖивотных</Enum>
+			<InformationRegister>СтатусыПребыванияКотов</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

@@ -1,77 +1,71 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="7ecd2493-fa2a-452d-82bf-83d71c2bcc5c">
+	<Document uuid="61619a5a-35d1-46cc-9883-164bcc308887">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Комнаты" category="Object">
-				<xr:TypeId>b0c437db-dabc-4584-93a2-3a58940d75fb</xr:TypeId>
-				<xr:ValueId>7513c41b-2b93-4f47-a67e-31fb10625e87</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ПеремещениеЖивотного" category="Object">
+				<xr:TypeId>522a4811-54ce-4350-a961-ba3da0cea890</xr:TypeId>
+				<xr:ValueId>850094e1-5328-4dad-880b-8ac5e1dd6dcf</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Комнаты" category="Ref">
-				<xr:TypeId>d4ce22d4-ce02-4762-af24-8efc0338aba2</xr:TypeId>
-				<xr:ValueId>3ab8e8ec-1375-426f-8c04-af244ebe1bf1</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ПеремещениеЖивотного" category="Ref">
+				<xr:TypeId>76e44ec7-5a24-494a-9c6f-87c041363f8f</xr:TypeId>
+				<xr:ValueId>857b783a-26c0-45e0-927b-4b3f7b358ae2</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Комнаты" category="Selection">
-				<xr:TypeId>32890409-784e-4b1e-acaa-f2d35bb1bf13</xr:TypeId>
-				<xr:ValueId>e19d196d-ea8e-4606-99d5-09ee70c44f9d</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ПеремещениеЖивотного" category="Selection">
+				<xr:TypeId>12e9ea43-1c26-4b2c-90b8-ef698ec1c8a0</xr:TypeId>
+				<xr:ValueId>bc27012e-6325-44f4-8657-ec54123cded0</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Комнаты" category="List">
-				<xr:TypeId>53f3e0b9-a8a9-4f15-89d9-0a10899d999a</xr:TypeId>
-				<xr:ValueId>a7849ddc-2abd-482e-adad-2188212344ff</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ПеремещениеЖивотного" category="List">
+				<xr:TypeId>79676c01-468e-468a-9941-86017332b91f</xr:TypeId>
+				<xr:ValueId>c4e4bbff-0ba7-4698-b7f1-fde00c081695</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Комнаты" category="Manager">
-				<xr:TypeId>0abedc44-c255-4860-8570-c212686b8ba3</xr:TypeId>
-				<xr:ValueId>45bb7a3e-a901-4cca-8f6d-d885709c5a0e</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ПеремещениеЖивотного" category="Manager">
+				<xr:TypeId>575cea7e-4734-4b84-a0a2-1a1dca561079</xr:TypeId>
+				<xr:ValueId>f36836f6-751a-4786-9394-1b6dd44a0ac1</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Комнаты</Name>
+			<Name>ПеремещениеЖивотного</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Комнаты</v8:content>
+					<v8:content>Перемещение животного</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<Hierarchical>true</Hierarchical>
-			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
-			<LimitLevelCount>false</LimitLevelCount>
-			<LevelCount>2</LevelCount>
-			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
-			<Owners/>
-			<SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>9</CodeLength>
-			<DescriptionLength>25</DescriptionLength>
-			<CodeType>String</CodeType>
-			<CodeAllowedLength>Variable</CodeAllowedLength>
-			<CodeSeries>WholeCatalog</CodeSeries>
+			<Numerator/>
+			<NumberType>String</NumberType>
+			<NumberLength>9</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+			<NumberPeriodicity>Nonperiodical</NumberPeriodicity>
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
-			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<Characteristics/>
-			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
-			<EditType>InDialog</EditType>
-			<QuickChoice>false</QuickChoice>
-			<ChoiceMode>BothWays</ChoiceMode>
+			<BasedOn/>
 			<InputByString>
-				<xr:Field>Catalog.Комнаты.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Комнаты.StandardAttribute.Code</xr:Field>
+				<xr:Field>Document.ПеремещениеЖивотного.StandardAttribute.Number</xr:Field>
 			</InputByString>
+			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm/>
-			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
-			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
-			<AuxiliaryFolderForm/>
 			<AuxiliaryListForm/>
 			<AuxiliaryChoiceForm/>
-			<AuxiliaryFolderChoiceForm/>
+			<Posting>Allow</Posting>
+			<RealTimePosting>Allow</RealTimePosting>
+			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
+			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
+			<SequenceFilling>AutoFill</SequenceFilling>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СтатусыПребыванияКотов</xr:Item>
+			</RegisterRecords>
+			<PostInPrivilegedMode>true</PostInPrivilegedMode>
+			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<BasedOn/>
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>Use</FullTextSearch>
@@ -80,30 +74,24 @@
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
-			<CreateOnInput>Use</CreateOnInput>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="6ba2b8d8-f5ba-477c-8f9c-ba091e8b7009">
+			<Attribute uuid="5bf90044-9b26-413c-a5e6-1c936ceea318">
 				<Properties>
-					<Name>Вместимость</Name>
+					<Name>КомнатаДо</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Вместимость</v8:content>
+							<v8:content>Комната до</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>3</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
-							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-						</v8:NumberQualifiers>
+						<v8:Type>cfg:CatalogRef.Комнаты</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -126,24 +114,23 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="b7f555ea-b89b-429b-b4a2-7a47ca6dac3d">
+			<Attribute uuid="16c88ef1-d75d-4f0f-a01d-35023852170f">
 				<Properties>
-					<Name>Назначение</Name>
+					<Name>КомнатаПосле</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Назначение</v8:content>
+							<v8:content>Комната после</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.НазначенияКомнат</v8:Type>
+						<v8:Type>cfg:CatalogRef.Комнаты</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -166,26 +153,25 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="02e85c28-60d8-4478-b812-2f9ebde2de02">
+			<Attribute uuid="ee48f140-daeb-4cc3-89b5-ebce0dcd4879">
 				<Properties>
-					<Name>Комментарий</Name>
+					<Name>ПричинаПеремещения</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Комментарий</v8:content>
+							<v8:content>Причина перемещения</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>500</v8:Length>
+							<v8:Length>10</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -210,12 +196,11 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
 		</ChildObjects>
-	</Catalog>
+	</Document>
 </MetaDataObject>

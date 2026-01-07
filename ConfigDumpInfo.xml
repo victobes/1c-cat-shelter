@@ -1,25 +1,69 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
-		<Metadata name="Catalog.Комнаты" id="7ecd2493-fa2a-452d-82bf-83d71c2bcc5c" configVersion="3e3a410f5f09e54ba3c9d760ce35e79e00000000">
+		<Metadata name="Catalog.ВидыРасходников" id="6f15173b-f246-4565-9e9a-9b5d6e430a40" configVersion="eb2a8bff4a00db4d929ffc0b3c3e3a7900000000"/>
+		<Metadata name="Catalog.Должности" id="ff7ec16c-6f2a-489a-b25d-13c5d5a2a947" configVersion="0069746e73774541aa2fe39ee0e1899b00000000"/>
+		<Metadata name="Catalog.Комнаты" id="7ecd2493-fa2a-452d-82bf-83d71c2bcc5c" configVersion="06cf824357adb041b47b6ec42065730f00000000">
 			<Metadata name="Catalog.Комнаты.Attribute.Комментарий" id="02e85c28-60d8-4478-b812-2f9ebde2de02"/>
 			<Metadata name="Catalog.Комнаты.Attribute.Вместимость" id="6ba2b8d8-f5ba-477c-8f9c-ba091e8b7009"/>
 			<Metadata name="Catalog.Комнаты.Attribute.Назначение" id="b7f555ea-b89b-429b-b4a2-7a47ca6dac3d"/>
 		</Metadata>
-		<Metadata name="Catalog.Коты" id="c69cfa66-df00-4f37-84a4-048f7c6223f3" configVersion="d220ac8b37398c48a276a5251099e25000000000">
+		<Metadata name="Catalog.Коты" id="c69cfa66-df00-4f37-84a4-048f7c6223f3" configVersion="f5e2822c876eb149908b0f04f1b16cef00000000">
 			<Metadata name="Catalog.Коты.Attribute.Окрас" id="2560a0ef-a6f6-4a43-9467-a6f511246de5"/>
+			<Metadata name="Catalog.Коты.Attribute.ТипШерсти" id="25b5d368-5d9d-4ec0-8242-bed6e94e683b"/>
 			<Metadata name="Catalog.Коты.Attribute.Комментарий" id="5f04c75e-b5a5-4d86-a0ec-911bf5452f5b"/>
 			<Metadata name="Catalog.Коты.Attribute.Порода" id="70935ebb-df48-4ab7-94e7-ed9c8a34652d"/>
 			<Metadata name="Catalog.Коты.Attribute.Пол" id="73cbe197-f8f2-4074-97f3-252ae6cf1f3d"/>
 			<Metadata name="Catalog.Коты.Attribute.Вес" id="b63170c3-1d26-4574-8a6d-3b9148f29a28"/>
 			<Metadata name="Catalog.Коты.Attribute.ДатаПоступления" id="d094e83a-8dc4-4e40-a7ce-17fc1a2aeff9"/>
 		</Metadata>
-		<Metadata name="Catalog.Окрасы" id="66c29372-aa05-4bff-8431-4dccc08e3a7e" configVersion="c0315c99db03824d9d2cb23c258a988000000000"/>
-		<Metadata name="Catalog.Породы" id="39219027-dddc-445e-a1c0-b7380fb6ef99" configVersion="c2eb056d520e7340a717b84ee556102800000000"/>
-		<Metadata name="Configuration.Конфигурация" id="91bf5bc6-d784-403e-89c6-97c82ec7988e" configVersion="2d15a2546eb1224c9f9bb964374576dd00000000"/>
+		<Metadata name="Catalog.НазначенияКомнат" id="d3b95eb5-c6cb-4872-9c18-6a53e49aea7d" configVersion="d56b0635d0198f4a8bd92279952fd2b200000000"/>
+		<Metadata name="Catalog.Окрасы" id="66c29372-aa05-4bff-8431-4dccc08e3a7e" configVersion="74e048efd731314d991a2d74ea2b41e200000000"/>
+		<Metadata name="Catalog.Породы" id="39219027-dddc-445e-a1c0-b7380fb6ef99" configVersion="3052c10084548d4b853c4897502bc2ee00000000"/>
+		<Metadata name="Catalog.ПричиныПередачиВПриют" id="e770dbdd-65cb-4527-8bfe-9411d7d7f522" configVersion="d9ecff1be02ba740a7a1ac7646067e3b00000000"/>
+		<Metadata name="Catalog.Расходники" id="b213ecc6-432f-42bc-bae5-9c6fe46b003f" configVersion="404d1e25f2d4f040a723330c186d1c4600000000">
+			<Metadata name="Catalog.Расходники.Attribute.ВидРасходника1" id="30e7693b-2b0e-44c7-94a7-cd313f116333"/>
+			<Metadata name="Catalog.Расходники.Attribute.СтранаПроисхождения" id="3515cce2-8c09-4d6a-9a9e-42aa470e9b21"/>
+			<Metadata name="Catalog.Расходники.Attribute.ВидРасходника" id="a51152b8-5ac1-4165-a158-8ade6d2273db"/>
+		</Metadata>
+		<Metadata name="Catalog.ФизическиеЛица" id="81b2771c-105b-4c87-b283-9670d6ac3a0e" configVersion="c4c0793ea448d34c817f0daf9c5b026800000000">
+			<Metadata name="Catalog.ФизическиеЛица.Attribute.Фамилия" id="091456b8-64e7-4ed0-8b3d-ee73f5eccb31"/>
+			<Metadata name="Catalog.ФизическиеЛица.Attribute.Имя" id="210fc875-c631-486c-b144-67019ff5d568"/>
+			<Metadata name="Catalog.ФизическиеЛица.Attribute.Отчество" id="f21f1ad8-9402-4d30-aaad-3ee94268e110"/>
+		</Metadata>
+		<Metadata name="Configuration.Конфигурация" id="91bf5bc6-d784-403e-89c6-97c82ec7988e" configVersion="dcd97242e693b04ba44f4d1db18024c500000000"/>
+		<Metadata name="Document.ЗаявкаНаПередачуВПриют" id="fa39d9e4-d1b9-4335-bb14-e97825a32471" configVersion="e56a455d8a2f624ab6920251153a05e800000000">
+			<Metadata name="Document.ЗаявкаНаПередачуВПриют.Attribute.Контрагент" id="8d3fd21a-8f56-4606-acad-d8ec86280f4a"/>
+			<Metadata name="Document.ЗаявкаНаПередачуВПриют.Attribute.Ответственный" id="9d155d5c-8494-4787-b7a2-bcdde68e21dd"/>
+			<Metadata name="Document.ЗаявкаНаПередачуВПриют.Attribute.Кот" id="c10de9db-f5e1-4f9d-9204-c02431b2122d"/>
+		</Metadata>
+		<Metadata name="Document.ПеремещениеЖивотного" id="61619a5a-35d1-46cc-9883-164bcc308887" configVersion="aadf31194575954f93346d180d70434000000000">
+			<Metadata name="Document.ПеремещениеЖивотного.Attribute.КомнатаПосле" id="16c88ef1-d75d-4f0f-a01d-35023852170f"/>
+			<Metadata name="Document.ПеремещениеЖивотного.Attribute.КомнатаДо" id="5bf90044-9b26-413c-a5e6-1c936ceea318"/>
+			<Metadata name="Document.ПеремещениеЖивотного.Attribute.ПричинаПеремещения" id="ee48f140-daeb-4cc3-89b5-ebce0dcd4879"/>
+		</Metadata>
 		<Metadata name="Enum.Пол" id="37313884-feb4-4788-af43-c8d8428efdc0" configVersion="7a169947770aa540b2a3b85754de4cdd00000000">
 			<Metadata name="Enum.Пол.EnumValue.Женский" id="e46d511a-80fa-40a9-8f6a-436e9a4cc929"/>
 			<Metadata name="Enum.Пол.EnumValue.Мужской" id="fcd3a505-ca6f-4b09-b3e3-71cf534da078"/>
+		</Metadata>
+		<Metadata name="Enum.СтатусыПребыванияЖивотных" id="c186095c-97ac-4748-a786-e13f7140f406" configVersion="2c24548e38d4894995ca8176352e8cb300000000">
+			<Metadata name="Enum.СтатусыПребыванияЖивотных.EnumValue.ГотовКУкотовлению" id="088f7fc0-2c4d-49b3-a334-c7627535440f"/>
+			<Metadata name="Enum.СтатусыПребыванияЖивотных.EnumValue.Укотовлен" id="11996b2e-37bf-4aab-9967-cedcfff31a65"/>
+			<Metadata name="Enum.СтатусыПребыванияЖивотных.EnumValue.НаЛечении" id="19055355-5819-4e8b-939a-0ce9a65e8d7e"/>
+			<Metadata name="Enum.СтатусыПребыванияЖивотных.EnumValue.Новый" id="1bfe72a8-937e-4e9c-bdce-dc0ea7e91e67"/>
+			<Metadata name="Enum.СтатусыПребыванияЖивотных.EnumValue.НаКарантине" id="875e0184-bef3-4f26-9718-f5b4696b5e1a"/>
+			<Metadata name="Enum.СтатусыПребыванияЖивотных.EnumValue.НаПередержке" id="ff591249-7e5a-4b5c-8481-92b4b99f4319"/>
+		</Metadata>
+		<Metadata name="Enum.ТипыШерсти" id="2e64fd9f-4dfe-444b-a25f-235670c33cc4" configVersion="c1be9b28f577f7479b6d6ac2ff5a557200000000">
+			<Metadata name="Enum.ТипыШерсти.EnumValue.Бесшерстный" id="012cc4b7-6257-4ec9-ac1c-888fd93257f9"/>
+			<Metadata name="Enum.ТипыШерсти.EnumValue.Курчавошерстный" id="03cf41ff-8033-4a4e-8d50-2bc8dec64a74"/>
+			<Metadata name="Enum.ТипыШерсти.EnumValue.Короткошерстный" id="4744f978-71c4-4aab-a418-37f3021df946"/>
+			<Metadata name="Enum.ТипыШерсти.EnumValue.Полудлинношерстный" id="8fd8fdf8-1bfb-4a65-9ec1-eda8c9ffd397"/>
+			<Metadata name="Enum.ТипыШерсти.EnumValue.Длинношерстный" id="9e29d33a-0ceb-402d-8432-3e368d265711"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СтатусыПребыванияКотов" id="8180e860-e898-4cec-a551-75f31d3f8b65" configVersion="e2d0cc79b10815478f9443c416423cc700000000">
+			<Metadata name="InformationRegister.СтатусыПребыванияКотов.Dimension.Статус" id="1db1752d-8216-4039-a7ca-c5ca32c01b3d"/>
+			<Metadata name="InformationRegister.СтатусыПребыванияКотов.Dimension.Кот" id="4e229f57-f0ff-4ca7-8cf5-50ea9ad916b0"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="0a0ca526-4569-4335-b42d-cd71159ced98" configVersion="d13db3bc554ed14386c935f5be83f94700000000"/>
 	</ConfigVersions>
