@@ -2,33 +2,33 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<Document uuid="fa39d9e4-d1b9-4335-bb14-e97825a32471">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ЗаявкаНаПередачуВПриют" category="Object">
+			<xr:GeneratedType name="DocumentObject.ЗаявкаНаПередачуЖивотногоВПриют" category="Object">
 				<xr:TypeId>c00a1af5-d869-4bd4-ad63-c48e398433ce</xr:TypeId>
 				<xr:ValueId>f6a7d35e-e024-4348-a8e8-ff6d6feee6ab</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ЗаявкаНаПередачуВПриют" category="Ref">
+			<xr:GeneratedType name="DocumentRef.ЗаявкаНаПередачуЖивотногоВПриют" category="Ref">
 				<xr:TypeId>deab2d78-1efd-4d30-8b42-9ec34a27a5bd</xr:TypeId>
 				<xr:ValueId>3820a7a3-7a85-42e8-b15e-75b6542324cf</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ЗаявкаНаПередачуВПриют" category="Selection">
+			<xr:GeneratedType name="DocumentSelection.ЗаявкаНаПередачуЖивотногоВПриют" category="Selection">
 				<xr:TypeId>145e2609-6d7d-4be5-a9c9-acdee7f6f33d</xr:TypeId>
 				<xr:ValueId>ed97e7aa-f48a-45b0-8917-1f8984596fc3</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ЗаявкаНаПередачуВПриют" category="List">
+			<xr:GeneratedType name="DocumentList.ЗаявкаНаПередачуЖивотногоВПриют" category="List">
 				<xr:TypeId>19edc136-56cc-4b71-80bb-5e9b291054ca</xr:TypeId>
 				<xr:ValueId>df623d6b-bb33-41e1-8dd0-a6dd9043f414</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ЗаявкаНаПередачуВПриют" category="Manager">
+			<xr:GeneratedType name="DocumentManager.ЗаявкаНаПередачуЖивотногоВПриют" category="Manager">
 				<xr:TypeId>4b32dac6-e896-49d4-bf89-3597fba57b2e</xr:TypeId>
 				<xr:ValueId>33dd30c4-86b9-4769-ac3f-fad524da9326</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ЗаявкаНаПередачуВПриют</Name>
+			<Name>ЗаявкаНаПередачуЖивотногоВПриют</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Заявка на передачу в приют</v8:content>
+					<v8:content>Заявка на передачу животного в приют</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -43,7 +43,7 @@
 			<Characteristics/>
 			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.ЗаявкаНаПередачуВПриют.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ЗаявкаНаПередачуЖивотногоВПриют.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -133,6 +133,87 @@
 					<Comment/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Коты</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="63fbef27-c7ed-4862-b2ef-d6f6c456b7e7">
+				<Properties>
+					<Name>ПричинаПередачи</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Причина передачи</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПричиныПередачиВПриют</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ed071181-8b8f-43fd-ab70-17f0bdadf641">
+				<Properties>
+					<Name>ВремяВизита</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Время визита</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

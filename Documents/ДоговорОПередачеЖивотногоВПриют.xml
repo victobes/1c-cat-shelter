@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Document uuid="61619a5a-35d1-46cc-9883-164bcc308887">
+	<Document uuid="0ca9347f-1777-4944-9bbf-136577489b37">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ПеремещениеЖивотного" category="Object">
-				<xr:TypeId>522a4811-54ce-4350-a961-ba3da0cea890</xr:TypeId>
-				<xr:ValueId>850094e1-5328-4dad-880b-8ac5e1dd6dcf</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ДоговорОПередачеЖивотногоВПриют" category="Object">
+				<xr:TypeId>90351093-583b-49be-8340-4eed8999ff5d</xr:TypeId>
+				<xr:ValueId>9e242e9c-b5a0-41b7-9af7-341b67e18ce5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ПеремещениеЖивотного" category="Ref">
-				<xr:TypeId>76e44ec7-5a24-494a-9c6f-87c041363f8f</xr:TypeId>
-				<xr:ValueId>857b783a-26c0-45e0-927b-4b3f7b358ae2</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ДоговорОПередачеЖивотногоВПриют" category="Ref">
+				<xr:TypeId>a0b8fb67-2808-4593-87fc-ae270af365ad</xr:TypeId>
+				<xr:ValueId>812c8366-783b-467e-88c8-18063f838589</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ПеремещениеЖивотного" category="Selection">
-				<xr:TypeId>12e9ea43-1c26-4b2c-90b8-ef698ec1c8a0</xr:TypeId>
-				<xr:ValueId>bc27012e-6325-44f4-8657-ec54123cded0</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ДоговорОПередачеЖивотногоВПриют" category="Selection">
+				<xr:TypeId>0527ae18-ecc3-4a1e-a732-d5ef87cb49f3</xr:TypeId>
+				<xr:ValueId>80d396ba-f517-44f3-ae30-5050fd76d33b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ПеремещениеЖивотного" category="List">
-				<xr:TypeId>79676c01-468e-468a-9941-86017332b91f</xr:TypeId>
-				<xr:ValueId>c4e4bbff-0ba7-4698-b7f1-fde00c081695</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ДоговорОПередачеЖивотногоВПриют" category="List">
+				<xr:TypeId>e412aacb-857a-4414-81c9-b2cedba1faad</xr:TypeId>
+				<xr:ValueId>099d976f-a1ad-4525-a2d6-6fd7ed2aa917</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ПеремещениеЖивотного" category="Manager">
-				<xr:TypeId>575cea7e-4734-4b84-a0a2-1a1dca561079</xr:TypeId>
-				<xr:ValueId>f36836f6-751a-4786-9394-1b6dd44a0ac1</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ДоговорОПередачеЖивотногоВПриют" category="Manager">
+				<xr:TypeId>ef822b2b-b46f-49d2-afaf-044fdbfe7634</xr:TypeId>
+				<xr:ValueId>39ba07af-bf5d-480a-8a53-80d1e5aa7496</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ПеремещениеЖивотного</Name>
+			<Name>ДоговорОПередачеЖивотногоВПриют</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Перемещение животного</v8:content>
+					<v8:content>Договор о передаче животного в приют</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -41,9 +41,11 @@
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
 			<Characteristics/>
-			<BasedOn/>
+			<BasedOn>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаявкаНаПередачуЖивотногоВПриют</xr:Item>
+			</BasedOn>
 			<InputByString>
-				<xr:Field>Document.ПеремещениеЖивотного.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ДоговорОПередачеЖивотногоВПриют.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -60,9 +62,7 @@
 			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
-			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СтатусыПребыванияКотов</xr:Item>
-			</RegisterRecords>
+			<RegisterRecords/>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
@@ -80,18 +80,18 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="5bf90044-9b26-413c-a5e6-1c936ceea318">
+			<Attribute uuid="f7f1460d-4bb1-4d2f-b6fb-8287516168f0">
 				<Properties>
-					<Name>КомнатаДо</Name>
+					<Name>Контрагент</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Комната до</v8:content>
+							<v8:content>Контрагент</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Комнаты</v8:Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -119,18 +119,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="16c88ef1-d75d-4f0f-a01d-35023852170f">
+			<Attribute uuid="f8596ca2-c5d8-42f4-918a-4261df1c6f3a">
 				<Properties>
-					<Name>КомнатаПосле</Name>
+					<Name>Кот</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Комната после</v8:content>
+							<v8:content>Кот</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Комнаты</v8:Type>
+						<v8:Type>cfg:CatalogRef.Коты</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -158,50 +158,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="ee48f140-daeb-4cc3-89b5-ebce0dcd4879">
-				<Properties>
-					<Name>ПричинаПеремещения</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Причина перемещения</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>10</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="b0b3b271-5759-4240-bdfc-1df82aa467de">
+			<Attribute uuid="b3108635-2a12-460f-b517-ce848fe2bae3">
 				<Properties>
 					<Name>Ответственный</Name>
 					<Synonym>
@@ -230,6 +187,45 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e5797b90-9208-4441-8279-8a201766ef7b">
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документ основание</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаявкаНаПередачуЖивотногоВПриют</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>

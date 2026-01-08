@@ -255,12 +255,16 @@
 			<Catalog>Должности</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>ПричиныПередачиВПриют</Catalog>
-			<Document>ЗаявкаНаПередачуВПриют</Document>
+			<Catalog>ВидыДокументовФизическихЛиц</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Document>ЗаявкаНаПередачуЖивотногоВПриют</Document>
 			<Document>ПеремещениеЖивотного</Document>
+			<Document>ДоговорОПередачеЖивотногоВПриют</Document>
 			<Enum>Пол</Enum>
 			<Enum>ТипыШерсти</Enum>
 			<Enum>СтатусыПребыванияЖивотных</Enum>
 			<InformationRegister>СтатусыПребыванияКотов</InformationRegister>
+			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
