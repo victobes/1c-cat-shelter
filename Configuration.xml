@@ -264,6 +264,7 @@
 			<Catalog>ВидыДокументовФизическихЛиц</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ОпекуныУкотовители</Catalog>
+			<Catalog>СтраныМира</Catalog>
 			<Document>ЗаявкаНаПередачуЖивотногоВПриют</Document>
 			<Document>ПеремещениеЖивотного</Document>
 			<Document>ДоговорОПередачеЖивотногоВПриют</Document>
@@ -274,6 +275,7 @@
 			<Enum>ОпекунУкотовитель</Enum>
 			<InformationRegister>СтатусыПребыванияКотов</InformationRegister>
 			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
+			<AccumulationRegister>ЗаполненностьКомнат</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

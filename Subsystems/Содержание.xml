@@ -19,6 +19,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеЖивотного</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Комнаты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.НазначенияКомнат</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЗаполненностьКомнат</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

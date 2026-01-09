@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="6e92dfff-1082-4a98-a06c-f691171cdbbf">
+		<Name>ВетеринарныеКлиники</Name>
+		<Code>000000001</Code>
+		<Description>Ветеринарные клиники</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="c7c620dd-ccba-40e7-a988-a589619c9a41">
+		<Name>Поставщики</Name>
+		<Code>000000002</Code>
+		<Description>Поставщики</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="279d6603-a899-4610-bfbf-1eb6e9603444">
+		<Name>Производители</Name>
+		<Code>000000003</Code>
+		<Description>Производители</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+</PredefinedData>

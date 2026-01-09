@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ЗаполненностьКомнат" id="d0374833-b356-410c-bea3-ee68ed960a3f" configVersion="0a7e3f36c17ebb4eb2d6ff732ef33fb800000000">
+			<Metadata name="AccumulationRegister.ЗаполненностьКомнат.Dimension.Комната" id="40e14608-e2e4-4852-ad24-c9015f19e086"/>
+			<Metadata name="AccumulationRegister.ЗаполненностьКомнат.Resource.КоличествоКотов" id="9c59038a-ac92-4b65-bfd3-7a7a22438040"/>
+		</Metadata>
 		<Metadata name="Catalog.ВидыДокументовФизическихЛиц" id="79408c32-117e-4f71-aaa6-daced8ff8508" configVersion="c32aa5c286f73945adb99cda7d42b97500000000">
 			<Metadata name="Catalog.ВидыДокументовФизическихЛиц.Attribute.КодПФР" id="2a1980a4-40b0-49a0-b1f6-6442b12c7f4f"/>
 			<Metadata name="Catalog.ВидыДокументовФизическихЛиц.Attribute.КодФНС" id="3aafce5b-5848-419a-88d6-6332417280be"/>
@@ -8,38 +12,42 @@
 		<Metadata name="Catalog.ВидыДокументовФизическихЛиц.Predefined" id="79408c32-117e-4f71-aaa6-daced8ff8508.1c" configVersion="774d2459245fd54e847db787f200277900000000"/>
 		<Metadata name="Catalog.ВидыРасходников" id="6f15173b-f246-4565-9e9a-9b5d6e430a40" configVersion="eb2a8bff4a00db4d929ffc0b3c3e3a7900000000"/>
 		<Metadata name="Catalog.Должности" id="ff7ec16c-6f2a-489a-b25d-13c5d5a2a947" configVersion="0069746e73774541aa2fe39ee0e1899b00000000"/>
-		<Metadata name="Catalog.Комнаты" id="7ecd2493-fa2a-452d-82bf-83d71c2bcc5c" configVersion="06cf824357adb041b47b6ec42065730f00000000">
+		<Metadata name="Catalog.Комнаты" id="7ecd2493-fa2a-452d-82bf-83d71c2bcc5c" configVersion="20926f79610c264395b90bb3568316a700000000">
 			<Metadata name="Catalog.Комнаты.Attribute.Комментарий" id="02e85c28-60d8-4478-b812-2f9ebde2de02"/>
 			<Metadata name="Catalog.Комнаты.Attribute.Вместимость" id="6ba2b8d8-f5ba-477c-8f9c-ba091e8b7009"/>
 			<Metadata name="Catalog.Комнаты.Attribute.Назначение" id="b7f555ea-b89b-429b-b4a2-7a47ca6dac3d"/>
 		</Metadata>
-		<Metadata name="Catalog.Контрагенты" id="313664d2-58cd-4b10-8928-f05104e5cc5e" configVersion="ae39fa57e4c80e44bbbe0b1b6bea032e00000000">
+		<Metadata name="Catalog.Комнаты.Predefined" id="7ecd2493-fa2a-452d-82bf-83d71c2bcc5c.1c" configVersion="e5c075b5773fdc41bbc405144556434700000000"/>
+		<Metadata name="Catalog.Контрагенты" id="313664d2-58cd-4b10-8928-f05104e5cc5e" configVersion="3bf094241bca41409a0c58af498f007800000000">
 			<Metadata name="Catalog.Контрагенты.Attribute.НаименованиеПолное" id="2ff6f95d-493f-4120-8b3f-25d7d5a50148"/>
 			<Metadata name="Catalog.Контрагенты.Attribute.ВидКонтрагента" id="573bff0e-125e-41ab-80fd-f3b6ab55c8bf"/>
 			<Metadata name="Catalog.Контрагенты.Attribute.ФизическоеЛицо" id="c6deed76-c184-4778-93db-25cc25e6e8fa"/>
 		</Metadata>
-		<Metadata name="Catalog.Коты" id="c69cfa66-df00-4f37-84a4-048f7c6223f3" configVersion="f5e2822c876eb149908b0f04f1b16cef00000000">
+		<Metadata name="Catalog.Контрагенты.Predefined" id="313664d2-58cd-4b10-8928-f05104e5cc5e.1c" configVersion="049798f55fc5dd46a732ae9066d5a59d00000000"/>
+		<Metadata name="Catalog.Коты" id="c69cfa66-df00-4f37-84a4-048f7c6223f3" configVersion="039d9312e67ec84ba6addc6a57f1df7b00000000">
 			<Metadata name="Catalog.Коты.Attribute.Окрас" id="2560a0ef-a6f6-4a43-9467-a6f511246de5"/>
 			<Metadata name="Catalog.Коты.Attribute.ТипШерсти" id="25b5d368-5d9d-4ec0-8242-bed6e94e683b"/>
 			<Metadata name="Catalog.Коты.Attribute.Комментарий" id="5f04c75e-b5a5-4d86-a0ec-911bf5452f5b"/>
 			<Metadata name="Catalog.Коты.Attribute.Порода" id="70935ebb-df48-4ab7-94e7-ed9c8a34652d"/>
 			<Metadata name="Catalog.Коты.Attribute.Пол" id="73cbe197-f8f2-4074-97f3-252ae6cf1f3d"/>
 			<Metadata name="Catalog.Коты.Attribute.Вес" id="b63170c3-1d26-4574-8a6d-3b9148f29a28"/>
-			<Metadata name="Catalog.Коты.Attribute.ДатаПоступления" id="d094e83a-8dc4-4e40-a7ce-17fc1a2aeff9"/>
+			<Metadata name="Catalog.Коты.Attribute.ДатаРождения" id="d094e83a-8dc4-4e40-a7ce-17fc1a2aeff9"/>
 		</Metadata>
 		<Metadata name="Catalog.НазначенияКомнат" id="d3b95eb5-c6cb-4872-9c18-6a53e49aea7d" configVersion="d56b0635d0198f4a8bd92279952fd2b200000000"/>
 		<Metadata name="Catalog.Окрасы" id="66c29372-aa05-4bff-8431-4dccc08e3a7e" configVersion="74e048efd731314d991a2d74ea2b41e200000000"/>
-		<Metadata name="Catalog.ОпекуныУкотовители" id="8a1d1a01-f75d-41ad-8dc1-fb9845905505" configVersion="9f2081a84b2eec478ae7697df97ab65000000000">
+		<Metadata name="Catalog.ОпекуныУкотовители" id="8a1d1a01-f75d-41ad-8dc1-fb9845905505" configVersion="c5bdf1fc01e32143b0cbf4146e6665cf00000000">
 			<Metadata name="Catalog.ОпекуныУкотовители.Attribute.ФизическоеЛицо" id="606ada42-3365-45c6-b84a-b1d3dde884ff"/>
 			<Metadata name="Catalog.ОпекуныУкотовители.Attribute.ОпекунУкотовитель" id="fd3823b4-8c02-4855-aab1-8f2fed3bdb37"/>
 		</Metadata>
-		<Metadata name="Catalog.Породы" id="39219027-dddc-445e-a1c0-b7380fb6ef99" configVersion="3052c10084548d4b853c4897502bc2ee00000000"/>
+		<Metadata name="Catalog.Породы" id="39219027-dddc-445e-a1c0-b7380fb6ef99" configVersion="adcee2d129197d4ba4d08a7e40f3437700000000"/>
+		<Metadata name="Catalog.Породы.Predefined" id="39219027-dddc-445e-a1c0-b7380fb6ef99.1c" configVersion="3f11102951e43347ac239de486d61fe200000000"/>
 		<Metadata name="Catalog.ПричиныПередачиВПриют" id="e770dbdd-65cb-4527-8bfe-9411d7d7f522" configVersion="d9ecff1be02ba740a7a1ac7646067e3b00000000"/>
-		<Metadata name="Catalog.Расходники" id="b213ecc6-432f-42bc-bae5-9c6fe46b003f" configVersion="404d1e25f2d4f040a723330c186d1c4600000000">
-			<Metadata name="Catalog.Расходники.Attribute.ВидРасходника1" id="30e7693b-2b0e-44c7-94a7-cd313f116333"/>
+		<Metadata name="Catalog.Расходники" id="b213ecc6-432f-42bc-bae5-9c6fe46b003f" configVersion="dc556ac45f5dc54ebd163fa9b23f0deb00000000">
+			<Metadata name="Catalog.Расходники.Attribute.Производитель" id="30e7693b-2b0e-44c7-94a7-cd313f116333"/>
 			<Metadata name="Catalog.Расходники.Attribute.СтранаПроисхождения" id="3515cce2-8c09-4d6a-9a9e-42aa470e9b21"/>
 			<Metadata name="Catalog.Расходники.Attribute.ВидРасходника" id="a51152b8-5ac1-4165-a158-8ade6d2273db"/>
 		</Metadata>
+		<Metadata name="Catalog.СтраныМира" id="07b2763f-7a02-4e49-abd6-0401b1a74dbf" configVersion="6d71a8378594894f80bea16b91d6d82a00000000"/>
 		<Metadata name="Catalog.ФизическиеЛица" id="81b2771c-105b-4c87-b283-9670d6ac3a0e" configVersion="5f39306cd001a649a55caefb024d817d00000000">
 			<Metadata name="Catalog.ФизическиеЛица.Attribute.Фамилия" id="091456b8-64e7-4ed0-8b3d-ee73f5eccb31"/>
 			<Metadata name="Catalog.ФизическиеЛица.Attribute.Имя" id="210fc875-c631-486c-b144-67019ff5d568"/>
@@ -51,21 +59,21 @@
 			<Metadata name="Catalog.ФизическиеЛица.Attribute.Пол" id="c1cce178-ef3f-489f-b69b-0cb1c7f12651"/>
 			<Metadata name="Catalog.ФизическиеЛица.Attribute.Отчество" id="f21f1ad8-9402-4d30-aaad-3ee94268e110"/>
 		</Metadata>
-		<Metadata name="Configuration.Конфигурация" id="91bf5bc6-d784-403e-89c6-97c82ec7988e" configVersion="ff0d7ef9a92bf848a9d51ca7e7d2b7a400000000"/>
-		<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют" id="0ca9347f-1777-4944-9bbf-136577489b37" configVersion="b77f91cb4c99c548a5ce353b26456fe700000000">
+		<Metadata name="Configuration.Конфигурация" id="91bf5bc6-d784-403e-89c6-97c82ec7988e" configVersion="5c904ee5d6678943ba698ceb4824413f00000000"/>
+		<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют" id="0ca9347f-1777-4944-9bbf-136577489b37" configVersion="bc8b89a911bc434abd8ee90d82c6872700000000">
 			<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.Attribute.Ответственный" id="b3108635-2a12-460f-b517-ce848fe2bae3"/>
 			<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.Attribute.ДокументОснование" id="e5797b90-9208-4441-8279-8a201766ef7b"/>
-			<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.Attribute.Контрагент" id="f7f1460d-4bb1-4d2f-b6fb-8287516168f0"/>
+			<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.Attribute.Опекун" id="f7f1460d-4bb1-4d2f-b6fb-8287516168f0"/>
 			<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.Attribute.Кот" id="f8596ca2-c5d8-42f4-918a-4261df1c6f3a"/>
 		</Metadata>
-		<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.ObjectModule" id="0ca9347f-1777-4944-9bbf-136577489b37.0" configVersion="affb0d82bfc6184d92d1a7869300df8900000000"/>
+		<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.ObjectModule" id="0ca9347f-1777-4944-9bbf-136577489b37.0" configVersion="3f2472e9f119be45bab2bb7f199b101e00000000"/>
 		<Metadata name="Document.ЗаявкаНаПередачуЖивотногоВПриют" id="fa39d9e4-d1b9-4335-bb14-e97825a32471" configVersion="7257648c2a23dd408f3d5aa08166814d00000000">
 			<Metadata name="Document.ЗаявкаНаПередачуЖивотногоВПриют.Attribute.ПричинаПередачи" id="63fbef27-c7ed-4862-b2ef-d6f6c456b7e7"/>
 			<Metadata name="Document.ЗаявкаНаПередачуЖивотногоВПриют.Attribute.Опекун" id="8d3fd21a-8f56-4606-acad-d8ec86280f4a"/>
 			<Metadata name="Document.ЗаявкаНаПередачуЖивотногоВПриют.Attribute.Ответственный" id="9d155d5c-8494-4787-b7a2-bcdde68e21dd"/>
 			<Metadata name="Document.ЗаявкаНаПередачуЖивотногоВПриют.Attribute.ВремяВизита" id="ed071181-8b8f-43fd-ab70-17f0bdadf641"/>
 		</Metadata>
-		<Metadata name="Document.ПеремещениеЖивотного" id="61619a5a-35d1-46cc-9883-164bcc308887" configVersion="ad5bc55a0d457a4995eda042a145bdb000000000">
+		<Metadata name="Document.ПеремещениеЖивотного" id="61619a5a-35d1-46cc-9883-164bcc308887" configVersion="2a89d64ebd9639468e74933b6e59672800000000">
 			<Metadata name="Document.ПеремещениеЖивотного.Attribute.КомнатаПосле" id="16c88ef1-d75d-4f0f-a01d-35023852170f"/>
 			<Metadata name="Document.ПеремещениеЖивотного.Attribute.КомнатаДо" id="5bf90044-9b26-413c-a5e6-1c936ceea318"/>
 			<Metadata name="Document.ПеремещениеЖивотного.Attribute.Ответственный" id="b0b3b271-5759-4240-bdfc-1df82aa467de"/>
@@ -112,16 +120,16 @@
 			<Metadata name="InformationRegister.ДокументыФизическихЛиц.Resource.ЯвляетсяДокументомУдостоверяющимЛичность" id="d20c6039-3eca-4116-80bd-f9d9d17b119a"/>
 			<Metadata name="InformationRegister.ДокументыФизическихЛиц.Resource.КемВыдан" id="fb4fc870-0fe4-40e5-bb0c-6898b851d1dd"/>
 		</Metadata>
-		<Metadata name="InformationRegister.СтатусыПребыванияКотов" id="8180e860-e898-4cec-a551-75f31d3f8b65" configVersion="e2d0cc79b10815478f9443c416423cc700000000">
-			<Metadata name="InformationRegister.СтатусыПребыванияКотов.Dimension.Статус" id="1db1752d-8216-4039-a7ca-c5ca32c01b3d"/>
+		<Metadata name="InformationRegister.СтатусыПребыванияКотов" id="8180e860-e898-4cec-a551-75f31d3f8b65" configVersion="9821e7f9dc82544395fffcb66d9adf5e00000000">
 			<Metadata name="InformationRegister.СтатусыПребыванияКотов.Dimension.Кот" id="4e229f57-f0ff-4ca7-8cf5-50ea9ad916b0"/>
+			<Metadata name="InformationRegister.СтатусыПребыванияКотов.Resource.Статус" id="da150803-7c79-4f60-a8b2-1453f3219e25"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="0a0ca526-4569-4335-b42d-cd71159ced98" configVersion="d13db3bc554ed14386c935f5be83f94700000000"/>
 		<Metadata name="Subsystem.Документооборот" id="e46972b3-5be2-4833-aebc-16fe83d50f15" configVersion="de188c6f9fdfbf4aae835af60464af7300000000"/>
 		<Metadata name="Subsystem.Запасы" id="45585412-cbb6-470c-953f-062872607a30" configVersion="2a1fb75cf9d7ee4585a73aadb1d3134800000000"/>
 		<Metadata name="Subsystem.Коты" id="21dbd90f-f7a6-4701-ba04-661f13e08f37" configVersion="8d82d5f3b8cec74b9524358af4e1dc1100000000"/>
-		<Metadata name="Subsystem.НСИ" id="b5ece2e8-640f-4624-960e-b09e8cca8db9" configVersion="37a654bc7a4c5041b1575f1d22ecc08e00000000"/>
+		<Metadata name="Subsystem.НСИ" id="b5ece2e8-640f-4624-960e-b09e8cca8db9" configVersion="e28ed17206417040b626209d82e349b600000000"/>
 		<Metadata name="Subsystem.Персонал" id="c1bae911-bf80-4879-b38e-45488f493afa" configVersion="f05241631d04a4449f07fe27b571f64200000000"/>
-		<Metadata name="Subsystem.Содержание" id="e992f064-df4d-4ff3-809a-626d5d867053" configVersion="9392715acd5cee45a7e9d30c115ef4b700000000"/>
+		<Metadata name="Subsystem.Содержание" id="e992f064-df4d-4ff3-809a-626d5d867053" configVersion="1c6282b5482ba2419322b11aff0a257a00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

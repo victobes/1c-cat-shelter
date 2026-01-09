@@ -16,10 +16,10 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">cd1daf25-6f58-4757-aeef-302e4d247c6e</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыКонтрагентов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.СтатусыПребыванияЖивотных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.Пол</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтраныМира</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

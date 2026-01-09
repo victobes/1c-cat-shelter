@@ -64,18 +64,18 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Dimension uuid="4e229f57-f0ff-4ca7-8cf5-50ea9ad916b0">
+			<Resource uuid="da150803-7c79-4f60-a8b2-1453f3219e25">
 				<Properties>
-					<Name>Кот</Name>
+					<Name>Статус</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Кот</v8:content>
+							<v8:content>Статус</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Коты</v8:Type>
+						<v8:Type>cfg:EnumRef.СтатусыПребыванияЖивотных</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -98,27 +98,23 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>false</Master>
-					<MainFilter>true</MainFilter>
-					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
-					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
-			</Dimension>
-			<Dimension uuid="1db1752d-8216-4039-a7ca-c5ca32c01b3d">
+			</Resource>
+			<Dimension uuid="4e229f57-f0ff-4ca7-8cf5-50ea9ad916b0">
 				<Properties>
-					<Name>Статус</Name>
+					<Name>Кот</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Статус</v8:content>
+							<v8:content>Кот</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:EnumRef.СтатусыПребыванияЖивотных</v8:Type>
+						<v8:Type>cfg:CatalogRef.Коты</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
