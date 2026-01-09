@@ -245,6 +245,12 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Коты</Subsystem>
+			<Subsystem>Персонал</Subsystem>
+			<Subsystem>Запасы</Subsystem>
+			<Subsystem>Документооборот</Subsystem>
+			<Subsystem>НСИ</Subsystem>
+			<Subsystem>Содержание</Subsystem>
 			<Catalog>Коты</Catalog>
 			<Catalog>Породы</Catalog>
 			<Catalog>Окрасы</Catalog>
@@ -257,12 +263,15 @@
 			<Catalog>ПричиныПередачиВПриют</Catalog>
 			<Catalog>ВидыДокументовФизическихЛиц</Catalog>
 			<Catalog>Контрагенты</Catalog>
+			<Catalog>ОпекуныУкотовители</Catalog>
 			<Document>ЗаявкаНаПередачуЖивотногоВПриют</Document>
 			<Document>ПеремещениеЖивотного</Document>
 			<Document>ДоговорОПередачеЖивотногоВПриют</Document>
 			<Enum>Пол</Enum>
 			<Enum>ТипыШерсти</Enum>
 			<Enum>СтатусыПребыванияЖивотных</Enum>
+			<Enum>ВидыКонтрагентов</Enum>
+			<Enum>ОпекунУкотовитель</Enum>
 			<InformationRegister>СтатусыПребыванияКотов</InformationRegister>
 			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
 		</ChildObjects>
