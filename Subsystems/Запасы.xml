@@ -18,6 +18,10 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Расходники</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыРасходников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеРасходников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиРасходников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПричиныСписанияРасходников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеРасходников</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

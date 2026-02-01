@@ -22,10 +22,11 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыДокументовФизическихЛиц</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаявкаНаПередачуЖивотногоВПриют</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ДоговорОПередачеЖивотногоВПриют</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СтатусыПребыванияКотов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДокументыФизическихЛиц</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ОпекунУкотовитель</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОпекуныУкотовители</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ДоговорОтветственногоСодержания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Собеседование</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

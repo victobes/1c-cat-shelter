@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="d47a0167-90ad-4144-8370-b6fb87e08be6">
+		<Name>ПлановыйКарантин</Name>
+		<Code>000000002</Code>
+		<Description>Плановый карантин</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7b782081-3add-453a-bd16-58e0fe74236e">
+		<Name>ПриемЖивотного</Name>
+		<Code>000000001</Code>
+		<Description>Прием животного</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7a19f04a-a14b-4f17-b4d7-643592ed4f17">
+		<Name>Укотовление</Name>
+		<Code>000000003</Code>
+		<Description>Укотовление</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

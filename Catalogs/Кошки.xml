@@ -2,33 +2,33 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<Catalog uuid="c69cfa66-df00-4f37-84a4-048f7c6223f3">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Коты" category="Object">
+			<xr:GeneratedType name="CatalogObject.Кошки" category="Object">
 				<xr:TypeId>2cd8c441-358c-43aa-b285-e373b549d8d1</xr:TypeId>
 				<xr:ValueId>2d90a6b0-f2fd-4b3e-8c35-9e148e714700</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Коты" category="Ref">
+			<xr:GeneratedType name="CatalogRef.Кошки" category="Ref">
 				<xr:TypeId>72fab9dd-68ec-489d-b83d-34d276dfd960</xr:TypeId>
 				<xr:ValueId>87de3caa-5000-41d9-a0ac-ab12d9abef33</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Коты" category="Selection">
+			<xr:GeneratedType name="CatalogSelection.Кошки" category="Selection">
 				<xr:TypeId>896389fd-87e7-47f0-a471-2d0362cb025c</xr:TypeId>
 				<xr:ValueId>336b0f5d-edb0-466d-bec2-22c5f9b18923</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Коты" category="List">
+			<xr:GeneratedType name="CatalogList.Кошки" category="List">
 				<xr:TypeId>27fdf8b6-245c-41b4-b8e6-d34eeae8c324</xr:TypeId>
 				<xr:ValueId>cd0581a1-1e99-4e03-b694-b3fc05f5a536</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Коты" category="Manager">
+			<xr:GeneratedType name="CatalogManager.Кошки" category="Manager">
 				<xr:TypeId>c46c1325-f4a4-40cb-bdf1-43c6e3985b6d</xr:TypeId>
 				<xr:ValueId>778c59aa-2f8a-4341-8cb0-02035fd0175f</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Коты</Name>
+			<Name>Кошки</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Коты</v8:content>
+					<v8:content>Кошки</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -304,8 +304,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Коты.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Коты.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Кошки.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Кошки.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -601,6 +601,46 @@
 					<Comment/>
 					<Type>
 						<v8:Type>cfg:EnumRef.ТипыШерсти</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ff4fd969-3b71-4e77-a6ec-4e8f82b58718">
+				<Properties>
+					<Name>Инвалидность</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Инвалидность</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

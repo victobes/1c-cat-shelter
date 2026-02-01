@@ -1,81 +1,95 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<InformationRegister uuid="8180e860-e898-4cec-a551-75f31d3f8b65">
+	<Document uuid="f024d47c-6260-4c10-a9d1-2c91f1307b00">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.СтатусыПребыванияКотов" category="Record">
-				<xr:TypeId>b4c585a6-cfc6-4964-b39f-b26bc748cebd</xr:TypeId>
-				<xr:ValueId>81de6dce-3006-4a56-b80a-d123669f4620</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.Собеседование" category="Object">
+				<xr:TypeId>e7213bf7-dd96-4c5d-a80a-4f0c92d7cde4</xr:TypeId>
+				<xr:ValueId>ac60b5ec-c780-4bca-a842-ede86e745276</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.СтатусыПребыванияКотов" category="Manager">
-				<xr:TypeId>757a4cea-78a0-4619-af8c-2be2afe22e51</xr:TypeId>
-				<xr:ValueId>d231e7c9-cab4-4739-972e-a9145374913a</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.Собеседование" category="Ref">
+				<xr:TypeId>7ca329ff-d81a-402f-9feb-eff904fca1f2</xr:TypeId>
+				<xr:ValueId>a9fa049d-82e6-4992-97a8-ad235554564f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.СтатусыПребыванияКотов" category="Selection">
-				<xr:TypeId>7eedb851-97e9-4a79-8684-cb9c0f671ea0</xr:TypeId>
-				<xr:ValueId>e163a0bb-0d15-42b6-a62c-5c5879f74147</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.Собеседование" category="Selection">
+				<xr:TypeId>de49f7aa-1186-419a-b861-3e4e21ecca10</xr:TypeId>
+				<xr:ValueId>869f2d24-94f0-4f6a-a324-e3cf40089567</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.СтатусыПребыванияКотов" category="List">
-				<xr:TypeId>4f353bda-1597-4d17-a783-36f6163a2443</xr:TypeId>
-				<xr:ValueId>9fb94ca3-73a9-47e2-a62d-e7faa81e1ef6</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.Собеседование" category="List">
+				<xr:TypeId>55c0fdb0-fa3b-4a83-a293-97ceb785960b</xr:TypeId>
+				<xr:ValueId>57603df0-ea9a-4586-8a9e-830f5ffcbf49</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.СтатусыПребыванияКотов" category="RecordSet">
-				<xr:TypeId>344cb605-0844-4ffb-832f-88d9e6400d19</xr:TypeId>
-				<xr:ValueId>f35982e1-79bd-47cb-af2c-7159df5a87ba</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.СтатусыПребыванияКотов" category="RecordKey">
-				<xr:TypeId>b2e3faaa-a2dc-409b-98c6-90f35965263d</xr:TypeId>
-				<xr:ValueId>55d4301b-5abb-43e6-9afb-2320d579a546</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.СтатусыПребыванияКотов" category="RecordManager">
-				<xr:TypeId>d9a34b72-cbbe-4304-bd28-2c9cfbff90c4</xr:TypeId>
-				<xr:ValueId>9288655f-64b4-41fe-b87e-649e71d0878d</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.Собеседование" category="Manager">
+				<xr:TypeId>82d66ee4-cdaf-47c8-b448-7cfe67ef4c79</xr:TypeId>
+				<xr:ValueId>6541ce5b-f498-4ffc-96b2-64ada917de03</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>СтатусыПребыванияКотов</Name>
+			<Name>Собеседование</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Статусы пребывания котов</v8:content>
+					<v8:content>Собеседование</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<EditType>InDialog</EditType>
-			<DefaultRecordForm/>
+			<Numerator/>
+			<NumberType>String</NumberType>
+			<NumberLength>9</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+			<NumberPeriodicity>Nonperiodical</NumberPeriodicity>
+			<CheckUnique>true</CheckUnique>
+			<Autonumbering>true</Autonumbering>
+			<Characteristics/>
+			<BasedOn/>
+			<InputByString>
+				<xr:Field>Document.Собеседование.StandardAttribute.Number</xr:Field>
+			</InputByString>
+			<CreateOnInput>Use</CreateOnInput>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<DefaultObjectForm/>
 			<DefaultListForm/>
-			<AuxiliaryRecordForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
-			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
-			<WriteMode>RecorderSubordinate</WriteMode>
-			<MainFilterOnPeriod>false</MainFilterOnPeriod>
+			<AuxiliaryChoiceForm/>
+			<Posting>Allow</Posting>
+			<RealTimePosting>Allow</RealTimePosting>
+			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
+			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
+			<SequenceFilling>AutoFill</SequenceFilling>
+			<RegisterRecords/>
+			<PostInPrivilegedMode>true</PostInPrivilegedMode>
+			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
-			<FullTextSearch>DontUse</FullTextSearch>
-			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
-			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
-			<RecordPresentation/>
-			<ExtendedRecordPresentation/>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation/>
+			<ExtendedObjectPresentation/>
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="da150803-7c79-4f60-a8b2-1453f3219e25">
+			<Attribute uuid="bfbdb5cc-3b5d-4d8e-91e3-80209a796d64">
 				<Properties>
-					<Name>Статус</Name>
+					<Name>Кошка</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Статус</v8:content>
+							<v8:content>Кошка</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:EnumRef.СтатусыПребыванияЖивотных</v8:Type>
+						<v8:Type>cfg:CatalogRef.Кошки</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -102,19 +116,19 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
-			</Resource>
-			<Dimension uuid="4e229f57-f0ff-4ca7-8cf5-50ea9ad916b0">
+			</Attribute>
+			<Attribute uuid="6649553c-cf1e-4546-9aef-ad804a897fcf">
 				<Properties>
-					<Name>Кот</Name>
+					<Name>Укотовитель</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Кот</v8:content>
+							<v8:content>Укотовитель</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Коты</v8:Type>
+						<v8:Type>cfg:CatalogRef.ОпекуныУкотовители</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -137,15 +151,11 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>false</Master>
-					<MainFilter>true</MainFilter>
-					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
-					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
-			</Dimension>
+			</Attribute>
 		</ChildObjects>
-	</InformationRegister>
+	</Document>
 </MetaDataObject>

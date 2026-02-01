@@ -64,11 +64,23 @@
 			</EnumValue>
 			<EnumValue uuid="19055355-5819-4e8b-939a-0ce9a65e8d7e">
 				<Properties>
-					<Name>НаЛечении</Name>
+					<Name>НаЛеченииПриют</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>На лечении</v8:content>
+							<v8:content>На лечении (приют)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="73cdc174-b731-4ba2-b9d3-1efb6575ecb8">
+				<Properties>
+					<Name>НаЛеченииВетклиника</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>На лечении (ветклиника)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

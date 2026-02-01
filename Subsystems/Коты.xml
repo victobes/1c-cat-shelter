@@ -16,12 +16,12 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Коты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Кошки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Породы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Окрасы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеЖивотного</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыШерсти</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СтатусыПребыванияКотов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СтатусыМестаСодержанияЖивотных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.Пол</xr:Item>
 			</Content>
 		</Properties>

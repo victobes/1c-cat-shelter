@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="ec9aca40-cd5e-4f24-b0b1-da3db540bcc1">
+		<Name>Выставочная</Name>
+		<Code>000000003</Code>
+		<Description>Выставочная</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e88a6d26-8e67-4b2e-8951-ea64fc516373">
+		<Name>Изолятор</Name>
+		<Code>000000002</Code>
+		<Description>Изолятор</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dd7880dd-32f6-4801-8778-4904650e15c4">
+		<Name>Карантин</Name>
+		<Code>000000001</Code>
+		<Description>Карантин</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d0a14ed4-bc59-4021-b9f2-3868fbe625ad">
+		<Name>Приемная</Name>
+		<Code>000000004</Code>
+		<Description>Приемная</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

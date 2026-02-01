@@ -251,7 +251,7 @@
 			<Subsystem>Документооборот</Subsystem>
 			<Subsystem>НСИ</Subsystem>
 			<Subsystem>Содержание</Subsystem>
-			<Catalog>Коты</Catalog>
+			<Catalog>Кошки</Catalog>
 			<Catalog>Породы</Catalog>
 			<Catalog>Окрасы</Catalog>
 			<Catalog>Комнаты</Catalog>
@@ -265,17 +265,28 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ОпекуныУкотовители</Catalog>
 			<Catalog>СтраныМира</Catalog>
+			<Catalog>ПричиныПеремещенияЖивотных</Catalog>
+			<Catalog>ЕдиницыИзмерения</Catalog>
+			<Catalog>ПричиныСписанияРасходников</Catalog>
 			<Document>ЗаявкаНаПередачуЖивотногоВПриют</Document>
 			<Document>ПеремещениеЖивотного</Document>
 			<Document>ДоговорОПередачеЖивотногоВПриют</Document>
+			<Document>АктВыбытияЖивотного</Document>
+			<Document>ДоговорОтветственногоСодержания</Document>
+			<Document>Собеседование</Document>
+			<Document>РационКормления</Document>
+			<Document>ПоступлениеРасходников</Document>
+			<Document>СписаниеРасходников</Document>
 			<Enum>Пол</Enum>
 			<Enum>ТипыШерсти</Enum>
 			<Enum>СтатусыПребыванияЖивотных</Enum>
 			<Enum>ВидыКонтрагентов</Enum>
 			<Enum>ОпекунУкотовитель</Enum>
-			<InformationRegister>СтатусыПребыванияКотов</InformationRegister>
+			<InformationRegister>СтатусыМестаСодержанияЖивотных</InformationRegister>
 			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
+			<InformationRegister>СоответствиеСтатусовНазначениюКомнат</InformationRegister>
 			<AccumulationRegister>ЗаполненностьКомнат</AccumulationRegister>
+			<AccumulationRegister>ОстаткиРасходников</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
