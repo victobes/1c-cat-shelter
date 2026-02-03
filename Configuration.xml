@@ -268,13 +268,14 @@
 			<Catalog>ПричиныПеремещенияЖивотных</Catalog>
 			<Catalog>ЕдиницыИзмерения</Catalog>
 			<Catalog>ПричиныСписанияРасходников</Catalog>
+			<Catalog>РационКормления</Catalog>
+			<Catalog>Пользователи</Catalog>
 			<Document>ЗаявкаНаПередачуЖивотногоВПриют</Document>
 			<Document>ПеремещениеЖивотного</Document>
 			<Document>ДоговорОПередачеЖивотногоВПриют</Document>
 			<Document>АктВыбытияЖивотного</Document>
 			<Document>ДоговорОтветственногоСодержания</Document>
 			<Document>Собеседование</Document>
-			<Document>РационКормления</Document>
 			<Document>ПоступлениеРасходников</Document>
 			<Document>СписаниеРасходников</Document>
 			<Enum>Пол</Enum>

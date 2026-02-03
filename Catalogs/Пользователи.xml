@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="b213ecc6-432f-42bc-bae5-9c6fe46b003f">
+	<Catalog uuid="a236870c-9f9b-461d-af63-29d45c21db82">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Расходники" category="Object">
-				<xr:TypeId>638e7bf6-8bda-48a9-b252-42405f19bcaf</xr:TypeId>
-				<xr:ValueId>f711a433-34c4-4d51-8571-07fb992e6c66</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Пользователи" category="Object">
+				<xr:TypeId>5d94142e-5b40-424e-bfef-4c839845802c</xr:TypeId>
+				<xr:ValueId>9664821a-ee1a-4235-8a2e-97cc677d3b5c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Расходники" category="Ref">
-				<xr:TypeId>80caa79f-81b3-49a5-ad5c-bb4316d65672</xr:TypeId>
-				<xr:ValueId>51e825b1-9436-40da-b41b-ed13d8ba05b4</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Пользователи" category="Ref">
+				<xr:TypeId>8adf723b-6306-40fa-8da4-aed123649c36</xr:TypeId>
+				<xr:ValueId>63afe77a-463e-4d08-ae3a-6582c482e7bb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Расходники" category="Selection">
-				<xr:TypeId>065961f0-676a-445c-a654-4801e758dd67</xr:TypeId>
-				<xr:ValueId>255ebc08-7825-4a95-98ee-978c012d0ead</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Пользователи" category="Selection">
+				<xr:TypeId>1a2c6c40-d911-4a81-a6fb-1e9dc6179c79</xr:TypeId>
+				<xr:ValueId>2faa4f2d-553b-4a50-93aa-f265663d2e93</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Расходники" category="List">
-				<xr:TypeId>ddb65fab-27b7-4d85-b4eb-8913133ec69d</xr:TypeId>
-				<xr:ValueId>56030bfe-9325-4377-82aa-829b0ce84ce4</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Пользователи" category="List">
+				<xr:TypeId>9848a4fa-1116-4193-9455-cfd68730a8be</xr:TypeId>
+				<xr:ValueId>5492bb85-0c45-41d4-81cd-e5360bb11ac6</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Расходники" category="Manager">
-				<xr:TypeId>f1bbc2ac-f25f-40a5-90d2-a6998c602697</xr:TypeId>
-				<xr:ValueId>05b1a0f8-e6bd-48e0-83fa-206c732b2ef2</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Пользователи" category="Manager">
+				<xr:TypeId>7d29e3c9-7bc7-4626-85d5-3a07e71f89c5</xr:TypeId>
+				<xr:ValueId>7c8c2df0-efcd-4197-b947-655c51e3d4cc</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Расходники</Name>
+			<Name>Пользователи</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Расходники</v8:content>
+					<v8:content>Пользователи</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<Hierarchical>true</Hierarchical>
+			<Hierarchical>false</Hierarchical>
 			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
 			<LimitLevelCount>false</LimitLevelCount>
 			<LevelCount>2</LevelCount>
@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>25</DescriptionLength>
+			<DescriptionLength>100</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -54,8 +54,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Расходники.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Расходники.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Пользователи.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Пользователи.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -87,18 +87,18 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="a51152b8-5ac1-4165-a158-8ade6d2273db">
+			<Attribute uuid="d84eee26-92d7-43e7-9142-df304d16e3c6">
 				<Properties>
-					<Name>ВидРасходника</Name>
+					<Name>ФизическоеЛицо</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Вид расходника</v8:content>
+							<v8:content>Физическое лицо</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ВидыРасходников</v8:Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -127,18 +127,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="3515cce2-8c09-4d6a-9a9e-42aa470e9b21">
+			<Attribute uuid="e255d49e-56d2-450c-9b27-3129c324bb42">
 				<Properties>
-					<Name>СтранаПроисхождения</Name>
+					<Name>ИдентификаторПользователяИБ</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Страна происхождения</v8:content>
+							<v8:content>Идентификатор пользователя ИБ</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.СтраныМира</v8:Type>
+						<v8:Type>v8:UUID</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -163,22 +163,26 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Use>ForItem</Use>
 					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
+					<FullTextSearch>DontUse</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="30e7693b-2b0e-44c7-94a7-cd313f116333">
+			<Attribute uuid="eac015b4-664d-4e68-9e5f-394a8daac48a">
 				<Properties>
-					<Name>Производитель</Name>
+					<Name>Комментарий</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Производитель</v8:content>
+							<v8:content>Комментарий</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -191,7 +195,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
+					<FillValue xsi:type="xs:string"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -207,18 +211,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="1c4f569a-7067-4854-8e9e-9d5dc8e76a62">
+			<Attribute uuid="67688041-d29c-4429-a220-a822f42887b7">
 				<Properties>
-					<Name>ЕдиницаИзмерения</Name>
+					<Name>Недействителен</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Единица измерения</v8:content>
+							<v8:content>Недействителен</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ЕдиницыИзмерения</v8:Type>
+						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

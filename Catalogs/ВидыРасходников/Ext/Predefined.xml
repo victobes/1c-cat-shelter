@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="137e80bf-21d4-4a32-924a-18f37c306645">
+		<Name>Аксессуар</Name>
+		<Code>000000002</Code>
+		<Description>Аксессуар</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4370e28c-e5e2-4af7-9600-a98c0ca269c7">
+		<Name>Груминг</Name>
+		<Code>000000004</Code>
+		<Description>Груминг</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="84b87b9e-7bf9-43c1-acb8-6ecf9538e1be">
+		<Name>ДомикПодстилка</Name>
+		<Code>000000005</Code>
+		<Description>Домик / подстилка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="53497576-07d8-486a-93a2-f36266fcd700">
+		<Name>Корм</Name>
+		<Code>000000001</Code>
+		<Description>Корм</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eb9aa97a-4a6a-4df7-8dc4-c614cabdd4f6">
+		<Name>Лекарство</Name>
+		<Code>000000003</Code>
+		<Description>Лекарство</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

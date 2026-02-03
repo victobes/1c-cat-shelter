@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Document uuid="5a54a73b-eb92-479e-95ba-8e3a4e1201e4">
+	<Catalog uuid="ca32daf6-5e19-4148-b2db-14863fa30eaa">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.РационКормления" category="Object">
-				<xr:TypeId>0cc18d72-dc7e-4d3e-be8e-43c2497a619c</xr:TypeId>
-				<xr:ValueId>c6a6be28-5960-4331-b874-36f62c63fbda</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.РационКормления" category="Object">
+				<xr:TypeId>29ad757d-eeaf-421a-8d21-3e44f12537bc</xr:TypeId>
+				<xr:ValueId>24323d9f-9398-4fad-904d-16d929164620</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.РационКормления" category="Ref">
-				<xr:TypeId>191a4f8c-8eb7-42b7-bd6b-6b0a1b10546c</xr:TypeId>
-				<xr:ValueId>75420c56-6a1c-4abc-9087-37d1defb2400</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.РационКормления" category="Ref">
+				<xr:TypeId>a988d836-783e-43f8-b039-8d1a870a5b53</xr:TypeId>
+				<xr:ValueId>eb989a63-14ed-4dcb-a9ce-cfbb6216b6fb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.РационКормления" category="Selection">
-				<xr:TypeId>2ed794b2-d83a-44db-983c-4639832f17bd</xr:TypeId>
-				<xr:ValueId>6cf2c08b-6746-4e68-a995-c80cc96e771e</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.РационКормления" category="Selection">
+				<xr:TypeId>eaa14a2a-2199-4a9e-aadc-9f6528dc5b8c</xr:TypeId>
+				<xr:ValueId>504195a8-ce8b-47ea-9770-2d25cbc88316</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.РационКормления" category="List">
-				<xr:TypeId>19b520f0-2e42-4eff-9d08-6d204a2fb8c8</xr:TypeId>
-				<xr:ValueId>00ff04ae-cd5c-47ac-a51a-c10ee782a9c4</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.РационКормления" category="List">
+				<xr:TypeId>f6a83d51-7bb2-4468-8477-daa399bbedf0</xr:TypeId>
+				<xr:ValueId>9bbe74b0-fcf9-4b14-b376-6c2d3e6a1989</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.РационКормления" category="Manager">
-				<xr:TypeId>dc474333-dfc6-47bc-870d-c875980473d7</xr:TypeId>
-				<xr:ValueId>8800fa4e-653a-49b1-b59c-d7a5575bc1d4</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.РационКормления" category="Manager">
+				<xr:TypeId>39e6eee5-14d2-4b26-b94b-b78c4ce24027</xr:TypeId>
+				<xr:ValueId>e3b38422-3d4b-4705-8d21-4792a09f6228</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -32,38 +32,46 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
+			<Hierarchical>false</Hierarchical>
+			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
+			<LimitLevelCount>false</LimitLevelCount>
+			<LevelCount>2</LevelCount>
+			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
-			<Numerator/>
-			<NumberType>String</NumberType>
-			<NumberLength>9</NumberLength>
-			<NumberAllowedLength>Variable</NumberAllowedLength>
-			<NumberPeriodicity>Nonperiodical</NumberPeriodicity>
+			<Owners/>
+			<SubordinationUse>ToItems</SubordinationUse>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>25</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<CodeSeries>WholeCatalog</CodeSeries>
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<Characteristics/>
-			<BasedOn/>
+			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
+			<EditType>InDialog</EditType>
+			<QuickChoice>false</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Document.РационКормления.StandardAttribute.Number</xr:Field>
+				<xr:Field>Catalog.РационКормления.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.РационКормления.StandardAttribute.Code</xr:Field>
 			</InputByString>
-			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm/>
+			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
+			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
+			<AuxiliaryFolderForm/>
 			<AuxiliaryListForm/>
 			<AuxiliaryChoiceForm/>
-			<Posting>Allow</Posting>
-			<RealTimePosting>Allow</RealTimePosting>
-			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
-			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
-			<SequenceFilling>AutoFill</SequenceFilling>
-			<RegisterRecords/>
-			<PostInPrivilegedMode>true</PostInPrivilegedMode>
-			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
+			<AuxiliaryFolderChoiceForm/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<BasedOn/>
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>Use</FullTextSearch>
@@ -72,56 +80,14 @@
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
+			<CreateOnInput>Use</CreateOnInput>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="03d17387-02f8-4d30-837d-5b398af40a01">
-				<Properties>
-					<Name>Комментарий</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Комментарий</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>500</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="56a16685-721d-445a-82f4-cdf439414641">
+			<Attribute uuid="408ae069-fade-419a-b3e7-04159744e9df">
 				<Properties>
 					<Name>Составитель</Name>
 					<Synonym>
@@ -159,20 +125,65 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="1758d23e-ae8f-416d-8795-de1e839d2ab8">
+			<Attribute uuid="3146956c-f957-430d-aa60-f247d0fbb486">
+				<Properties>
+					<Name>Комментарий</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комментарий</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>500</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="797dd169-4584-4a93-9007-838a5626475a">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.РационКормления.СоставРациона" category="TabularSection">
-						<xr:TypeId>ebd47f54-6497-476b-8645-421b56b66ddf</xr:TypeId>
-						<xr:ValueId>71f868c8-084f-463c-b773-86704eca7d3a</xr:ValueId>
+					<xr:GeneratedType name="CatalogTabularSection.РационКормления.СоставРациона" category="TabularSection">
+						<xr:TypeId>43b8d94b-e652-496d-9ced-08e799f129b1</xr:TypeId>
+						<xr:ValueId>0938b5a7-2682-443b-9757-d7bb0ba8983a</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.РационКормления.СоставРациона" category="TabularSectionRow">
-						<xr:TypeId>1e29484b-815e-4209-848f-0c628ded3e6b</xr:TypeId>
-						<xr:ValueId>7784f5c4-4f22-4bac-8b30-53f25c2dd757</xr:ValueId>
+					<xr:GeneratedType name="CatalogTabularSectionRow.РационКормления.СоставРациона" category="TabularSectionRow">
+						<xr:TypeId>76b369ea-e6bb-4866-8f39-4b5833599206</xr:TypeId>
+						<xr:ValueId>2265254b-e1b8-4e7c-96c9-580932f5dad8</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -186,10 +197,40 @@
 					<Comment/>
 					<ToolTip/>
 					<FillChecking>DontCheck</FillChecking>
+					<StandardAttributes>
+						<xr:StandardAttribute name="LineNumber">
+							<xr:LinkByType/>
+							<xr:FillChecking>DontCheck</xr:FillChecking>
+							<xr:MultiLine>false</xr:MultiLine>
+							<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+							<xr:CreateOnInput>Auto</xr:CreateOnInput>
+							<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+							<xr:MaxValue xsi:nil="true"/>
+							<xr:ToolTip/>
+							<xr:ExtendedEdit>false</xr:ExtendedEdit>
+							<xr:Format/>
+							<xr:ChoiceForm/>
+							<xr:QuickChoice>Auto</xr:QuickChoice>
+							<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+							<xr:EditFormat/>
+							<xr:PasswordMode>false</xr:PasswordMode>
+							<xr:DataHistory>Use</xr:DataHistory>
+							<xr:MarkNegatives>false</xr:MarkNegatives>
+							<xr:MinValue xsi:nil="true"/>
+							<xr:Synonym/>
+							<xr:Comment/>
+							<xr:FullTextSearch>Use</xr:FullTextSearch>
+							<xr:ChoiceParameterLinks/>
+							<xr:FillValue xsi:nil="true"/>
+							<xr:Mask/>
+							<xr:ChoiceParameters/>
+						</xr:StandardAttribute>
+					</StandardAttributes>
+					<Use>ForItem</Use>
 					<LineNumberLength>9</LineNumberLength>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="ca2e505b-5774-4b7a-804e-1ed53d15815b">
+					<Attribute uuid="b2f3686e-964a-4387-8f24-4b39b612c926">
 						<Properties>
 							<Name>Расходник</Name>
 							<Synonym>
@@ -226,7 +267,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="ee443db2-2f19-4d9b-9778-114041e3b1fa">
+					<Attribute uuid="3297d1b6-baa9-417a-9625-e23d6b6f002f">
 						<Properties>
 							<Name>ЕдиницаИзмерения</Name>
 							<Synonym>
@@ -263,7 +304,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="a7b15d50-af96-4b1f-a48c-a64175cf7f7f">
+					<Attribute uuid="f0a0499f-b66d-412f-9e94-36323f2080a8">
 						<Properties>
 							<Name>КоличествоНаПорцию</Name>
 							<Synonym>
@@ -305,7 +346,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="aade6eca-b5be-4c6d-931d-097abb5d30d1">
+					<Attribute uuid="af209669-f753-489d-bb39-12f9deeaf9de">
 						<Properties>
 							<Name>ВремяВыдачи</Name>
 							<Synonym>
@@ -348,5 +389,5 @@
 				</ChildObjects>
 			</TabularSection>
 		</ChildObjects>
-	</Document>
+	</Catalog>
 </MetaDataObject>
