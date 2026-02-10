@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Document uuid="a08ddb0e-9b61-4945-9033-ac13a7c56265">
+	<Document uuid="4f0b5728-367b-432d-966d-542e6b7f5a39">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.СписаниеРасходников" category="Object">
-				<xr:TypeId>7ab17217-9fac-42d5-8748-cdfd8d42cf7f</xr:TypeId>
-				<xr:ValueId>85bea462-a45d-4f99-9795-b62665a08b27</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.Взвешивание" category="Object">
+				<xr:TypeId>130412cb-b9de-4e31-8fb9-1f2c8ee618a3</xr:TypeId>
+				<xr:ValueId>c8947ac8-287a-4ce4-a3e1-cdaa6f2b1203</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.СписаниеРасходников" category="Ref">
-				<xr:TypeId>1a5e4760-cb36-46f3-aad1-ece93cc5799e</xr:TypeId>
-				<xr:ValueId>acfb85c5-d717-4a87-b03f-175f006b568d</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.Взвешивание" category="Ref">
+				<xr:TypeId>e3845406-cc47-4708-be6a-e58e3325a1e0</xr:TypeId>
+				<xr:ValueId>bfdf7589-c407-462c-b67e-d2f6204983a5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.СписаниеРасходников" category="Selection">
-				<xr:TypeId>e0ef4c1d-3def-4d68-9a6b-5761a5cba13c</xr:TypeId>
-				<xr:ValueId>dccd9c17-d8e5-4a92-9564-3172aaf133e8</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.Взвешивание" category="Selection">
+				<xr:TypeId>d4da8bef-6a2a-4e03-b72f-72efdf877e74</xr:TypeId>
+				<xr:ValueId>9c964d60-9601-40b4-a8b5-58576f2960b8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.СписаниеРасходников" category="List">
-				<xr:TypeId>a5d4edfe-45c4-49e8-b0d3-80b623dfb3df</xr:TypeId>
-				<xr:ValueId>48f85970-3c3e-41bf-b015-6c3c548cfb71</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.Взвешивание" category="List">
+				<xr:TypeId>0d9e156c-fb66-48d4-9273-7c9bb937b2d3</xr:TypeId>
+				<xr:ValueId>61b01c03-2279-468a-9e99-1613eb92f086</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.СписаниеРасходников" category="Manager">
-				<xr:TypeId>d00141c3-e927-4381-83a6-cd970ca90e0a</xr:TypeId>
-				<xr:ValueId>e3eb53e4-d5b1-4ee2-924b-1d1010f359e1</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.Взвешивание" category="Manager">
+				<xr:TypeId>e174248e-92ae-4a07-b299-660324dc3c7d</xr:TypeId>
+				<xr:ValueId>3798f2c8-038f-44d9-bb06-76596b239ff4</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>СписаниеРасходников</Name>
+			<Name>Взвешивание</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Списание расходников</v8:content>
+					<v8:content>Взвешивание</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -41,9 +41,11 @@
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
 			<Characteristics/>
-			<BasedOn/>
+			<BasedOn>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Осмотр</xr:Item>
+			</BasedOn>
 			<InputByString>
-				<xr:Field>Document.СписаниеРасходников.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.Взвешивание.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -60,9 +62,7 @@
 			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
-			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиРасходников</xr:Item>
-			</RegisterRecords>
+			<RegisterRecords/>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
@@ -80,18 +80,18 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="60f8676c-6df3-426b-b2f6-d2b1ae24efdb">
+			<Attribute uuid="a1af860c-9671-44fd-a49c-cfd3970b9c3f">
 				<Properties>
-					<Name>ПричинаСписания</Name>
+					<Name>ВетеринарноеМероприятие</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Причина списания</v8:content>
+							<v8:content>Ветеринарное мероприятие</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ПричиныСписанияРасходников</v8:Type>
+						<v8:Type>cfg:CatalogRef.ВетеринарныеМероприятия</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -119,7 +119,50 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="2cc77be3-981e-46ac-805e-903eeeb58895">
+			<Attribute uuid="6e4a0a50-ccb4-4c45-a1cf-c7adea2701fc">
+				<Properties>
+					<Name>Комментарий</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комментарий</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>400</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fe112b12-05e9-431b-bd41-c55c9a3d3b0b">
 				<Properties>
 					<Name>Ответственный</Name>
 					<Synonym>
@@ -162,23 +205,23 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="2ad3d6be-31b9-42be-80b4-5bb68a5a823e">
+			<TabularSection uuid="48079612-9981-4224-9806-7035b80aac6b">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.СписаниеРасходников.Расходники" category="TabularSection">
-						<xr:TypeId>9b93910a-b3e6-4bd0-98a0-ab082da315c5</xr:TypeId>
-						<xr:ValueId>858f301f-b1bd-4def-97cf-b70efbefe3ba</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSection.Взвешивание.Кошки" category="TabularSection">
+						<xr:TypeId>e04fdaac-ecc2-441c-9a7e-72a6dcebf465</xr:TypeId>
+						<xr:ValueId>82b05cb2-acec-4222-aacb-a98e401b0813</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.СписаниеРасходников.Расходники" category="TabularSectionRow">
-						<xr:TypeId>2344df1d-aea1-4e9b-a709-476047f90726</xr:TypeId>
-						<xr:ValueId>6f05ea5b-fecb-4bc4-aea4-844b87225c3a</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSectionRow.Взвешивание.Кошки" category="TabularSectionRow">
+						<xr:TypeId>66a7028a-332b-4a43-a04b-fb5a55ce4fea</xr:TypeId>
+						<xr:ValueId>37b186c1-d732-4ae7-83b9-eefe30abf596</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>Расходники</Name>
+					<Name>Кошки</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Расходники</v8:content>
+							<v8:content>Кошки</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -187,18 +230,18 @@
 					<LineNumberLength>9</LineNumberLength>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="57d2872b-a5e9-49eb-ae08-d02e83887f8a">
+					<Attribute uuid="9cd4ced5-81c4-4af4-a349-9bdd3bdf7eb8">
 						<Properties>
-							<Name>Расходник</Name>
+							<Name>Кошка</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Расходник</v8:content>
+									<v8:content>Кошка</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.Расходники</v8:Type>
+								<v8:Type>cfg:CatalogRef.Кошки</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -224,50 +267,13 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="a49b5ef9-31ff-44a1-abac-958ed3abc2ad">
+					<Attribute uuid="d6cc32e8-61a4-427f-a5d8-afd4157a7429">
 						<Properties>
-							<Name>ЕдиницаИзмерения</Name>
+							<Name>Вес</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Ед. изм.</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<Type>
-								<v8:Type>cfg:CatalogRef.ЕдиницыИзмерения</v8:Type>
-							</Type>
-							<PasswordMode>false</PasswordMode>
-							<Format/>
-							<EditFormat/>
-							<ToolTip/>
-							<MarkNegatives>false</MarkNegatives>
-							<Mask/>
-							<MultiLine>false</MultiLine>
-							<ExtendedEdit>false</ExtendedEdit>
-							<MinValue xsi:nil="true"/>
-							<MaxValue xsi:nil="true"/>
-							<FillChecking>DontCheck</FillChecking>
-							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks/>
-							<ChoiceParameters/>
-							<QuickChoice>Auto</QuickChoice>
-							<CreateOnInput>Auto</CreateOnInput>
-							<ChoiceForm/>
-							<LinkByType/>
-							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-							<Indexing>DontIndex</Indexing>
-							<FullTextSearch>Use</FullTextSearch>
-							<DataHistory>Use</DataHistory>
-						</Properties>
-					</Attribute>
-					<Attribute uuid="9481e503-7ddc-44ea-9791-ab6e898d8804">
-						<Properties>
-							<Name>Количество</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Количество</v8:content>
+									<v8:content>Вес</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -275,8 +281,8 @@
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
 									<v8:Digits>5</v8:Digits>
-									<v8:FractionDigits>3</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 								</v8:NumberQualifiers>
 							</Type>
 							<PasswordMode>false</PasswordMode>
@@ -303,18 +309,18 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="76bbda48-a821-4677-89b9-bea28d535360">
+					<Attribute uuid="ad09be80-a2db-4e35-8dde-b520f3e72a7f">
 						<Properties>
-							<Name>ПричинаСписания</Name>
+							<Name>ИндексКондицииТела</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Причина списания</v8:content>
+									<v8:content>Индекс кондиции тела</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.ПричиныСписанияРасходников</v8:Type>
+								<v8:Type>cfg:EnumRef.ИндексыКондицииТела</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>

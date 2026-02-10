@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="c226ac5d-c3d2-4584-8b9f-1d7a3839132d">
+		<Name>Вакцинация</Name>
+		<Code>000000003</Code>
+		<Description>Вакцинация</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="efa93a3a-19f0-41ac-a0d1-dbc264d23097">
+		<Name>Взвешивание</Name>
+		<Code>000000001</Code>
+		<Description>Взвешивание</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5ffd4de6-692e-480c-8624-69f0f9a767f5">
+		<Name>Осмотр</Name>
+		<Code>000000004</Code>
+		<Description>Осмотр</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="84d4696d-f9b6-4c25-9a58-bfa0dcd3da03">
+		<Name>ПервичныйОсмотр</Name>
+		<Code>000000005</Code>
+		<Description>Первичный осмотр</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1b1233d3-24e9-4e90-aea5-ed5519bcf1d7">
+		<Name>Чипирование</Name>
+		<Code>000000002</Code>
+		<Description>Чипирование</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

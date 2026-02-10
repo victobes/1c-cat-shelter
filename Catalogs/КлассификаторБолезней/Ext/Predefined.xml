@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="7543f946-22a9-407b-9800-9286b4ce0ff8">
+		<Name>КлассИнфекционныеПаразитарныеБолезни</Name>
+		<Code>000000001</Code>
+		<Description>Класс инфекционные и паразитарные болезни (A00—B33)</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="166e1615-88fe-4ddb-810a-a3e6e1461ad8">
+				<Name>БолезниБактериальнойЭтиологии</Name>
+				<Code>000000004</Code>
+				<Description>Болезни бактериальной этиологии (A18—A44)</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="1fa8c2bf-7e84-4a75-b494-fae4ee6da982">
+						<Name>Лептоспироз</Name>
+						<Code>000000005</Code>
+						<Description>Лептоспироз</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="81d4d906-811a-4c45-afdd-6d19c3b5e6a7">
+				<Name>ВирусныеИнфекции</Name>
+				<Code>000000003</Code>
+				<Description>Вирусные инфекции (A00—A17)</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="d6e98932-a549-4533-8f80-1ac21c19a11b">
+						<Name>Бешенство</Name>
+						<Code>000000002</Code>
+						<Description>Бешенство</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

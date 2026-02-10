@@ -9,15 +9,40 @@
 			<Metadata name="AccumulationRegister.ОстаткиРасходников.Resource.Количество" id="03cf244d-c961-4dfc-8c72-829025a08b34"/>
 			<Metadata name="AccumulationRegister.ОстаткиРасходников.Dimension.Расходник" id="68426986-f276-4030-963e-a1257a3fb98e"/>
 		</Metadata>
+		<Metadata name="Catalog.ВетеринарныеМероприятия" id="4bc6758c-68a4-43e9-b71e-162b25dec4eb" configVersion="9442d71c7ce0384bafd018276bad18c900000000"/>
+		<Metadata name="Catalog.ВетеринарныеМероприятия.Predefined" id="4bc6758c-68a4-43e9-b71e-162b25dec4eb.1c" configVersion="0e67f25df85472488aa464f02ef039a200000000"/>
 		<Metadata name="Catalog.ВидыДокументовФизическихЛиц" id="79408c32-117e-4f71-aaa6-daced8ff8508" configVersion="c32aa5c286f73945adb99cda7d42b97500000000">
 			<Metadata name="Catalog.ВидыДокументовФизическихЛиц.Attribute.КодПФР" id="2a1980a4-40b0-49a0-b1f6-6442b12c7f4f"/>
 			<Metadata name="Catalog.ВидыДокументовФизическихЛиц.Attribute.КодФНС" id="3aafce5b-5848-419a-88d6-6332417280be"/>
 		</Metadata>
 		<Metadata name="Catalog.ВидыДокументовФизическихЛиц.Predefined" id="79408c32-117e-4f71-aaa6-daced8ff8508.1c" configVersion="774d2459245fd54e847db787f200277900000000"/>
-		<Metadata name="Catalog.ВидыРасходников" id="6f15173b-f246-4565-9e9a-9b5d6e430a40" configVersion="c1f895abc502f049a5860222186f8e9800000000"/>
+		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени" id="1ea9c2fa-d9d9-4704-85c9-667820c12bf7" configVersion="5937d642361a3b4f800c9c790f44776c00000000">
+			<Metadata name="Catalog.ВидыИспользованияРабочегоВремени.Attribute.БуквенныйКод" id="15895dbb-bf88-4cdb-b8c9-1f5f05710344"/>
+			<Metadata name="Catalog.ВидыИспользованияРабочегоВремени.Attribute.НеИспользуется" id="262cbc31-9582-4409-a0e4-7a5aa3490808"/>
+			<Metadata name="Catalog.ВидыИспользованияРабочегоВремени.Attribute.ПолноеНаименование" id="35837cec-fe8d-4352-991e-3adda08724be"/>
+			<Metadata name="Catalog.ВидыИспользованияРабочегоВремени.Attribute.ЦифровойКод" id="9822b646-768a-4184-9c16-9b4a45b3635c"/>
+		</Metadata>
+		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени.AdditionalIndexes" id="1ea9c2fa-d9d9-4704-85c9-667820c12bf7.1d" configVersion="737d3fa3f945214a92c99a995fd3a14600000000"/>
+		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени.Form.ФормаСписка" id="3f8c101a-0284-463f-a540-4165a2bcb938" configVersion="ce1874dfa801db4f80c765fcaa15c6a500000000"/>
+		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени.Form.ФормаСписка.Form" id="3f8c101a-0284-463f-a540-4165a2bcb938.0" configVersion="c442905fac52d24cbff40a7bd63cee9200000000"/>
+		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени.Form.ФормаСписка.Help" id="3f8c101a-0284-463f-a540-4165a2bcb938.1" configVersion="4c1438fc93d8b047b915d364034321f200000000"/>
+		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени.Form.ФормаЭлемента" id="59320a37-d85a-4c70-bdae-64132b1c89f7" configVersion="6aa879c7722d02469bc7f48cfb2344e900000000"/>
+		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени.Form.ФормаЭлемента.Form" id="59320a37-d85a-4c70-bdae-64132b1c89f7.0" configVersion="dd0b1544785aa34fbfd7c1c64e77091c00000000"/>
+		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени.Form.ФормаЭлемента.Help" id="59320a37-d85a-4c70-bdae-64132b1c89f7.1" configVersion="1aacbd568888ec4da6953a2a43c167cf00000000"/>
+		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени.Help" id="1ea9c2fa-d9d9-4704-85c9-667820c12bf7.1" configVersion="715ee824bbae844f92a5875998bfbacd00000000"/>
+		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени.ManagerModule" id="1ea9c2fa-d9d9-4704-85c9-667820c12bf7.3" configVersion="b5b5d9d9fba4ab4e8f4655eb236d508400000000"/>
+		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени.ObjectModule" id="1ea9c2fa-d9d9-4704-85c9-667820c12bf7.0" configVersion="73d870cfbb638d47a861d4351d9b17cd00000000"/>
+		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени.Predefined" id="1ea9c2fa-d9d9-4704-85c9-667820c12bf7.1c" configVersion="905c7f9949149d45acc431b878f5e69700000000"/>
+		<Metadata name="Catalog.ВидыРасходников" id="6f15173b-f246-4565-9e9a-9b5d6e430a40" configVersion="82a2e2923fecc64f8929373842cc6ff200000000"/>
 		<Metadata name="Catalog.ВидыРасходников.Predefined" id="6f15173b-f246-4565-9e9a-9b5d6e430a40.1c" configVersion="15f31130cc8b55428ef2f884be31666700000000"/>
 		<Metadata name="Catalog.Должности" id="ff7ec16c-6f2a-489a-b25d-13c5d5a2a947" configVersion="0069746e73774541aa2fe39ee0e1899b00000000"/>
 		<Metadata name="Catalog.ЕдиницыИзмерения" id="e675ecf4-9213-4cbe-b5d6-44ea77652e9e" configVersion="e3d5ddab4488f242af5b8f551118e0ab00000000"/>
+		<Metadata name="Catalog.КлассификаторБолезней" id="204b2677-06f8-455c-89c8-42eead6e469f" configVersion="c7f8901c3fca554f94e93180876bedfd00000000">
+			<Metadata name="Catalog.КлассификаторБолезней.Attribute.НаименованиеНаЛатинице" id="78bf7ccf-2513-4fc0-82be-ebbd4cf33864"/>
+			<Metadata name="Catalog.КлассификаторБолезней.Attribute.КодБолезни" id="83654041-e881-440c-9f86-4a549ca69394"/>
+			<Metadata name="Catalog.КлассификаторБолезней.Attribute.ПолноеНаименование" id="db1d8bfd-1f7c-465a-b3d0-c5c25df8ec80"/>
+		</Metadata>
+		<Metadata name="Catalog.КлассификаторБолезней.Predefined" id="204b2677-06f8-455c-89c8-42eead6e469f.1c" configVersion="e081b5c1872b39429e9ca81e6b3b0ceb00000000"/>
 		<Metadata name="Catalog.Комнаты" id="7ecd2493-fa2a-452d-82bf-83d71c2bcc5c" configVersion="20926f79610c264395b90bb3568316a700000000">
 			<Metadata name="Catalog.Комнаты.Attribute.Комментарий" id="02e85c28-60d8-4478-b812-2f9ebde2de02"/>
 			<Metadata name="Catalog.Комнаты.Attribute.Вместимость" id="6ba2b8d8-f5ba-477c-8f9c-ba091e8b7009"/>
@@ -65,7 +90,7 @@
 			<Metadata name="Catalog.Расходники.Attribute.СтранаПроисхождения" id="3515cce2-8c09-4d6a-9a9e-42aa470e9b21"/>
 			<Metadata name="Catalog.Расходники.Attribute.ВидРасходника" id="a51152b8-5ac1-4165-a158-8ade6d2273db"/>
 		</Metadata>
-		<Metadata name="Catalog.РационКормления" id="ca32daf6-5e19-4148-b2db-14863fa30eaa" configVersion="6bed658b9ba8854292ceb1fecb80486900000000">
+		<Metadata name="Catalog.РационКормления" id="ca32daf6-5e19-4148-b2db-14863fa30eaa" configVersion="6c4d3e80833f0447b5280488e3834a7e00000000">
 			<Metadata name="Catalog.РационКормления.Attribute.Комментарий" id="3146956c-f957-430d-aa60-f247d0fbb486"/>
 			<Metadata name="Catalog.РационКормления.TabularSection.СоставРациона.Attribute.ЕдиницаИзмерения" id="3297d1b6-baa9-417a-9625-e23d6b6f002f"/>
 			<Metadata name="Catalog.РационКормления.Attribute.Составитель" id="408ae069-fade-419a-b3e7-04159744e9df"/>
@@ -86,7 +111,7 @@
 			<Metadata name="Catalog.ФизическиеЛица.Attribute.Пол" id="c1cce178-ef3f-489f-b69b-0cb1c7f12651"/>
 			<Metadata name="Catalog.ФизическиеЛица.Attribute.Отчество" id="f21f1ad8-9402-4d30-aaad-3ee94268e110"/>
 		</Metadata>
-		<Metadata name="Configuration.Конфигурация" id="91bf5bc6-d784-403e-89c6-97c82ec7988e" configVersion="d49d3378fea9fb46a3c7ab8512a5b67000000000"/>
+		<Metadata name="Configuration.Конфигурация" id="91bf5bc6-d784-403e-89c6-97c82ec7988e" configVersion="22d6d6f83fc3c647877e3748374276c200000000"/>
 		<Metadata name="Document.АктВыбытияЖивотного" id="61c35cd6-f4be-42df-b8e8-a4bc14132df1" configVersion="1949fb54192046428e510cc11f8ce28800000000">
 			<Metadata name="Document.АктВыбытияЖивотного.Attribute.ТочнаяДата" id="3bfa11ed-94b4-49c8-b251-19e3cac82768"/>
 			<Metadata name="Document.АктВыбытияЖивотного.Attribute.Ответственный" id="4a3f18cd-a28d-41c3-a4b5-fd1960b1fde8"/>
@@ -94,6 +119,24 @@
 			<Metadata name="Document.АктВыбытияЖивотного.Attribute.ПричинаСмерти" id="a4603c48-d4dd-4cd9-9d44-a8f5221861ee"/>
 		</Metadata>
 		<Metadata name="Document.АктВыбытияЖивотного.ObjectModule" id="61c35cd6-f4be-42df-b8e8-a4bc14132df1.0" configVersion="f1c10c876cd0e645885c2ba1fc8c76f000000000"/>
+		<Metadata name="Document.Вакцинация" id="3805e6cf-9116-47ac-bf48-4507b3086f45" configVersion="40bbbbbb6e737e4fb2d4382b8984b48b00000000">
+			<Metadata name="Document.Вакцинация.Attribute.Вакцина" id="37c448ef-e284-49b9-a070-11112dcbec93"/>
+			<Metadata name="Document.Вакцинация.Attribute.ВетеринарноеМероприятие" id="6681f60b-8ab8-4e59-b3bc-553e4b499bd5"/>
+			<Metadata name="Document.Вакцинация.Attribute.Болезнь" id="7441a3cd-ff65-4d37-abf9-95db7f0b7c77"/>
+			<Metadata name="Document.Вакцинация.Attribute.Кошка" id="b5b34323-a9f9-4f69-b02c-ce0a1acf273e"/>
+			<Metadata name="Document.Вакцинация.Attribute.Ответственный" id="bdfabcf2-09d0-4ce1-ac89-fa6a05c2a596"/>
+			<Metadata name="Document.Вакцинация.Attribute.Комментарий" id="bfc3e686-c5d0-4548-8316-54a9272b1714"/>
+			<Metadata name="Document.Вакцинация.Attribute.ДатаРевакцинации" id="c446c47c-2bc1-425d-beae-2a7f9b4590c6"/>
+		</Metadata>
+		<Metadata name="Document.Взвешивание" id="4f0b5728-367b-432d-966d-542e6b7f5a39" configVersion="e238d2180238984396b0b2586f5a207400000000">
+			<Metadata name="Document.Взвешивание.TabularSection.Кошки" id="48079612-9981-4224-9806-7035b80aac6b"/>
+			<Metadata name="Document.Взвешивание.Attribute.Комментарий" id="6e4a0a50-ccb4-4c45-a1cf-c7adea2701fc"/>
+			<Metadata name="Document.Взвешивание.TabularSection.Кошки.Attribute.Кошка" id="9cd4ced5-81c4-4af4-a349-9bdd3bdf7eb8"/>
+			<Metadata name="Document.Взвешивание.Attribute.ВетеринарноеМероприятие" id="a1af860c-9671-44fd-a49c-cfd3970b9c3f"/>
+			<Metadata name="Document.Взвешивание.TabularSection.Кошки.Attribute.ИндексКондицииТела" id="ad09be80-a2db-4e35-8dde-b520f3e72a7f"/>
+			<Metadata name="Document.Взвешивание.TabularSection.Кошки.Attribute.Вес" id="d6cc32e8-61a4-427f-a5d8-afd4157a7429"/>
+			<Metadata name="Document.Взвешивание.Attribute.Ответственный" id="fe112b12-05e9-431b-bd41-c55c9a3d3b0b"/>
+		</Metadata>
 		<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют" id="0ca9347f-1777-4944-9bbf-136577489b37" configVersion="6cf1e1b3463bd24583de011c9cc756d700000000">
 			<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.Attribute.Ответственный" id="b3108635-2a12-460f-b517-ce848fe2bae3"/>
 			<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.Attribute.ДокументОснование" id="e5797b90-9208-4441-8279-8a201766ef7b"/>
@@ -112,6 +155,12 @@
 			<Metadata name="Document.ЗаявкаНаПередачуЖивотногоВПриют.Attribute.Опекун" id="8d3fd21a-8f56-4606-acad-d8ec86280f4a"/>
 			<Metadata name="Document.ЗаявкаНаПередачуЖивотногоВПриют.Attribute.Ответственный" id="9d155d5c-8494-4787-b7a2-bcdde68e21dd"/>
 			<Metadata name="Document.ЗаявкаНаПередачуЖивотногоВПриют.Attribute.ВремяВизита" id="ed071181-8b8f-43fd-ab70-17f0bdadf641"/>
+		</Metadata>
+		<Metadata name="Document.Осмотр" id="becb2aed-2354-47d8-bd7f-bcc117acc6e0" configVersion="2b6672181e2f954eb32115c238b4a21c00000000">
+			<Metadata name="Document.Осмотр.Attribute.Ответственный" id="2f8b9036-eda3-46d3-81f1-d8fefe525c7f"/>
+			<Metadata name="Document.Осмотр.Attribute.Комментарий" id="7e65b851-fe88-4226-93a9-756150e65644"/>
+			<Metadata name="Document.Осмотр.Attribute.ВетеринарноеМероприятие" id="87662e6e-d545-49e4-a53d-f2279dfd494e"/>
+			<Metadata name="Document.Осмотр.Attribute.Кошка" id="e9b90d5d-357b-4122-9e7a-f3085de8390f"/>
 		</Metadata>
 		<Metadata name="Document.ПеремещениеЖивотного" id="61619a5a-35d1-46cc-9883-164bcc308887" configVersion="a8d25b58c5d50042a9d3f75a40dc8fd200000000">
 			<Metadata name="Document.ПеремещениеЖивотного.Attribute.КомнатаПосле" id="16c88ef1-d75d-4f0f-a01d-35023852170f"/>
@@ -135,17 +184,107 @@
 			<Metadata name="Document.Собеседование.Attribute.Укотовитель" id="6649553c-cf1e-4546-9aef-ad804a897fcf"/>
 			<Metadata name="Document.Собеседование.Attribute.Кошка" id="bfbdb5cc-3b5d-4d8e-91e3-80209a796d64"/>
 		</Metadata>
-		<Metadata name="Document.СписаниеРасходников" id="a08ddb0e-9b61-4945-9033-ac13a7c56265" configVersion="313f04cb9fcab6428cbf15c0036d868c00000000">
+		<Metadata name="Document.СписаниеРасходников" id="a08ddb0e-9b61-4945-9033-ac13a7c56265" configVersion="071d91afd8502a4b93a83c6f8dda445f00000000">
 			<Metadata name="Document.СписаниеРасходников.TabularSection.Расходники" id="2ad3d6be-31b9-42be-80b4-5bb68a5a823e"/>
 			<Metadata name="Document.СписаниеРасходников.Attribute.Ответственный" id="2cc77be3-981e-46ac-805e-903eeeb58895"/>
 			<Metadata name="Document.СписаниеРасходников.TabularSection.Расходники.Attribute.Расходник" id="57d2872b-a5e9-49eb-ae08-d02e83887f8a"/>
+			<Metadata name="Document.СписаниеРасходников.Attribute.ПричинаСписания" id="60f8676c-6df3-426b-b2f6-d2b1ae24efdb"/>
 			<Metadata name="Document.СписаниеРасходников.TabularSection.Расходники.Attribute.ПричинаСписания" id="76bbda48-a821-4677-89b9-bea28d535360"/>
 			<Metadata name="Document.СписаниеРасходников.TabularSection.Расходники.Attribute.Количество" id="9481e503-7ddc-44ea-9791-ab6e898d8804"/>
 			<Metadata name="Document.СписаниеРасходников.TabularSection.Расходники.Attribute.ЕдиницаИзмерения" id="a49b5ef9-31ff-44a1-abac-958ed3abc2ad"/>
 		</Metadata>
+		<Metadata name="Document.ТабельУчетаРабочегоВремени" id="3d3f6496-ef45-480a-9ca1-dbfaeb7bbbf1" configVersion="83c986e7a6aa89429ab9ad77a2ed0f5d00000000">
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День12" id="01d89157-001b-44ea-992d-0350c8971bfb"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени2" id="067c18ac-addd-41c4-86fa-d0bbc0a012dc"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени13" id="06bc7ef2-6f51-4481-9e1b-2896a49b8112"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени19" id="0750bf66-e1cf-49d7-ac55-50fde034bc18"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени15" id="13540145-ac5c-4b45-adfe-8de36e85e115"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День8" id="13c4047b-2302-4dec-b2db-a32f08419fba"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День16" id="14c203e8-af95-47fd-ba9e-aeef119ac1fb"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День10" id="1d205692-78f7-4a1d-bb64-73d5bb596657"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.Сотрудник" id="200ae009-41b7-4dca-9e07-c06767fa2fc4"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День22" id="2612b540-7f86-4f51-9ad6-27b4ecfeb0a0"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День31" id="2f08e562-28bd-4203-965a-a7c7fcab128f"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени11" id="3028d8fe-1af8-4945-9e14-756edd31d5c4"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День24" id="31afde1b-381f-4a16-b3f7-bdafc92628ef"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День5" id="32dd358f-7425-4a86-b7a5-4706c7508630"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени3" id="3744567f-9a89-4665-9b77-6afcd86ab4ec"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День18" id="3782d918-b0e0-4d07-9fc7-b6608614768c"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени21" id="3c87f15b-3119-4af9-824b-27ff72065df0"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени25" id="4438c898-de6b-4eb6-be59-4c17aff1b93a"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени26" id="45037e99-af10-40d6-91ab-abc7a6b2d37b"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени6" id="55004929-22f5-4d3d-a438-2bfa79e67b24"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День9" id="58cc27b1-bf3b-4817-8bb0-db2bb63ca735"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени29" id="5aa6e6c1-d9b4-4bc8-858e-0b4067afb23a"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День2" id="5b7e63d8-9122-405e-85e5-0faad92d3d62"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День23" id="5c3564dc-e214-48a1-b3c5-97e604d226e4"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени20" id="5c9c5aec-5e08-45e9-ae88-3fa3d140aa48"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День3" id="5fd102f0-caa5-4524-86ee-96a626a04702"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День27" id="61f596d7-839e-4e9a-a570-f0f611440e0f"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени1" id="6429bdae-a6b6-4d65-8a0f-c435c794291a"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени8" id="67ba5aa8-2eee-406e-b8d5-a83ea737a509"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День21" id="6a9d98e9-0da9-45d9-ac34-9070dede8b43"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.Attribute.Ответственный" id="6c7e61d3-2147-4ac7-b5fc-e5e60f189fb8"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День6" id="7249ad58-93cf-4660-aa66-110119b7b8d9"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День14" id="776ddea9-b8a2-4155-b904-4a2fc27da4d6"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День1" id="7a65ba3b-9f7a-426c-9708-c5a05e3f78af"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День26" id="7bd5f302-ce94-4538-9ed0-9f0c5fe1911a"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День29" id="7be113cf-f845-4c0b-9017-54d4b8b72b26"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени28" id="81a8fdf5-d5f9-4273-ab0c-0ce5753b6832"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени24" id="83f54c61-0361-404d-a3eb-072a7c451145"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени9" id="8f6745bd-3b46-4f6c-a896-3c9642bbb82f"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени12" id="907f8a87-6e8c-4bfe-99fe-4d809f6526bf"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День17" id="943f7daf-bf9c-4a07-84a1-b840aca85de6"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени31" id="94a65655-261d-410e-b0ef-14409cd3dd9b"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени5" id="a3a8cc90-d976-44a0-b2b6-a53cd0b018c8"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День19" id="a3f1a5b0-2b6c-4a0d-b3e5-001a2fbc4470"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День7" id="aa065a84-36c6-4abc-92a6-e980fae358ab"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени7" id="b2324332-e4cb-4a7f-b988-0b3f9c045b69"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени14" id="b6145268-ebd4-4156-813f-85255e1589da"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День4" id="b68f66aa-bf5a-4660-957a-bf273ca51d2c"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День13" id="cb1b45ca-76b3-46c7-9175-1b93b14bd625"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени16" id="dde549ed-239f-4c79-9ddf-2865958ae49e"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени18" id="e01dcaf5-051c-4b26-8bab-da530e0bad96"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День11" id="e0536da3-db06-46f5-a284-788433c07b54"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День30" id="e3ef807b-8763-4027-9acb-ca3ead7f679e"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени17" id="e70df1bc-60dc-46d9-8883-ed5e3b43cbda"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День28" id="e904dc7c-03dc-4c9d-b836-53768225aa72"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени4" id="ea0b3528-e593-45dd-be03-8445056fcf82"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени23" id="eb6a96b6-5ccc-480d-b80b-5c85b33afc5b"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День15" id="ee94a835-71f8-4c96-8e8f-669f91b4e345"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени22" id="ef509488-9f99-454e-8429-fd42891b8829"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени30" id="f0b0a9e2-409a-4563-8df8-ce856ead5e62"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени" id="f44e09c4-e709-434e-8ef7-4aa5a203dee8"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.Attribute.Комментарий" id="fb58cea3-c958-4df6-8c82-c3880e83b0b6"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени10" id="fb591c30-6194-4cb0-97a0-d1beed0e35a0"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День25" id="fcaddfd8-532d-48d7-89b4-0738014633ab"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.День20" id="fd601f40-bb5b-4315-a658-ac36ca74f904"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени27" id="feb42f18-340a-4175-a6fd-df1a7f94fded"/>
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.Attribute.ПериодРегистрации" id="ff846698-fe20-4e69-a7d8-c639efbc463b"/>
+		</Metadata>
+		<Metadata name="Document.ТабельУчетаРабочегоВремени.Form.ФормаДокумента" id="7a76e1a0-ad5b-4ac3-97b9-487728e2776f" configVersion="56bfb2e3de6d2644a17dba7eb65563b200000000"/>
+		<Metadata name="Document.ТабельУчетаРабочегоВремени.Form.ФормаДокумента.Form" id="7a76e1a0-ad5b-4ac3-97b9-487728e2776f.0" configVersion="7eeaa23ce4178d4d8be666b242fc4ff200000000"/>
+		<Metadata name="Document.Чипирование" id="3342d02c-670f-4c57-a43e-a1e34f0f2a5e" configVersion="2dd87e9f070c294e9b1def28e9a3793500000000">
+			<Metadata name="Document.Чипирование.Attribute.НомерЧипа" id="14224f42-8a17-40c7-a009-dc6783fe151e"/>
+			<Metadata name="Document.Чипирование.Attribute.ВетеринарноеМероприятие" id="3dfee86e-3a89-48e3-9cea-48d9318c4e73"/>
+			<Metadata name="Document.Чипирование.Attribute.Ответственный" id="75eec387-f94f-4874-9707-3293aa62e13b"/>
+			<Metadata name="Document.Чипирование.Attribute.Кошка" id="a1240b09-ed5d-4ff9-a13f-3284bea5ebb7"/>
+			<Metadata name="Document.Чипирование.Attribute.Комментарий" id="a7dca2e1-b7dd-4011-bc03-ae88094bc8aa"/>
+			<Metadata name="Document.Чипирование.Attribute.РазмещениеЭлектронногоЧипа" id="bcaf6ab6-a5c6-4d87-9f89-5cecb8730f03"/>
+			<Metadata name="Document.Чипирование.Attribute.Микрочип" id="bea9abc1-c743-4ff9-8c11-f73af329b88d"/>
+		</Metadata>
+		<Metadata name="Document.Чипирование.ObjectModule" id="3342d02c-670f-4c57-a43e-a1e34f0f2a5e.0" configVersion="7c8b20a1b4e15e4da3e62f1a3a45eb1900000000"/>
+		<Metadata name="DocumentJournal.ЖурналВетеринарныхМероприятий" id="2543e8d0-b5a2-46a1-a0ae-f4609486acd5" configVersion="63f1b38bb36bf84aaf9dc6d31695f58800000000"/>
 		<Metadata name="Enum.ВидыКонтрагентов" id="9c2b1da2-09e0-4a55-9d91-20c014609694" configVersion="3d5c96bac771c743bad28b5bcb6174b300000000">
 			<Metadata name="Enum.ВидыКонтрагентов.EnumValue.ЮридическоеЛицо" id="688f63b7-30bf-4033-a68d-2f72ea580ff5"/>
 			<Metadata name="Enum.ВидыКонтрагентов.EnumValue.ФизическоеЛицо" id="e73834e3-629e-44ae-aaf5-b21608ccbcf7"/>
+		</Metadata>
+		<Metadata name="Enum.ИндексыКондицииТела" id="b726d416-398d-457b-b1cd-170348f5a1d4" configVersion="a2ac55e800a7824daf9f636dbf81e20000000000">
+			<Metadata name="Enum.ИндексыКондицииТела.EnumValue.НедостаточныйВес" id="049a1a94-f4a4-4df7-8598-325f0e36314a"/>
+			<Metadata name="Enum.ИндексыКондицииТела.EnumValue.Истощение" id="16922424-7b45-4f95-8694-5b83a0593ea2"/>
+			<Metadata name="Enum.ИндексыКондицииТела.EnumValue.Ожирение" id="8e101895-23af-4aaf-bcaf-60cd803647d7"/>
+			<Metadata name="Enum.ИндексыКондицииТела.EnumValue.ИдеальныйВес" id="bc2347b5-1ac2-415e-bada-bd37c65ebea0"/>
+			<Metadata name="Enum.ИндексыКондицииТела.EnumValue.ИзбыточныйВес" id="cf2d4bf3-e414-4deb-a795-d19b59c9705f"/>
 		</Metadata>
 		<Metadata name="Enum.ОпекунУкотовитель" id="a399697f-82da-4362-888e-578b963ae432" configVersion="5530ef522eae924e9d1a6cba5d67525c00000000">
 			<Metadata name="Enum.ОпекунУкотовитель.EnumValue.Укотовитель" id="6daaf2a6-9db6-4bea-b9b4-24deb9c687ef"/>
@@ -154,6 +293,10 @@
 		<Metadata name="Enum.Пол" id="37313884-feb4-4788-af43-c8d8428efdc0" configVersion="7a169947770aa540b2a3b85754de4cdd00000000">
 			<Metadata name="Enum.Пол.EnumValue.Женский" id="e46d511a-80fa-40a9-8f6a-436e9a4cc929"/>
 			<Metadata name="Enum.Пол.EnumValue.Мужской" id="fcd3a505-ca6f-4b09-b3e3-71cf534da078"/>
+		</Metadata>
+		<Metadata name="Enum.РазмещенияЭлектронногоЧипа" id="4b49412d-85d6-4ea4-8f73-fc627eca8985" configVersion="def7957db35243468a795fc132eaa27c00000000">
+			<Metadata name="Enum.РазмещенияЭлектронногоЧипа.EnumValue.ВХолку" id="060ded03-b50e-4a20-b2c2-f3df9f4fdf6f"/>
+			<Metadata name="Enum.РазмещенияЭлектронногоЧипа.EnumValue.ВБедро" id="5c589b40-1564-45fc-8659-1042c6e06d1e"/>
 		</Metadata>
 		<Metadata name="Enum.СтатусыПребыванияЖивотных" id="c186095c-97ac-4748-a786-e13f7140f406" configVersion="03a69dfc0a59bf4db7cef6115e42faed00000000">
 			<Metadata name="Enum.СтатусыПребыванияЖивотных.EnumValue.ГотовКУкотовлению" id="088f7fc0-2c4d-49b3-a334-c7627535440f"/>
@@ -196,11 +339,12 @@
 			<Metadata name="InformationRegister.СтатусыМестаСодержанияЖивотных.Resource.Статус" id="da150803-7c79-4f60-a8b2-1453f3219e25"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="0a0ca526-4569-4335-b42d-cd71159ced98" configVersion="d13db3bc554ed14386c935f5be83f94700000000"/>
+		<Metadata name="Subsystem.Ветеринария" id="4c3bbd86-490e-49bf-ba24-72d8f4c483a9" configVersion="7c6810d7d6f1664faa7942516de39d4800000000"/>
 		<Metadata name="Subsystem.Документооборот" id="e46972b3-5be2-4833-aebc-16fe83d50f15" configVersion="014482c67cf8104e8127b31e275995ed00000000"/>
 		<Metadata name="Subsystem.Запасы" id="45585412-cbb6-470c-953f-062872607a30" configVersion="1a4b30453d628744b05a3a9969b3af6e00000000"/>
 		<Metadata name="Subsystem.Коты" id="21dbd90f-f7a6-4701-ba04-661f13e08f37" configVersion="8d82d5f3b8cec74b9524358af4e1dc1100000000"/>
 		<Metadata name="Subsystem.НСИ" id="b5ece2e8-640f-4624-960e-b09e8cca8db9" configVersion="765a3f5abd23094cb0a827015ad8ba7300000000"/>
-		<Metadata name="Subsystem.Персонал" id="c1bae911-bf80-4879-b38e-45488f493afa" configVersion="be0b5cdffc6c5f43b0f12f2de0d9004800000000"/>
+		<Metadata name="Subsystem.Персонал" id="c1bae911-bf80-4879-b38e-45488f493afa" configVersion="01d077d35de04f43930b9b0f9dae846900000000"/>
 		<Metadata name="Subsystem.Содержание" id="e992f064-df4d-4ff3-809a-626d5d867053" configVersion="cbd534abedffd745bee522ef30a54d7900000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

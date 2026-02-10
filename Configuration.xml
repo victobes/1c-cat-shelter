@@ -251,6 +251,7 @@
 			<Subsystem>Документооборот</Subsystem>
 			<Subsystem>НСИ</Subsystem>
 			<Subsystem>Содержание</Subsystem>
+			<Subsystem>Ветеринария</Subsystem>
 			<Catalog>Кошки</Catalog>
 			<Catalog>Породы</Catalog>
 			<Catalog>Окрасы</Catalog>
@@ -270,6 +271,9 @@
 			<Catalog>ПричиныСписанияРасходников</Catalog>
 			<Catalog>РационКормления</Catalog>
 			<Catalog>Пользователи</Catalog>
+			<Catalog>ВетеринарныеМероприятия</Catalog>
+			<Catalog>КлассификаторБолезней</Catalog>
+			<Catalog>ВидыИспользованияРабочегоВремени</Catalog>
 			<Document>ЗаявкаНаПередачуЖивотногоВПриют</Document>
 			<Document>ПеремещениеЖивотного</Document>
 			<Document>ДоговорОПередачеЖивотногоВПриют</Document>
@@ -278,11 +282,19 @@
 			<Document>Собеседование</Document>
 			<Document>ПоступлениеРасходников</Document>
 			<Document>СписаниеРасходников</Document>
+			<Document>Взвешивание</Document>
+			<Document>Вакцинация</Document>
+			<Document>Чипирование</Document>
+			<Document>Осмотр</Document>
+			<Document>ТабельУчетаРабочегоВремени</Document>
+			<DocumentJournal>ЖурналВетеринарныхМероприятий</DocumentJournal>
 			<Enum>Пол</Enum>
 			<Enum>ТипыШерсти</Enum>
 			<Enum>СтатусыПребыванияЖивотных</Enum>
 			<Enum>ВидыКонтрагентов</Enum>
 			<Enum>ОпекунУкотовитель</Enum>
+			<Enum>ИндексыКондицииТела</Enum>
+			<Enum>РазмещенияЭлектронногоЧипа</Enum>
 			<InformationRegister>СтатусыМестаСодержанияЖивотных</InformationRegister>
 			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
 			<InformationRegister>СоответствиеСтатусовНазначениюКомнат</InformationRegister>

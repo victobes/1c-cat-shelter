@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DocumentJournal uuid="2543e8d0-b5a2-46a1-a0ae-f4609486acd5">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.ЖурналВетеринарныхМероприятий" category="Selection">
+				<xr:TypeId>1118e993-3b27-4349-9857-4fa41d244910</xr:TypeId>
+				<xr:ValueId>424e5f7a-3f2d-4977-9365-9b5a51b78d68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.ЖурналВетеринарныхМероприятий" category="List">
+				<xr:TypeId>6420eaca-2943-4f16-aadb-05dffb6585ec</xr:TypeId>
+				<xr:ValueId>9972c9a5-01a5-4b6e-a62a-324453f44c2e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.ЖурналВетеринарныхМероприятий" category="Manager">
+				<xr:TypeId>4c930ea2-dc2d-430f-a35d-cdeeb10e63c9</xr:TypeId>
+				<xr:ValueId>a5576f2f-41ac-4f64-96db-c51da2e189a0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЖурналВетеринарныхМероприятий</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Журнал ветеринарных мероприятий</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<DefaultForm/>
+			<AuxiliaryForm/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Чипирование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Вакцинация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Взвешивание</xr:Item>
+			</RegisteredDocuments>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects/>
+	</DocumentJournal>
+</MetaDataObject>
