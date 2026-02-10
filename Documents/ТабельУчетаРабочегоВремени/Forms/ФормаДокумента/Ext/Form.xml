@@ -51,6 +51,9 @@
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ПериодРегистрацииКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ПериодРегистрацииРасширеннаяПодсказка" id="9"/>
+			<Events>
+				<Event name="OnChange">ПериодРегистрацииПриИзменении</Event>
+			</Events>
 		</InputField>
 		<Table name="ДанныеОВремени" id="16">
 			<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -107,196 +110,607 @@
 					<ContextMenu name="ДанныеОВремениВремяИтогКонтекстноеМеню" id="129"/>
 					<ExtendedTooltip name="ДанныеОВремениВремяИтогРасширеннаяПодсказка" id="130"/>
 				</InputField>
-				<InputField name="ДанныеОВремениДень1Представление" id="29">
-					<DataPath>Объект.ДанныеОВремени.День1Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень1ПредставлениеКонтекстноеМеню" id="30"/>
-					<ExtendedTooltip name="ДанныеОВремениДень1ПредставлениеРасширеннаяПодсказка" id="31"/>
-					<Events>
-						<Event name="StartChoice">ДанныеОВремениДеньПредставлениеНачалоВыбора</Event>
-						<Event name="TextEditEnd">ДанныеОВремениДень1ПредставлениеОкончаниеВводаТекста</Event>
-					</Events>
-				</InputField>
-				<InputField name="ДанныеОВремениДень2Представление" id="32">
-					<DataPath>Объект.ДанныеОВремени.День2Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень2ПредставлениеКонтекстноеМеню" id="33"/>
-					<ExtendedTooltip name="ДанныеОВремениДень2ПредставлениеРасширеннаяПодсказка" id="34"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень3Представление" id="35">
-					<DataPath>Объект.ДанныеОВремени.День3Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень3ПредставлениеКонтекстноеМеню" id="36"/>
-					<ExtendedTooltip name="ДанныеОВремениДень3ПредставлениеРасширеннаяПодсказка" id="37"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень4Представление" id="38">
-					<DataPath>Объект.ДанныеОВремени.День4Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень4ПредставлениеКонтекстноеМеню" id="39"/>
-					<ExtendedTooltip name="ДанныеОВремениДень4ПредставлениеРасширеннаяПодсказка" id="40"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень5Представление" id="41">
-					<DataPath>Объект.ДанныеОВремени.День5Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень5ПредставлениеКонтекстноеМеню" id="42"/>
-					<ExtendedTooltip name="ДанныеОВремениДень5ПредставлениеРасширеннаяПодсказка" id="43"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень6Представление" id="44">
-					<DataPath>Объект.ДанныеОВремени.День6Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень6ПредставлениеКонтекстноеМеню" id="45"/>
-					<ExtendedTooltip name="ДанныеОВремениДень6ПредставлениеРасширеннаяПодсказка" id="46"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень7Представление" id="47">
-					<DataPath>Объект.ДанныеОВремени.День7Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень7ПредставлениеКонтекстноеМеню" id="48"/>
-					<ExtendedTooltip name="ДанныеОВремениДень7ПредставлениеРасширеннаяПодсказка" id="49"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень8Представление" id="50">
-					<DataPath>Объект.ДанныеОВремени.День8Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень8ПредставлениеКонтекстноеМеню" id="51"/>
-					<ExtendedTooltip name="ДанныеОВремениДень8ПредставлениеРасширеннаяПодсказка" id="52"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень9Представление" id="53">
-					<DataPath>Объект.ДанныеОВремени.День9Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень9ПредставлениеКонтекстноеМеню" id="54"/>
-					<ExtendedTooltip name="ДанныеОВремениДень9ПредставлениеРасширеннаяПодсказка" id="55"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень10Представление" id="56">
-					<DataPath>Объект.ДанныеОВремени.День10Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень10ПредставлениеКонтекстноеМеню" id="57"/>
-					<ExtendedTooltip name="ДанныеОВремениДень10ПредставлениеРасширеннаяПодсказка" id="58"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень11Представление" id="59">
-					<DataPath>Объект.ДанныеОВремени.День11Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень11ПредставлениеКонтекстноеМеню" id="60"/>
-					<ExtendedTooltip name="ДанныеОВремениДень11ПредставлениеРасширеннаяПодсказка" id="61"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень12Представление" id="62">
-					<DataPath>Объект.ДанныеОВремени.День12Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень12ПредставлениеКонтекстноеМеню" id="63"/>
-					<ExtendedTooltip name="ДанныеОВремениДень12ПредставлениеРасширеннаяПодсказка" id="64"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень13Представление" id="65">
-					<DataPath>Объект.ДанныеОВремени.День13Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень13ПредставлениеКонтекстноеМеню" id="66"/>
-					<ExtendedTooltip name="ДанныеОВремениДень13ПредставлениеРасширеннаяПодсказка" id="67"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень14Представление" id="68">
-					<DataPath>Объект.ДанныеОВремени.День14Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень14ПредставлениеКонтекстноеМеню" id="69"/>
-					<ExtendedTooltip name="ДанныеОВремениДень14ПредставлениеРасширеннаяПодсказка" id="70"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень15Представление" id="71">
-					<DataPath>Объект.ДанныеОВремени.День15Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень15ПредставлениеКонтекстноеМеню" id="72"/>
-					<ExtendedTooltip name="ДанныеОВремениДень15ПредставлениеРасширеннаяПодсказка" id="73"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень16Представление" id="74">
-					<DataPath>Объект.ДанныеОВремени.День16Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень16ПредставлениеКонтекстноеМеню" id="75"/>
-					<ExtendedTooltip name="ДанныеОВремениДень16ПредставлениеРасширеннаяПодсказка" id="76"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень17Представление" id="77">
-					<DataPath>Объект.ДанныеОВремени.День17Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень17ПредставлениеКонтекстноеМеню" id="78"/>
-					<ExtendedTooltip name="ДанныеОВремениДень17ПредставлениеРасширеннаяПодсказка" id="79"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень18Представление" id="80">
-					<DataPath>Объект.ДанныеОВремени.День18Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень18ПредставлениеКонтекстноеМеню" id="81"/>
-					<ExtendedTooltip name="ДанныеОВремениДень18ПредставлениеРасширеннаяПодсказка" id="82"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень19Представление" id="83">
-					<DataPath>Объект.ДанныеОВремени.День19Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень19ПредставлениеКонтекстноеМеню" id="84"/>
-					<ExtendedTooltip name="ДанныеОВремениДень19ПредставлениеРасширеннаяПодсказка" id="85"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень20Представление" id="86">
-					<DataPath>Объект.ДанныеОВремени.День20Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень20ПредставлениеКонтекстноеМеню" id="87"/>
-					<ExtendedTooltip name="ДанныеОВремениДень20ПредставлениеРасширеннаяПодсказка" id="88"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень21Представление" id="89">
-					<DataPath>Объект.ДанныеОВремени.День21Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень21ПредставлениеКонтекстноеМеню" id="90"/>
-					<ExtendedTooltip name="ДанныеОВремениДень21ПредставлениеРасширеннаяПодсказка" id="91"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень22Представление" id="92">
-					<DataPath>Объект.ДанныеОВремени.День22Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень22ПредставлениеКонтекстноеМеню" id="93"/>
-					<ExtendedTooltip name="ДанныеОВремениДень22ПредставлениеРасширеннаяПодсказка" id="94"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень23Представление" id="95">
-					<DataPath>Объект.ДанныеОВремени.День23Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень23ПредставлениеКонтекстноеМеню" id="96"/>
-					<ExtendedTooltip name="ДанныеОВремениДень23ПредставлениеРасширеннаяПодсказка" id="97"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень24Представление" id="98">
-					<DataPath>Объект.ДанныеОВремени.День24Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень24ПредставлениеКонтекстноеМеню" id="99"/>
-					<ExtendedTooltip name="ДанныеОВремениДень24ПредставлениеРасширеннаяПодсказка" id="100"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень25Представление" id="101">
-					<DataPath>Объект.ДанныеОВремени.День25Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень25ПредставлениеКонтекстноеМеню" id="102"/>
-					<ExtendedTooltip name="ДанныеОВремениДень25ПредставлениеРасширеннаяПодсказка" id="103"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень26Представление" id="104">
-					<DataPath>Объект.ДанныеОВремени.День26Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень26ПредставлениеКонтекстноеМеню" id="105"/>
-					<ExtendedTooltip name="ДанныеОВремениДень26ПредставлениеРасширеннаяПодсказка" id="106"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень27Представление" id="107">
-					<DataPath>Объект.ДанныеОВремени.День27Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень27ПредставлениеКонтекстноеМеню" id="108"/>
-					<ExtendedTooltip name="ДанныеОВремениДень27ПредставлениеРасширеннаяПодсказка" id="109"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень28Представление" id="110">
-					<DataPath>Объект.ДанныеОВремени.День28Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень28ПредставлениеКонтекстноеМеню" id="111"/>
-					<ExtendedTooltip name="ДанныеОВремениДень28ПредставлениеРасширеннаяПодсказка" id="112"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень29Представление" id="113">
-					<DataPath>Объект.ДанныеОВремени.День29Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень29ПредставлениеКонтекстноеМеню" id="114"/>
-					<ExtendedTooltip name="ДанныеОВремениДень29ПредставлениеРасширеннаяПодсказка" id="115"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень30Представление" id="116">
-					<DataPath>Объект.ДанныеОВремени.День30Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень30ПредставлениеКонтекстноеМеню" id="117"/>
-					<ExtendedTooltip name="ДанныеОВремениДень30ПредставлениеРасширеннаяПодсказка" id="118"/>
-				</InputField>
-				<InputField name="ДанныеОВремениДень31Представление" id="119">
-					<DataPath>Объект.ДанныеОВремени.День31Представление</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ДанныеОВремениДень31ПредставлениеКонтекстноеМеню" id="120"/>
-					<ExtendedTooltip name="ДанныеОВремениДень31ПредставлениеРасширеннаяПодсказка" id="121"/>
-				</InputField>
+				<ColumnGroup name="ДанныеОВремениГруппа1" id="133">
+					<ExtendedTooltip name="ДанныеОВремениГруппа1РасширеннаяПодсказка" id="134"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени1" id="138">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени1</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени1КонтекстноеМеню" id="139"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени1РасширеннаяПодсказка" id="140"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень1" id="135">
+							<DataPath>Объект.ДанныеОВремени.День1</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень1КонтекстноеМеню" id="136"/>
+							<ExtendedTooltip name="ДанныеОВремениДень1РасширеннаяПодсказка" id="137"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа2" id="141">
+					<ExtendedTooltip name="ДанныеОВремениГруппа2РасширеннаяПодсказка" id="142"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени2" id="146">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени2</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени2КонтекстноеМеню" id="147"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени2РасширеннаяПодсказка" id="148"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень2" id="143">
+							<DataPath>Объект.ДанныеОВремени.День2</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень2КонтекстноеМеню" id="144"/>
+							<ExtendedTooltip name="ДанныеОВремениДень2РасширеннаяПодсказка" id="145"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа3" id="149">
+					<ExtendedTooltip name="ДанныеОВремениГруппа3РасширеннаяПодсказка" id="150"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени3" id="207">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени3</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени3КонтекстноеМеню" id="208"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени3РасширеннаяПодсказка" id="209"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень3" id="294">
+							<DataPath>Объект.ДанныеОВремени.День3</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень3КонтекстноеМеню" id="295"/>
+							<ExtendedTooltip name="ДанныеОВремениДень3РасширеннаяПодсказка" id="296"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа4" id="151">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные о времени группа4</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные о времени группа4</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДанныеОВремениГруппа4РасширеннаяПодсказка" id="152"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени4" id="210">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени4</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени4КонтекстноеМеню" id="211"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени4РасширеннаяПодсказка" id="212"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень4" id="297">
+							<DataPath>Объект.ДанныеОВремени.День4</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень4КонтекстноеМеню" id="298"/>
+							<ExtendedTooltip name="ДанныеОВремениДень4РасширеннаяПодсказка" id="299"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа5" id="153">
+					<ExtendedTooltip name="ДанныеОВремениГруппа5РасширеннаяПодсказка" id="154"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени5" id="213">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени5</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени5КонтекстноеМеню" id="214"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени5РасширеннаяПодсказка" id="215"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень5" id="300">
+							<DataPath>Объект.ДанныеОВремени.День5</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень5КонтекстноеМеню" id="301"/>
+							<ExtendedTooltip name="ДанныеОВремениДень5РасширеннаяПодсказка" id="302"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа6" id="155">
+					<ExtendedTooltip name="ДанныеОВремениГруппа6РасширеннаяПодсказка" id="156"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени6" id="216">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени6</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени6КонтекстноеМеню" id="217"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени6РасширеннаяПодсказка" id="218"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень6" id="303">
+							<DataPath>Объект.ДанныеОВремени.День6</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень6КонтекстноеМеню" id="304"/>
+							<ExtendedTooltip name="ДанныеОВремениДень6РасширеннаяПодсказка" id="305"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа7" id="157">
+					<ExtendedTooltip name="ДанныеОВремениГруппа7РасширеннаяПодсказка" id="158"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени7" id="219">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени7</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени7КонтекстноеМеню" id="220"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени7РасширеннаяПодсказка" id="221"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень7" id="306">
+							<DataPath>Объект.ДанныеОВремени.День7</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень7КонтекстноеМеню" id="307"/>
+							<ExtendedTooltip name="ДанныеОВремениДень7РасширеннаяПодсказка" id="308"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа8" id="159">
+					<ExtendedTooltip name="ДанныеОВремениГруппа8РасширеннаяПодсказка" id="160"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени8" id="222">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени8</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени8КонтекстноеМеню" id="223"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени8РасширеннаяПодсказка" id="224"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень8" id="309">
+							<DataPath>Объект.ДанныеОВремени.День8</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень8КонтекстноеМеню" id="310"/>
+							<ExtendedTooltip name="ДанныеОВремениДень8РасширеннаяПодсказка" id="311"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа9" id="161">
+					<ExtendedTooltip name="ДанныеОВремениГруппа9РасширеннаяПодсказка" id="162"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени9" id="225">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени9</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени9КонтекстноеМеню" id="226"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени9РасширеннаяПодсказка" id="227"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень9" id="312">
+							<DataPath>Объект.ДанныеОВремени.День9</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень9КонтекстноеМеню" id="313"/>
+							<ExtendedTooltip name="ДанныеОВремениДень9РасширеннаяПодсказка" id="314"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа10" id="163">
+					<ExtendedTooltip name="ДанныеОВремениГруппа10РасширеннаяПодсказка" id="164"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени10" id="228">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени10</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени10КонтекстноеМеню" id="229"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени10РасширеннаяПодсказка" id="230"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень10" id="315">
+							<DataPath>Объект.ДанныеОВремени.День10</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень10КонтекстноеМеню" id="316"/>
+							<ExtendedTooltip name="ДанныеОВремениДень10РасширеннаяПодсказка" id="317"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа11" id="165">
+					<ExtendedTooltip name="ДанныеОВремениГруппа11РасширеннаяПодсказка" id="166"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени11" id="231">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени11</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени11КонтекстноеМеню" id="232"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени11РасширеннаяПодсказка" id="233"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень11" id="318">
+							<DataPath>Объект.ДанныеОВремени.День11</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень11КонтекстноеМеню" id="319"/>
+							<ExtendedTooltip name="ДанныеОВремениДень11РасширеннаяПодсказка" id="320"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа12" id="167">
+					<ExtendedTooltip name="ДанныеОВремениГруппа12РасширеннаяПодсказка" id="168"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени12" id="234">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени12</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени12КонтекстноеМеню" id="235"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени12РасширеннаяПодсказка" id="236"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень12" id="321">
+							<DataPath>Объект.ДанныеОВремени.День12</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень12КонтекстноеМеню" id="322"/>
+							<ExtendedTooltip name="ДанныеОВремениДень12РасширеннаяПодсказка" id="323"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа13" id="169">
+					<ExtendedTooltip name="ДанныеОВремениГруппа13РасширеннаяПодсказка" id="170"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени13" id="237">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени13</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени13КонтекстноеМеню" id="238"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени13РасширеннаяПодсказка" id="239"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень13" id="324">
+							<DataPath>Объект.ДанныеОВремени.День13</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень13КонтекстноеМеню" id="325"/>
+							<ExtendedTooltip name="ДанныеОВремениДень13РасширеннаяПодсказка" id="326"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа14" id="171">
+					<ExtendedTooltip name="ДанныеОВремениГруппа14РасширеннаяПодсказка" id="172"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени14" id="240">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени14</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени14КонтекстноеМеню" id="241"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени14РасширеннаяПодсказка" id="242"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень14" id="327">
+							<DataPath>Объект.ДанныеОВремени.День14</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень14КонтекстноеМеню" id="328"/>
+							<ExtendedTooltip name="ДанныеОВремениДень14РасширеннаяПодсказка" id="329"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа15" id="173">
+					<ExtendedTooltip name="ДанныеОВремениГруппа15РасширеннаяПодсказка" id="174"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени15" id="243">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени15</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени15КонтекстноеМеню" id="244"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени15РасширеннаяПодсказка" id="245"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень15" id="330">
+							<DataPath>Объект.ДанныеОВремени.День15</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень15КонтекстноеМеню" id="331"/>
+							<ExtendedTooltip name="ДанныеОВремениДень15РасширеннаяПодсказка" id="332"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа16" id="175">
+					<ExtendedTooltip name="ДанныеОВремениГруппа16РасширеннаяПодсказка" id="176"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени16" id="246">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени16</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени16КонтекстноеМеню" id="247"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени16РасширеннаяПодсказка" id="248"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень16" id="333">
+							<DataPath>Объект.ДанныеОВремени.День16</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень16КонтекстноеМеню" id="334"/>
+							<ExtendedTooltip name="ДанныеОВремениДень16РасширеннаяПодсказка" id="335"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа17" id="177">
+					<ExtendedTooltip name="ДанныеОВремениГруппа17РасширеннаяПодсказка" id="178"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени17" id="249">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени17</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени17КонтекстноеМеню" id="250"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени17РасширеннаяПодсказка" id="251"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень17" id="336">
+							<DataPath>Объект.ДанныеОВремени.День17</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень17КонтекстноеМеню" id="337"/>
+							<ExtendedTooltip name="ДанныеОВремениДень17РасширеннаяПодсказка" id="338"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа18" id="179">
+					<ExtendedTooltip name="ДанныеОВремениГруппа18РасширеннаяПодсказка" id="180"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени18" id="252">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени18</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени18КонтекстноеМеню" id="253"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени18РасширеннаяПодсказка" id="254"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень18" id="339">
+							<DataPath>Объект.ДанныеОВремени.День18</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень18КонтекстноеМеню" id="340"/>
+							<ExtendedTooltip name="ДанныеОВремениДень18РасширеннаяПодсказка" id="341"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа19" id="181">
+					<ExtendedTooltip name="ДанныеОВремениГруппа19РасширеннаяПодсказка" id="182"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени19" id="255">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени19</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени19КонтекстноеМеню" id="256"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени19РасширеннаяПодсказка" id="257"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень19" id="342">
+							<DataPath>Объект.ДанныеОВремени.День19</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень19КонтекстноеМеню" id="343"/>
+							<ExtendedTooltip name="ДанныеОВремениДень19РасширеннаяПодсказка" id="344"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа20" id="183">
+					<ExtendedTooltip name="ДанныеОВремениГруппа20РасширеннаяПодсказка" id="184"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени20" id="258">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени20</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени20КонтекстноеМеню" id="259"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени20РасширеннаяПодсказка" id="260"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень20" id="345">
+							<DataPath>Объект.ДанныеОВремени.День20</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень20КонтекстноеМеню" id="346"/>
+							<ExtendedTooltip name="ДанныеОВремениДень20РасширеннаяПодсказка" id="347"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа21" id="185">
+					<ExtendedTooltip name="ДанныеОВремениГруппа21РасширеннаяПодсказка" id="186"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени21" id="261">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени21</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени21КонтекстноеМеню" id="262"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени21РасширеннаяПодсказка" id="263"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень21" id="348">
+							<DataPath>Объект.ДанныеОВремени.День21</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень21КонтекстноеМеню" id="349"/>
+							<ExtendedTooltip name="ДанныеОВремениДень21РасширеннаяПодсказка" id="350"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа22" id="187">
+					<ExtendedTooltip name="ДанныеОВремениГруппа22РасширеннаяПодсказка" id="188"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени22" id="264">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени22</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени22КонтекстноеМеню" id="265"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени22РасширеннаяПодсказка" id="266"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень22" id="351">
+							<DataPath>Объект.ДанныеОВремени.День22</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень22КонтекстноеМеню" id="352"/>
+							<ExtendedTooltip name="ДанныеОВремениДень22РасширеннаяПодсказка" id="353"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа23" id="189">
+					<ExtendedTooltip name="ДанныеОВремениГруппа23РасширеннаяПодсказка" id="190"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени23" id="267">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени23</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени23КонтекстноеМеню" id="268"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени23РасширеннаяПодсказка" id="269"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень23" id="354">
+							<DataPath>Объект.ДанныеОВремени.День23</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень23КонтекстноеМеню" id="355"/>
+							<ExtendedTooltip name="ДанныеОВремениДень23РасширеннаяПодсказка" id="356"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа24" id="191">
+					<ExtendedTooltip name="ДанныеОВремениГруппа24РасширеннаяПодсказка" id="192"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени24" id="270">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени24</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени24КонтекстноеМеню" id="271"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени24РасширеннаяПодсказка" id="272"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень24" id="357">
+							<DataPath>Объект.ДанныеОВремени.День24</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень24КонтекстноеМеню" id="358"/>
+							<ExtendedTooltip name="ДанныеОВремениДень24РасширеннаяПодсказка" id="359"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа25" id="193">
+					<ExtendedTooltip name="ДанныеОВремениГруппа25РасширеннаяПодсказка" id="194"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени25" id="273">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени25</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени25КонтекстноеМеню" id="274"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени25РасширеннаяПодсказка" id="275"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень25" id="360">
+							<DataPath>Объект.ДанныеОВремени.День25</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень25КонтекстноеМеню" id="361"/>
+							<ExtendedTooltip name="ДанныеОВремениДень25РасширеннаяПодсказка" id="362"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа26" id="195">
+					<ExtendedTooltip name="ДанныеОВремениГруппа26РасширеннаяПодсказка" id="196"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени26" id="276">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени26</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени26КонтекстноеМеню" id="277"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени26РасширеннаяПодсказка" id="278"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень26" id="363">
+							<DataPath>Объект.ДанныеОВремени.День26</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень26КонтекстноеМеню" id="364"/>
+							<ExtendedTooltip name="ДанныеОВремениДень26РасширеннаяПодсказка" id="365"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа27" id="197">
+					<ExtendedTooltip name="ДанныеОВремениГруппа27РасширеннаяПодсказка" id="198"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени27" id="279">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени27</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени27КонтекстноеМеню" id="280"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени27РасширеннаяПодсказка" id="281"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень27" id="366">
+							<DataPath>Объект.ДанныеОВремени.День27</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень27КонтекстноеМеню" id="367"/>
+							<ExtendedTooltip name="ДанныеОВремениДень27РасширеннаяПодсказка" id="368"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа28" id="199">
+					<ExtendedTooltip name="ДанныеОВремениГруппа28РасширеннаяПодсказка" id="200"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени28" id="282">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени28</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени28КонтекстноеМеню" id="283"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени28РасширеннаяПодсказка" id="284"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень28" id="369">
+							<DataPath>Объект.ДанныеОВремени.День28</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень28КонтекстноеМеню" id="370"/>
+							<ExtendedTooltip name="ДанныеОВремениДень28РасширеннаяПодсказка" id="371"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа29" id="201">
+					<ExtendedTooltip name="ДанныеОВремениГруппа29РасширеннаяПодсказка" id="202"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени29" id="285">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени29</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени29КонтекстноеМеню" id="286"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени29РасширеннаяПодсказка" id="287"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень29" id="372">
+							<DataPath>Объект.ДанныеОВремени.День29</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень29КонтекстноеМеню" id="373"/>
+							<ExtendedTooltip name="ДанныеОВремениДень29РасширеннаяПодсказка" id="374"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа30" id="203">
+					<ExtendedTooltip name="ДанныеОВремениГруппа30РасширеннаяПодсказка" id="204"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени30" id="288">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени30</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени30КонтекстноеМеню" id="289"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени30РасширеннаяПодсказка" id="290"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень30" id="375">
+							<DataPath>Объект.ДанныеОВремени.День30</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень30КонтекстноеМеню" id="376"/>
+							<ExtendedTooltip name="ДанныеОВремениДень30РасширеннаяПодсказка" id="377"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="ДанныеОВремениГруппа31" id="205">
+					<ExtendedTooltip name="ДанныеОВремениГруппа31РасширеннаяПодсказка" id="206"/>
+					<ChildItems>
+						<InputField name="ДанныеОВремениВидВремени31" id="291">
+							<DataPath>Объект.ДанныеОВремени.ВидВремени31</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениВидВремени31КонтекстноеМеню" id="292"/>
+							<ExtendedTooltip name="ДанныеОВремениВидВремени31РасширеннаяПодсказка" id="293"/>
+						</InputField>
+						<InputField name="ДанныеОВремениДень31" id="378">
+							<DataPath>Объект.ДанныеОВремени.День31</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДанныеОВремениДень31КонтекстноеМеню" id="379"/>
+							<ExtendedTooltip name="ДанныеОВремениДень31РасширеннаяПодсказка" id="380"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
 			</ChildItems>
 		</Table>
 		<InputField name="Ответственный" id="10">

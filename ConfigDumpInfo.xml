@@ -7427,8 +7427,8 @@
 			<Metadata name="Document.ТабельУчетаРабочегоВремени.TabularSection.ДанныеОВремени.Attribute.ВидВремени27" id="feb42f18-340a-4175-a6fd-df1a7f94fded"/>
 			<Metadata name="Document.ТабельУчетаРабочегоВремени.Attribute.ПериодРегистрации" id="ff846698-fe20-4e69-a7d8-c639efbc463b"/>
 		</Metadata>
-		<Metadata name="Document.ТабельУчетаРабочегоВремени.Form.ФормаДокумента" id="7a76e1a0-ad5b-4ac3-97b9-487728e2776f" configVersion="56bfb2e3de6d2644a17dba7eb65563b200000000"/>
-		<Metadata name="Document.ТабельУчетаРабочегоВремени.Form.ФормаДокумента.Form" id="7a76e1a0-ad5b-4ac3-97b9-487728e2776f.0" configVersion="7eeaa23ce4178d4d8be666b242fc4ff200000000"/>
+		<Metadata name="Document.ТабельУчетаРабочегоВремени.Form.ФормаДокумента" id="7a76e1a0-ad5b-4ac3-97b9-487728e2776f" configVersion="541597e4d9c49f44b5f84facef402c0200000000"/>
+		<Metadata name="Document.ТабельУчетаРабочегоВремени.Form.ФормаДокумента.Form" id="7a76e1a0-ad5b-4ac3-97b9-487728e2776f.0" configVersion="1cdad981ce4dbe4f8dc49b65fa46242f00000000"/>
 		<Metadata name="Document.ТелефонныйЗвонок" id="457578ab-dfe2-4419-8d8a-64283b341f42" configVersion="40ae35bb5b3c094e9c69115d3b620d2b00000000">
 			<Metadata name="Document.ТелефонныйЗвонок.Attribute.Автор" id="0a76a84d-e883-477e-8b87-7bf984cdc1cf"/>
 			<Metadata name="Document.ТелефонныйЗвонок.TabularSection.ДополнительныеРеквизиты.Attribute.ТекстоваяСтрока" id="0bd74786-e018-4a66-b994-cdb439c57657"/>
