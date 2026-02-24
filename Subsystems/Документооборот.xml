@@ -27,6 +27,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОпекуныУкотовители</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ДоговорОтветственногоСодержания</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Собеседование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ГрафикАдминистративныхМероприятий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикАдминистративныхМероприятий</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

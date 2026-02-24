@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="c8ee2905-9744-4c78-bb39-f5039bb908c6">
+		<Name>ПередачаЖивотного</Name>
+		<Code>000000003</Code>
+		<Description>Передача животного</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="836fa8f8-4da8-4cb5-a9c8-3b0fb68c26b4">
+		<Name>ПриемЖивотного</Name>
+		<Code>000000001</Code>
+		<Description>Прием животного</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="31e7ef4d-1b6b-4265-8e80-1ccac225bfd0">
+		<Name>Собеседование</Name>
+		<Code>000000002</Code>
+		<Description>Собеседование</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

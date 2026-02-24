@@ -93,12 +93,14 @@
 					<DataPath>Объект.ДанныеОВремени.LineNumber</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<FixingInTable>Left</FixingInTable>
 					<ContextMenu name="ДанныеОВремениНомерСтрокиКонтекстноеМеню" id="126"/>
 					<ExtendedTooltip name="ДанныеОВремениНомерСтрокиРасширеннаяПодсказка" id="127"/>
 				</LabelField>
 				<InputField name="ДанныеОВремениСотрудник" id="122">
 					<DataPath>Объект.ДанныеОВремени.Сотрудник</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<FixingInTable>Left</FixingInTable>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ДанныеОВремениСотрудникКонтекстноеМеню" id="123"/>
 					<ExtendedTooltip name="ДанныеОВремениСотрудникРасширеннаяПодсказка" id="124"/>
@@ -106,6 +108,7 @@
 				<InputField name="ДанныеОВремениВремяИтог" id="128">
 					<DataPath>Объект.ДанныеОВремени.ВремяИтог</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<FixingInTable>Left</FixingInTable>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ДанныеОВремениВремяИтогКонтекстноеМеню" id="129"/>
 					<ExtendedTooltip name="ДанныеОВремениВремяИтогРасширеннаяПодсказка" id="130"/>
