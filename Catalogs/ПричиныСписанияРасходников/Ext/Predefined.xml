@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="230d55f1-bf7e-4c2b-a2a2-2ab6fe8b501c">
+		<Name>ИстекСрокГодности</Name>
+		<Code>000000001</Code>
+		<Description>Истек срок годности</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="84d96bc4-b908-4fc8-968b-c8229fdae9d7">
+		<Name>КормПоврежден</Name>
+		<Code>000000003</Code>
+		<Description>Корм поврежден</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="67f3c2d0-f54e-4b60-bb49-383e833e9ff3">
+		<Name>КормПохищен</Name>
+		<Code>000000002</Code>
+		<Description>Корм похищен</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="566bfda1-f88a-4f38-b76d-f41ecb8b9d1e">
+		<Name>НеправильноеХранение</Name>
+		<Code>000000004</Code>
+		<Description>Неправильное хранение</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6815bfd4-0993-4698-acf4-b59863916320">
+		<Name>ПотреблениеЖивотным</Name>
+		<Code>000000005</Code>
+		<Description>Потребление животным</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

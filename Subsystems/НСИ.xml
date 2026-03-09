@@ -23,6 +23,14 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЕдиницыИзмерения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АдминистративныеМероприятия</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПродолжительностьМероприятий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.НаименованиеОрганизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПолноеНаименованиеОрганизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИНН</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОГРН</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЮридическийАдрес</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.АдресЭлектроннойПочтыОрганизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ТелефонОрганизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.СведенияОбОрганизации</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

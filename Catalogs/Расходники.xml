@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>25</DescriptionLength>
+			<DescriptionLength>120</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -169,16 +169,16 @@
 			</Attribute>
 			<Attribute uuid="30e7693b-2b0e-44c7-94a7-cd313f116333">
 				<Properties>
-					<Name>Производитель</Name>
+					<Name>Бренд</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Производитель</v8:content>
+							<v8:content>Бренд</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+						<v8:Type>cfg:CatalogRef.БрендыРасходников</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

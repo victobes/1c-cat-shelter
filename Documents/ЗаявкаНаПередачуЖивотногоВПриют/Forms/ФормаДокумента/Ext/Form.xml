@@ -4,6 +4,9 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
@@ -23,6 +26,14 @@
 			<DataPath>Объект.Опекун</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ChoiceParameters>
+				<app:item name="Отбор.ОпекунУкотовитель">
+					<app:value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation/>
+						<Value xsi:type="xr:DesignTimeRef">Enum.ОпекунУкотовитель.EnumValue.Опекун</Value>
+					</app:value>
+				</app:item>
+			</ChoiceParameters>
 			<ContextMenu name="ОпекунКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ОпекунРасширеннаяПодсказка" id="9"/>
 		</InputField>

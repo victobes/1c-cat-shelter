@@ -29,6 +29,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Собеседование</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ГрафикАдминистративныхМероприятий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикАдминистративныхМероприятий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаявкаНаУчастиеВСобеседовании</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -24,8 +24,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоответствиеСтатусовНазначениюКомнат</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПричиныПеремещенияЖивотных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СтатусыМестаСодержанияЖивотных</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">5a54a73b-eb92-479e-95ba-8e3a4e1201e4</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РационКормления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ЗаполненностьКомнат</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

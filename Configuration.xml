@@ -1661,6 +1661,7 @@
 			<CommonModule>ЭлектроннаяПодписьСлужебныйРФ</CommonModule>
 			<CommonModule>ЯндексПереводчик</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыПриютДляКошек</CommonModule>
+			<CommonModule>РаботаСРасходникамиВызовСервера</CommonModule>
 			<CommonAttribute>КомментарийЯзык1</CommonAttribute>
 			<CommonAttribute>КомментарийЯзык2</CommonAttribute>
 			<CommonAttribute>НаименованиеЯзык1</CommonAttribute>
@@ -2257,6 +2258,13 @@
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
 			<Constant>УдалитьЛогинДоступаКСервисуMorpher</Constant>
 			<Constant>УдалитьНастройкиВходаПользователей</Constant>
+			<Constant>НаименованиеОрганизации</Constant>
+			<Constant>ПолноеНаименованиеОрганизации</Constant>
+			<Constant>ИНН</Constant>
+			<Constant>ОГРН</Constant>
+			<Constant>ЮридическийАдрес</Constant>
+			<Constant>АдресЭлектроннойПочтыОрганизации</Constant>
+			<Constant>ТелефонОрганизации</Constant>
 			<CommonForm>АвтономнаяРабота</CommonForm>
 			<CommonForm>АвтономнаяРаботаВМоделиСервиса</CommonForm>
 			<CommonForm>АдреснаяКнига</CommonForm>
@@ -2363,6 +2371,7 @@
 			<CommonForm>ФормаПоиска</CommonForm>
 			<CommonForm>ЭлектроннаяПодпись</CommonForm>
 			<CommonForm>ГрафикАдминистративныхМероприятий</CommonForm>
+			<CommonForm>СведенияОбОрганизации</CommonForm>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Породы</Catalog>
 			<Catalog>Окрасы</Catalog>
@@ -2456,6 +2465,7 @@
 			<Catalog>ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЯзыкиПечатныхФорм</Catalog>
 			<Catalog>АдминистративныеМероприятия</Catalog>
+			<Catalog>БрендыРасходников</Catalog>
 			<Document>ЗаявкаНаПередачуЖивотногоВПриют</Document>
 			<Document>ПеремещениеЖивотного</Document>
 			<Document>ДоговорОПередачеЖивотногоВПриют</Document>
@@ -2480,6 +2490,7 @@
 			<Document>ТелефонныйЗвонок</Document>
 			<Document>ЭлектронноеПисьмоВходящее</Document>
 			<Document>ЭлектронноеПисьмоИсходящее</Document>
+			<Document>ЗаявкаНаУчастиеВСобеседовании</Document>
 			<DocumentJournal>ЖурналВетеринарныхМероприятий</DocumentJournal>
 			<DocumentJournal>Взаимодействия</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>
@@ -2629,6 +2640,7 @@
 			<Report>УниверсальныйОтчет</Report>
 			<Report>УчастникиГруппДоступа</Report>
 			<Report>УчастникиГруппПользователей</Report>
+			<Report>ЗаполненностьКомнат</Report>
 			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
 			<DataProcessor>АктивныеПользователи</DataProcessor>
 			<DataProcessor>БлокировкаРаботыПользователей</DataProcessor>
@@ -2898,6 +2910,9 @@
 			<InformationRegister>УдалитьХранимыеФайлыВерсий</InformationRegister>
 			<InformationRegister>ПродолжительностьМероприятий</InformationRegister>
 			<InformationRegister>ГрафикАдминистративныхМероприятий</InformationRegister>
+			<InformationRegister>НомераМикрочипов</InformationRegister>
+			<InformationRegister>РезультатыВзвешиваний</InformationRegister>
+			<InformationRegister>ФотографииКошек</InformationRegister>
 			<AccumulationRegister>ЗаполненностьКомнат</AccumulationRegister>
 			<AccumulationRegister>ОстаткиРасходников</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ВопросыДляАнкетирования</ChartOfCharacteristicTypes>

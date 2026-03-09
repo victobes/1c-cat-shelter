@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="НаименованиеОрганизации" id="1">
+			<DataPath>НаборКонстант.НаименованиеОрганизации</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеОрганизацииКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НаименованиеОрганизацииРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="ПолноеНаименованиеОрганизации" id="4">
+			<DataPath>НаборКонстант.ПолноеНаименованиеОрганизации</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПолноеНаименованиеОрганизацииКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ПолноеНаименованиеОрганизацииРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ИНН" id="7">
+			<DataPath>НаборКонстант.ИНН</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИННКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ОГРН" id="10">
+			<DataPath>НаборКонстант.ОГРН</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОГРНКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ОГРНРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ЮридическийАдрес" id="13">
+			<DataPath>НаборКонстант.ЮридическийАдрес</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЮридическийАдресКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ЮридическийАдресРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="АдресЭлектроннойПочтыОрганизации" id="16">
+			<DataPath>НаборКонстант.АдресЭлектроннойПочтыОрганизации</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="АдресЭлектроннойПочтыОрганизацииКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="АдресЭлектроннойПочтыОрганизацииРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ТелефонОрганизации" id="19">
+			<DataPath>НаборКонстант.ТелефонОрганизации</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<Mask>+7(999)999-99-99</Mask>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТелефонОрганизацииКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ТелефонОрганизацииРасширеннаяПодсказка" id="21"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НаборКонстант" id="1">
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
