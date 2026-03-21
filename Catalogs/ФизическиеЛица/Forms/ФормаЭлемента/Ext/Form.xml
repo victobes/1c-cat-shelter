@@ -284,6 +284,13 @@
 							<ContextMenu name="АдресЭПКонтекстноеМеню" id="86"/>
 							<ExtendedTooltip name="АдресЭПРасширеннаяПодсказка" id="87"/>
 						</InputField>
+						<InputField name="МестоЖительства" id="96">
+							<DataPath>Объект.МестоЖительства</DataPath>
+							<MultiLine>true</MultiLine>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="МестоЖительстваКонтекстноеМеню" id="97"/>
+							<ExtendedTooltip name="МестоЖительстваРасширеннаяПодсказка" id="98"/>
+						</InputField>
 					</ChildItems>
 				</Page>
 			</ChildItems>

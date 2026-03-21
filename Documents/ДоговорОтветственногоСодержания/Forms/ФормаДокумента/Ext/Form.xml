@@ -4,6 +4,9 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
@@ -18,6 +21,13 @@
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Собеседование" id="16">
+			<DataPath>Объект.Собеседование</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СобеседованиеКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="СобеседованиеРасширеннаяПодсказка" id="18"/>
 		</InputField>
 		<InputField name="Кошка" id="7">
 			<DataPath>Объект.Кошка</DataPath>
@@ -41,19 +51,18 @@
 			<ContextMenu name="УкотовительКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="УкотовительРасширеннаяПодсказка" id="12"/>
 		</InputField>
+		<InputField name="АдресСодержания" id="19">
+			<DataPath>1/0:e0cb541c-e221-4aa0-ad8f-aea37d6938f9</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="АдресСодержанияКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="АдресСодержанияРасширеннаяПодсказка" id="21"/>
+		</InputField>
 		<InputField name="Ответственный" id="13">
 			<DataPath>Объект.Ответственный</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="15"/>
-		</InputField>
-		<InputField name="Собеседование" id="16">
-			<DataPath>Объект.Собеседование</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="СобеседованиеКонтекстноеМеню" id="17"/>
-			<ExtendedTooltip name="СобеседованиеРасширеннаяПодсказка" id="18"/>
 		</InputField>
 	</ChildItems>
 	<Attributes>
