@@ -76,6 +76,17 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="РасходникиРасходникКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="РасходникиРасходникРасширеннаяПодсказка" id="31"/>
+					<Events>
+						<Event name="OnChange">РасходникиРасходникПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="РасходникиЕдиницаИзмерения" id="38">
+					<DataPath>Объект.Расходники.ЕдиницаИзмерения</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="РасходникиЕдиницаИзмеренияКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="РасходникиЕдиницаИзмеренияРасширеннаяПодсказка" id="40"/>
 				</InputField>
 				<InputField name="РасходникиКоличество" id="32">
 					<DataPath>Объект.Расходники.Количество</DataPath>

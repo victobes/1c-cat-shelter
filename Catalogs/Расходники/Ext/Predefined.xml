@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="892cdc61-2d74-49ec-841a-0d19df04f400">
+		<Name>Корма</Name>
+		<Code>000000003</Code>
+		<Description>Корма</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="7280e53f-06d6-483b-9855-b974e4e2178e">
+		<Name>Медпрепараты</Name>
+		<Code>000000001</Code>
+		<Description>Мед. препараты</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="08ac4745-9bd1-402a-8121-21d1cf50eb10">
+				<Name>Вакцины</Name>
+				<Code>000000002</Code>
+				<Description>Вакцины</Description>
+				<IsFolder>true</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

@@ -2372,33 +2372,19 @@
 			<CommonForm>ЭлектроннаяПодпись</CommonForm>
 			<CommonForm>ГрафикАдминистративныхМероприятий</CommonForm>
 			<CommonForm>СведенияОбОрганизации</CommonForm>
+			<Catalog>АдминистративныеМероприятия</Catalog>
+			<Catalog>БрендыРасходников</Catalog>
 			<Catalog>Валюты</Catalog>
-			<Catalog>Породы</Catalog>
-			<Catalog>Окрасы</Catalog>
-			<Catalog>Комнаты</Catalog>
-			<Catalog>НазначенияКомнат</Catalog>
-			<Catalog>Расходники</Catalog>
-			<Catalog>ВидыРасходников</Catalog>
-			<Catalog>Должности</Catalog>
-			<Catalog>ФизическиеЛица</Catalog>
-			<Catalog>ПричиныПередачиВПриют</Catalog>
-			<Catalog>ВидыДокументовФизическихЛиц</Catalog>
-			<Catalog>Контрагенты</Catalog>
-			<Catalog>ОпекуныУкотовители</Catalog>
-			<Catalog>Кошки</Catalog>
-			<Catalog>ПричиныПеремещенияЖивотных</Catalog>
-			<Catalog>ЕдиницыИзмерения</Catalog>
-			<Catalog>ПричиныСписанияРасходников</Catalog>
-			<Catalog>РационКормления</Catalog>
 			<Catalog>ВариантыОтветовАнкет</Catalog>
-			<Catalog>ВетеринарныеМероприятия</Catalog>
-			<Catalog>КлассификаторБолезней</Catalog>
-			<Catalog>ВидыИспользованияРабочегоВремени</Catalog>
 			<Catalog>ВариантыОтчетов</Catalog>
 			<Catalog>ВерсииРасширений</Catalog>
 			<Catalog>ВерсииФайлов</Catalog>
+			<Catalog>ВетеринарныеМероприятия</Catalog>
+			<Catalog>ВидыДокументовФизическихЛиц</Catalog>
+			<Catalog>ВидыИспользованияРабочегоВремени</Catalog>
 			<Catalog>ВидыКонтактнойИнформации</Catalog>
 			<Catalog>ВидыПроверок</Catalog>
+			<Catalog>ВидыРасходников</Catalog>
 			<Catalog>ВнешниеКомпоненты</Catalog>
 			<Catalog>ВнешниеПользователи</Catalog>
 			<Catalog>ВопросыШаблонаАнкеты</Catalog>
@@ -2407,7 +2393,9 @@
 			<Catalog>ГруппыДоступа</Catalog>
 			<Catalog>ГруппыИсполнителейЗадач</Catalog>
 			<Catalog>ГруппыПользователей</Catalog>
+			<Catalog>Должности</Catalog>
 			<Catalog>ДополнительныеОтчетыИОбработки</Catalog>
+			<Catalog>ЕдиницыИзмерения</Catalog>
 			<Catalog>ЗакладкиВзаимодействий</Catalog>
 			<Catalog>Заметки</Catalog>
 			<Catalog>ЗапланированноеВзаимодействиеПрисоединенныеФайлы</Catalog>
@@ -2417,31 +2405,44 @@
 			<Catalog>ИдентификаторыОбъектовРасширений</Catalog>
 			<Catalog>Календари</Catalog>
 			<Catalog>КлассификаторБанков</Catalog>
+			<Catalog>КлассификаторБолезней</Catalog>
 			<Catalog>КлючевыеОперации</Catalog>
 			<Catalog>КлючиДоступа</Catalog>
+			<Catalog>Комнаты</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>Кошки</Catalog>
 			<Catalog>МакетыПечатныхФорм</Catalog>
 			<Catalog>МашиночитаемыеДоверенности</Catalog>
 			<Catalog>МашиночитаемыеДоверенностиПрисоединенныеФайлы</Catalog>
 			<Catalog>НаборыГруппДоступа</Catalog>
 			<Catalog>НаборыДополнительныхРеквизитовИСведений</Catalog>
+			<Catalog>НазначенияКомнат</Catalog>
 			<Catalog>НастройкиАвторизацииИнтернетСервисов</Catalog>
 			<Catalog>НастройкиТранспортаСообщенийОбмена</Catalog>
 			<Catalog>ОбщиеВнешниеКомпоненты</Catalog>
+			<Catalog>Окрасы</Catalog>
+			<Catalog>ОпекуныУкотовители</Catalog>
 			<Catalog>ПапкиФайлов</Catalog>
 			<Catalog>ПапкиЭлектронныхПисем</Catalog>
 			<Catalog>ПодписантыСервисаМобильнойПодписи</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>ПользовательскиеНастройкиОтчетов</Catalog>
+			<Catalog>Породы</Catalog>
 			<Catalog>ПоставляемыеДополнительныеОтчетыИОбработки</Catalog>
 			<Catalog>ПравилаОбработкиЭлектроннойПочты</Catalog>
 			<Catalog>ПравилаПроверкиУчета</Catalog>
 			<Catalog>ПредопределенныеВариантыОтчетов</Catalog>
 			<Catalog>ПредопределенныеВариантыОтчетовРасширений</Catalog>
+			<Catalog>ПричиныПередачиВПриют</Catalog>
+			<Catalog>ПричиныПеремещенияЖивотных</Catalog>
+			<Catalog>ПричиныСписанияРасходников</Catalog>
 			<Catalog>ПрограммыЭлектроннойПодписиИШифрования</Catalog>
 			<Catalog>ПроизводственныеКалендари</Catalog>
 			<Catalog>ПрофилиГруппДоступа</Catalog>
 			<Catalog>ПрофилиКлючевыхОпераций</Catalog>
 			<Catalog>РассылкиОтчетов</Catalog>
+			<Catalog>Расходники</Catalog>
+			<Catalog>РационКормления</Catalog>
 			<Catalog>РолиИсполнителей</Catalog>
 			<Catalog>СеансыОбменовДанными</Catalog>
 			<Catalog>СертификатыКлючейЭлектроннойПодписиИШифрования</Catalog>
@@ -2456,6 +2457,7 @@
 			<Catalog>УчетныеЗаписиСинхронизацииФайлов</Catalog>
 			<Catalog>УчетныеЗаписиЭлектроннойПочты</Catalog>
 			<Catalog>Файлы</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>ХранилищеДвоичныхДанных</Catalog>
 			<Catalog>ШаблоныАнкет</Catalog>
 			<Catalog>ШаблоныСообщений</Catalog>
@@ -2464,8 +2466,7 @@
 			<Catalog>ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЯзыкиПечатныхФорм</Catalog>
-			<Catalog>АдминистративныеМероприятия</Catalog>
-			<Catalog>БрендыРасходников</Catalog>
+			<Catalog>ШаблоныПротоколовОсмотра</Catalog>
 			<Document>ЗаявкаНаПередачуЖивотногоВПриют</Document>
 			<Document>ПеремещениеЖивотного</Document>
 			<Document>ДоговорОПередачеЖивотногоВПриют</Document>
@@ -2718,9 +2719,6 @@
 			<DataProcessor>УправлениеИтогамиИАгрегатами</DataProcessor>
 			<DataProcessor>УправлениеПодключениемDSS</DataProcessor>
 			<DataProcessor>УстановкаОбновлений</DataProcessor>
-			<InformationRegister>СтатусыМестаСодержанияЖивотных</InformationRegister>
-			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
-			<InformationRegister>СоответствиеСтатусовНазначениюКомнат</InformationRegister>
 			<InformationRegister>АдминистративнаяИерархия</InformationRegister>
 			<InformationRegister>АдресныеОбъекты</InformationRegister>
 			<InformationRegister>АрхивСообщенийОбменов</InformationRegister>
@@ -2731,6 +2729,7 @@
 			<InformationRegister>ВерсииОбъектов</InformationRegister>
 			<InformationRegister>ВерсииПодсистем</InformationRegister>
 			<InformationRegister>ВерсииПодсистемОбластейДанных</InformationRegister>
+			<InformationRegister>ГрафикАдминистративныхМероприятий</InformationRegister>
 			<InformationRegister>ГруппыЗначенийДоступа</InformationRegister>
 			<InformationRegister>ДампыПлатформы</InformationRegister>
 			<InformationRegister>ДанныеБизнесПроцессов</InformationRegister>
@@ -2740,6 +2739,7 @@
 			<InformationRegister>ДатыЗапретаИзменения</InformationRegister>
 			<InformationRegister>ДатыПоследнейЗагрузкиПочтовыхСообщений</InformationRegister>
 			<InformationRegister>ДлительныеОперации</InformationRegister>
+			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
 			<InformationRegister>ДомаЗданияСтроения</InformationRegister>
 			<InformationRegister>ДополнительныеАдресныеСведения</InformationRegister>
 			<InformationRegister>ДополнительныеСведения</InformationRegister>
@@ -2811,6 +2811,7 @@
 			<InformationRegister>НепринятыеКОбработкеПочтовымСерверомИсходящиеПисьма</InformationRegister>
 			<InformationRegister>НеразделенныеПользователи</InformationRegister>
 			<InformationRegister>НеудаленныеОбъекты</InformationRegister>
+			<InformationRegister>НомераМикрочипов</InformationRegister>
 			<InformationRegister>НомераОтсканированныхФайлов</InformationRegister>
 			<InformationRegister>ОбластиПерсональныхДанных</InformationRegister>
 			<InformationRegister>ОбластиСтатистики</InformationRegister>
@@ -2848,6 +2849,7 @@
 			<InformationRegister>ПредопределенныеВариантыОтчетовВерсийРасширений</InformationRegister>
 			<InformationRegister>ПричиныИзмененияАдресныхСведений</InformationRegister>
 			<InformationRegister>ПрогрессОбновления</InformationRegister>
+			<InformationRegister>ПродолжительностьМероприятий</InformationRegister>
 			<InformationRegister>ПроцессыДляЗапуска</InformationRegister>
 			<InformationRegister>ПсевдонимыПредопределенныхУзлов</InformationRegister>
 			<InformationRegister>ПубличныеИдентификаторыСинхронизируемыхОбъектов</InformationRegister>
@@ -2855,6 +2857,7 @@
 			<InformationRegister>РабочиеКаталогиФайлов</InformationRegister>
 			<InformationRegister>РазрешенияНаИспользованиеВнешнихРесурсов</InformationRegister>
 			<InformationRegister>РежимыПодключенияВнешнихМодулей</InformationRegister>
+			<InformationRegister>РезультатыВзвешиваний</InformationRegister>
 			<InformationRegister>РезультатыОбменаДанными</InformationRegister>
 			<InformationRegister>РезультатыПроверкиУчета</InformationRegister>
 			<InformationRegister>РучныеИзмененияГрафиковРаботы</InformationRegister>
@@ -2872,6 +2875,7 @@
 			<InformationRegister>СогласияНаОбработкуПерсональныхДанных</InformationRegister>
 			<InformationRegister>СообщенияОбменаДанными</InformationRegister>
 			<InformationRegister>СообщенияОбменаДаннымиОбластейДанных</InformationRegister>
+			<InformationRegister>СоответствиеСтатусовНазначениюКомнат</InformationRegister>
 			<InformationRegister>СоответствияОбъектовИнформационныхБаз</InformationRegister>
 			<InformationRegister>СоставыГруппПользователей</InformationRegister>
 			<InformationRegister>СостоянияКонтактовВзаимодействий</InformationRegister>
@@ -2887,19 +2891,12 @@
 			<InformationRegister>СпискиОтзываСертификатов</InformationRegister>
 			<InformationRegister>СрокиХраненияПерсональныхДанных</InformationRegister>
 			<InformationRegister>СтатистикаКонфигурации</InformationRegister>
+			<InformationRegister>СтатусыМестаСодержанияЖивотных</InformationRegister>
 			<InformationRegister>СтатусыСинхронизацииФайловСОблачнымСервисом</InformationRegister>
 			<InformationRegister>СубъектыДляРасчетаСроковХранения</InformationRegister>
 			<InformationRegister>СубъектыДляСкрытияПерсональныхДанных</InformationRegister>
 			<InformationRegister>ТаблицыГруппДоступа</InformationRegister>
 			<InformationRegister>УведомленияОПрочтении</InformationRegister>
-			<InformationRegister>УдаляемыеОбъекты</InformationRegister>
-			<InformationRegister>УничтоженныеПерсональныеДанные</InformationRegister>
-			<InformationRegister>УровниСокращенийАдресныхСведений</InformationRegister>
-			<InformationRegister>ФайлыВРабочемКаталоге</InformationRegister>
-			<InformationRegister>ФиксацияОбработкиДанныхОбработчиками</InformationRegister>
-			<InformationRegister>ХранилищеФайлов</InformationRegister>
-			<InformationRegister>ЭлектронныеПодписи</InformationRegister>
-			<InformationRegister>ЭлектронныеПодписиМЧД</InformationRegister>
 			<InformationRegister>УдалитьБезопасноеХранилищеДанныхОбластейДанных</InformationRegister>
 			<InformationRegister>УдалитьДвоичныеДанныеФайлов</InformationRegister>
 			<InformationRegister>УдалитьЗамерыВремени3</InformationRegister>
@@ -2908,11 +2905,16 @@
 			<InformationRegister>УдалитьОбластиПерсональныхДанных</InformationRegister>
 			<InformationRegister>УдалитьРезультатыОбменаДанными</InformationRegister>
 			<InformationRegister>УдалитьХранимыеФайлыВерсий</InformationRegister>
-			<InformationRegister>ПродолжительностьМероприятий</InformationRegister>
-			<InformationRegister>ГрафикАдминистративныхМероприятий</InformationRegister>
-			<InformationRegister>НомераМикрочипов</InformationRegister>
-			<InformationRegister>РезультатыВзвешиваний</InformationRegister>
+			<InformationRegister>УдаляемыеОбъекты</InformationRegister>
+			<InformationRegister>УничтоженныеПерсональныеДанные</InformationRegister>
+			<InformationRegister>УровниСокращенийАдресныхСведений</InformationRegister>
+			<InformationRegister>ФайлыВРабочемКаталоге</InformationRegister>
+			<InformationRegister>ФиксацияОбработкиДанныхОбработчиками</InformationRegister>
 			<InformationRegister>ФотографииКошек</InformationRegister>
+			<InformationRegister>ХранилищеФайлов</InformationRegister>
+			<InformationRegister>ЭлектронныеПодписи</InformationRegister>
+			<InformationRegister>ЭлектронныеПодписиМЧД</InformationRegister>
+			<InformationRegister>РационыКормленияПодопечных</InformationRegister>
 			<AccumulationRegister>ЗаполненностьКомнат</AccumulationRegister>
 			<AccumulationRegister>ОстаткиРасходников</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ВопросыДляАнкетирования</ChartOfCharacteristicTypes>

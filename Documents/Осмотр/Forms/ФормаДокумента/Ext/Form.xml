@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ВетеринарноеМероприятие" id="10">
+			<DataPath>Объект.ВетеринарноеМероприятие</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВетеринарноеМероприятиеКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ВетеринарноеМероприятиеРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Кошка" id="7">
+			<DataPath>Объект.Кошка</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КошкаКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="КошкаРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<UsualGroup name="ГруппаВес" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа вес</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа вес</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаВесРасширеннаяПодсказка" id="20"/>
+			<ChildItems>
+				<InputField name="Вес" id="21">
+					<DataPath>Объект.Вес</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ВесКонтекстноеМеню" id="22"/>
+					<ExtendedTooltip name="ВесРасширеннаяПодсказка" id="23"/>
+				</InputField>
+				<InputField name="ИндексКондицииТела" id="24">
+					<DataPath>Объект.ИндексКондицииТела</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ИндексКондицииТелаКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="ИндексКондицииТелаРасширеннаяПодсказка" id="26"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаЧССЧДД" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа ЧССЧДД</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа ЧССЧДД</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаЧССЧДДРасширеннаяПодсказка" id="28"/>
+			<ChildItems>
+				<InputField name="ЧСС" id="29">
+					<DataPath>Объект.ЧСС</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ЧССКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ЧССРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ЧДД" id="32">
+					<DataPath>Объект.ЧДД</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ЧДДКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ЧДДРасширеннаяПодсказка" id="34"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Температура" id="35">
+			<DataPath>Объект.Температура</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТемператураКонтекстноеМеню" id="36"/>
+			<ExtendedTooltip name="ТемператураРасширеннаяПодсказка" id="37"/>
+		</InputField>
+		<InputField name="РационКормления" id="48">
+			<DataPath>Объект.РационКормления</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РационКормленияКонтекстноеМеню" id="49"/>
+			<ExtendedTooltip name="РационКормленияРасширеннаяПодсказка" id="50"/>
+		</InputField>
+		<InputField name="Шаблон" id="45">
+			<DataPath>Шаблон</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ШаблонКонтекстноеМеню" id="46"/>
+			<ExtendedTooltip name="ШаблонРасширеннаяПодсказка" id="47"/>
+			<Events>
+				<Event name="OnChange">ШаблонПриИзменении</Event>
+			</Events>
+		</InputField>
+		<UsualGroup name="ГруппаПротоколОсмотра" id="43">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Протокол осмотра</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа протокол осмотра</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаПротоколОсмотраРасширеннаяПодсказка" id="44"/>
+			<ChildItems>
+				<CommandBar name="ПротоколОсмотраДействия" id="41">
+					<CommandSource>Item.ПротоколОсмотра</CommandSource>
+					<ExtendedTooltip name="ПротоколОсмотраДействияРасширеннаяПодсказка" id="42"/>
+				</CommandBar>
+				<FormattedDocumentField name="ПротоколОсмотра" id="38">
+					<DataPath>ПротоколОсмотра</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ContextMenu name="ПротоколОсмотраКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ПротоколОсмотраРасширеннаяПодсказка" id="40"/>
+				</FormattedDocumentField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Комментарий" id="16">
+			<DataPath>Объект.Комментарий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="Ответственный" id="13">
+			<DataPath>Объект.Ответственный</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="15"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Осмотр</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="ПротоколОсмотра" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Протокол осмотра</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Шаблон" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шаблон</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ШаблоныПротоколовОсмотра</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>
