@@ -42,8 +42,8 @@
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
-			<DefaultRecordForm/>
-			<DefaultListForm/>
+			<DefaultRecordForm>InformationRegister.ФотографииКошек.Form.ФормаЗаписи</DefaultRecordForm>
+			<DefaultListForm>InformationRegister.ФотографииКошек.Form.ФормаСписка</DefaultListForm>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
@@ -128,7 +128,7 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
+					<FillChecking>ShowError</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
@@ -175,7 +175,7 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
+					<FillChecking>ShowError</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
@@ -193,6 +193,8 @@
 					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
 			</Dimension>
+			<Form>ФормаЗаписи</Form>
+			<Form>ФормаСписка</Form>
 			<Command uuid="03b8a1aa-43cb-476c-9eb8-aa088307126c">
 				<Properties>
 					<Name>ЗагрузитьФотографию</Name>
@@ -203,7 +205,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Group>FormNavigationPanelImportant</Group>
+					<Group>FormCommandBarImportant</Group>
 					<CommandParameterType>
 						<v8:Type>cfg:CatalogRef.Кошки</v8:Type>
 					</CommandParameterType>

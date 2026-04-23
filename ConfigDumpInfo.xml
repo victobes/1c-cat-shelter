@@ -834,8 +834,8 @@
 			<Metadata name="Catalog.Кошки.Attribute.ДатаРождения" id="d094e83a-8dc4-4e40-a7ce-17fc1a2aeff9"/>
 			<Metadata name="Catalog.Кошки.Attribute.Инвалидность" id="ff4fd969-3b71-4e77-a6ec-4e8f82b58718"/>
 		</Metadata>
-		<Metadata name="Catalog.Кошки.Form.ФормаЭлемента" id="3f918fea-4571-4395-a0b9-8e181fab302f" configVersion="89402e1cfc6a6d44bf7afb1eb72bc59200000000"/>
-		<Metadata name="Catalog.Кошки.Form.ФормаЭлемента.Form" id="3f918fea-4571-4395-a0b9-8e181fab302f.0" configVersion="46adcec3f352e643b39cbc0ee936181a00000000"/>
+		<Metadata name="Catalog.Кошки.Form.ФормаЭлемента" id="3f918fea-4571-4395-a0b9-8e181fab302f" configVersion="5b16e468f751a64cbd6718bb0d0ae92f00000000"/>
+		<Metadata name="Catalog.Кошки.Form.ФормаЭлемента.Form" id="3f918fea-4571-4395-a0b9-8e181fab302f.0" configVersion="5bced51c101763468e79eb7aec46fb3300000000"/>
 		<Metadata name="Catalog.МакетыПечатныхФорм" id="de258ab8-2d16-4c69-9490-5819b7ae3d08" configVersion="a6f1acaa146f764db7a5cde5a2060def00000000">
 			<Metadata name="Catalog.МакетыПечатныхФорм.TabularSection.Представления.Attribute.КодЯзыка" id="157f3df0-97b7-461b-bd3e-1f2e12658adf"/>
 			<Metadata name="Catalog.МакетыПечатныхФорм.Attribute.ТипМакета" id="1b8212d7-b834-460c-9a2b-68a5de889e5b"/>
@@ -10861,13 +10861,17 @@
 		</Metadata>
 		<Metadata name="InformationRegister.ФиксацияОбработкиДанныхОбработчиками.ManagerModule" id="dea1f169-5426-4623-9e5e-3c8c2360858f.2" configVersion="0edea12557b5f2459c9577bdc0c0ea7e00000000"/>
 		<Metadata name="InformationRegister.ФиксацияОбработкиДанныхОбработчиками.RecordSetModule" id="dea1f169-5426-4623-9e5e-3c8c2360858f.1" configVersion="62e1a44097d97944b521cee6a328d55400000000"/>
-		<Metadata name="InformationRegister.ФотографииКошек" id="c859bc08-0d89-4bf9-ac70-5b80b5974736" configVersion="ee039a5c3940ba4caa80faa2d3c5b43d00000000">
+		<Metadata name="InformationRegister.ФотографииКошек" id="c859bc08-0d89-4bf9-ac70-5b80b5974736" configVersion="0c528b4d539fbe4e806daa9f048702e300000000">
 			<Metadata name="InformationRegister.ФотографииКошек.Command.ЗагрузитьФотографию" id="03b8a1aa-43cb-476c-9eb8-aa088307126c"/>
 			<Metadata name="InformationRegister.ФотографииКошек.Dimension.Кошка" id="89a7e427-7ae8-4e3e-880a-126a5794fafb"/>
 			<Metadata name="InformationRegister.ФотографииКошек.Resource.ФотографияКошки" id="cbacb3f9-97fa-43d9-89b8-0f5c538b494e"/>
 			<Metadata name="InformationRegister.ФотографииКошек.Dimension.ИмяФайла" id="fbf8be05-707c-4076-a657-aac17edfcce0"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ФотографииКошек.Command.ЗагрузитьФотографию.CommandModule" id="03b8a1aa-43cb-476c-9eb8-aa088307126c.2" configVersion="ab56f2c2e5f4ce4e8fa27b0d4295604500000000"/>
+		<Metadata name="InformationRegister.ФотографииКошек.Command.ЗагрузитьФотографию.CommandModule" id="03b8a1aa-43cb-476c-9eb8-aa088307126c.2" configVersion="0bc6ecbabcd23a4c9ba8d6c04284a6a800000000"/>
+		<Metadata name="InformationRegister.ФотографииКошек.Form.ФормаЗаписи" id="a237832d-d93a-4a20-88ea-0b6a4eb9ac64" configVersion="d89d96b2910771448eaf1832432e4f0600000000"/>
+		<Metadata name="InformationRegister.ФотографииКошек.Form.ФормаЗаписи.Form" id="a237832d-d93a-4a20-88ea-0b6a4eb9ac64.0" configVersion="10b4f0788b93574b87ea1738beb6f54a00000000"/>
+		<Metadata name="InformationRegister.ФотографииКошек.Form.ФормаСписка" id="8c2f8d94-f165-47de-bc15-045dba28fbab" configVersion="5620f79cc41f254fb902e3d3eb0eb98a00000000"/>
+		<Metadata name="InformationRegister.ФотографииКошек.Form.ФормаСписка.Form" id="8c2f8d94-f165-47de-bc15-045dba28fbab.0" configVersion="8b9460eb7d74994abecee157dfe8aa0f00000000"/>
 		<Metadata name="InformationRegister.ХранилищеФайлов" id="4dea2614-6251-45c3-9abe-34b7595c71a2" configVersion="9a37d34ae34b814e84ee3831591754b600000000">
 			<Metadata name="InformationRegister.ХранилищеФайлов.Dimension.Файл" id="de183413-490a-4266-95fa-ea0057adeee3"/>
 			<Metadata name="InformationRegister.ХранилищеФайлов.Resource.ХранилищеДвоичныхДанных" id="e31cfba9-0f49-485f-8d6f-797b32667642"/>
