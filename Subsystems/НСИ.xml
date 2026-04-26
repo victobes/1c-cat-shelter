@@ -31,8 +31,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.АдресЭлектроннойПочтыОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ТелефонОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.СведенияОбОрганизации</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">f5b6d7c5-08d2-48d9-bf69-4582b35d5489</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ШаблоныПротоколовОсмотра</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.GigaChat_ТокеныАвторизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.GigaChat_Диалоги</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.GigaChat_Сообщения</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

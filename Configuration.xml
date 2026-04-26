@@ -1662,6 +1662,7 @@
 			<CommonModule>ЯндексПереводчик</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыПриютДляКошек</CommonModule>
 			<CommonModule>РаботаСРасходникамиВызовСервера</CommonModule>
+			<CommonModule>GigaChat_Сервер</CommonModule>
 			<CommonAttribute>КомментарийЯзык1</CommonAttribute>
 			<CommonAttribute>КомментарийЯзык2</CommonAttribute>
 			<CommonAttribute>НаименованиеЯзык1</CommonAttribute>
@@ -2372,6 +2373,9 @@
 			<CommonForm>ЭлектроннаяПодпись</CommonForm>
 			<CommonForm>ГрафикАдминистративныхМероприятий</CommonForm>
 			<CommonForm>СведенияОбОрганизации</CommonForm>
+			<CommonForm>ФормаДиалоги</CommonForm>
+			<CommonForm>ФормаСообщения</CommonForm>
+			<CommonForm>ФормаВыбораФотографии</CommonForm>
 			<Catalog>АдминистративныеМероприятия</Catalog>
 			<Catalog>БрендыРасходников</Catalog>
 			<Catalog>Валюты</Catalog>
@@ -2916,6 +2920,9 @@
 			<InformationRegister>ЭлектронныеПодписиМЧД</InformationRegister>
 			<InformationRegister>РационыКормленияПодопечных</InformationRegister>
 			<InformationRegister>ОпекуныУкотовителиПодопечных</InformationRegister>
+			<InformationRegister>GigaChat_ТокеныАвторизации</InformationRegister>
+			<InformationRegister>GigaChat_Диалоги</InformationRegister>
+			<InformationRegister>GigaChat_Сообщения</InformationRegister>
 			<AccumulationRegister>ЗаполненностьКомнат</AccumulationRegister>
 			<AccumulationRegister>ОстаткиРасходников</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ВопросыДляАнкетирования</ChartOfCharacteristicTypes>

@@ -44,6 +44,9 @@
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="АдресЭлектроннойПочтыОрганизацииКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="АдресЭлектроннойПочтыОрганизацииРасширеннаяПодсказка" id="18"/>
+			<Events>
+				<Event name="OnChange">АдресЭлектроннойПочтыОрганизацииПриИзменении</Event>
+			</Events>
 		</InputField>
 		<InputField name="ТелефонОрганизации" id="19">
 			<DataPath>НаборКонстант.ТелефонОрганизации</DataPath>
