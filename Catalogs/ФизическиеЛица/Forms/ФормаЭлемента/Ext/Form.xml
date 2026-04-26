@@ -5,6 +5,7 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаФИОКод" id="53">
@@ -283,6 +284,9 @@
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="АдресЭПКонтекстноеМеню" id="86"/>
 							<ExtendedTooltip name="АдресЭПРасширеннаяПодсказка" id="87"/>
+							<Events>
+								<Event name="OnChange">АдресЭППриИзменении</Event>
+							</Events>
 						</InputField>
 						<InputField name="МестоЖительства" id="96">
 							<DataPath>Объект.МестоЖительства</DataPath>

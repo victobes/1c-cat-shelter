@@ -1084,12 +1084,13 @@
 		</Metadata>
 		<Metadata name="Catalog.ОбщиеВнешниеКомпоненты.ManagerModule" id="46417026-c44a-4a06-af41-9cf6495a33b4.3" configVersion="7b9a5f64aff04d45bb3d821d42a1b51b00000000"/>
 		<Metadata name="Catalog.Окрасы" id="66c29372-aa05-4bff-8431-4dccc08e3a7e" configVersion="74e048efd731314d991a2d74ea2b41e200000000"/>
-		<Metadata name="Catalog.ОпекуныУкотовители" id="8a1d1a01-f75d-41ad-8dc1-fb9845905505" configVersion="38dcf643757a484cb922231f39e9d0cc00000000">
+		<Metadata name="Catalog.ОпекуныУкотовители" id="8a1d1a01-f75d-41ad-8dc1-fb9845905505" configVersion="3713910b03135c45b0655bd4d42c4fe800000000">
 			<Metadata name="Catalog.ОпекуныУкотовители.Attribute.ФизическоеЛицо" id="606ada42-3365-45c6-b84a-b1d3dde884ff"/>
 			<Metadata name="Catalog.ОпекуныУкотовители.Attribute.ОпекунУкотовитель" id="fd3823b4-8c02-4855-aab1-8f2fed3bdb37"/>
 		</Metadata>
-		<Metadata name="Catalog.ОпекуныУкотовители.Form.ФормаЭлемента" id="09402d38-a6fe-4ec6-82c2-6a3f38f1da00" configVersion="e585cdab7d5d3d43823082803cee1cf500000000"/>
-		<Metadata name="Catalog.ОпекуныУкотовители.Form.ФормаЭлемента.Form" id="09402d38-a6fe-4ec6-82c2-6a3f38f1da00.0" configVersion="97afb2dacea3484aa26851e6e746b63100000000"/>
+		<Metadata name="Catalog.ОпекуныУкотовители.Form.ФормаЭлемента" id="09402d38-a6fe-4ec6-82c2-6a3f38f1da00" configVersion="1e17b467e91db8459243da90ffb4ca1a00000000"/>
+		<Metadata name="Catalog.ОпекуныУкотовители.Form.ФормаЭлемента.Form" id="09402d38-a6fe-4ec6-82c2-6a3f38f1da00.0" configVersion="88889b25b734fa4a8c92ab044cbe6ea600000000"/>
+		<Metadata name="Catalog.ОпекуныУкотовители.Predefined" id="8a1d1a01-f75d-41ad-8dc1-fb9845905505.1c" configVersion="0ca457743d9cbf45b86efa6371e5338700000000"/>
 		<Metadata name="Catalog.ПапкиФайлов" id="93701593-5ac8-4266-b471-7e9ed35a9c3e" configVersion="c5ab92c0eb492f4a9e0c901704e7ec3900000000">
 			<Metadata name="Catalog.ПапкиФайлов.Attribute.Ответственный" id="04c45a51-4a8e-48fa-a39c-f67ce2079fc4"/>
 			<Metadata name="Catalog.ПапкиФайлов.Attribute.Описание" id="0fdb864e-ede9-4777-835c-0804968ee544"/>
@@ -1975,7 +1976,7 @@
 		<Metadata name="Catalog.Файлы.ObjectModule" id="e7b0ae70-0192-456c-9dc5-e66049fa9df2.0" configVersion="a55105b80ebe7f4c9ffecd54b3b872ec00000000"/>
 		<Metadata name="Catalog.Файлы.Template.МакетОтчета" id="67efa786-312f-4c9c-b970-0320e92069af" configVersion="abbe54565b38c145884d6249e33dd8ef00000000"/>
 		<Metadata name="Catalog.Файлы.Template.МакетОтчета.Template" id="67efa786-312f-4c9c-b970-0320e92069af.0" configVersion="743b822a8907c441933cd8f04669164e00000000"/>
-		<Metadata name="Catalog.ФизическиеЛица" id="81b2771c-105b-4c87-b283-9670d6ac3a0e" configVersion="41cf16ff19a2184a9dc1a3f0dde47c7e00000000">
+		<Metadata name="Catalog.ФизическиеЛица" id="81b2771c-105b-4c87-b283-9670d6ac3a0e" configVersion="1da22610a11e0e4abe65e808d896eeba00000000">
 			<Metadata name="Catalog.ФизическиеЛица.Attribute.Фамилия" id="091456b8-64e7-4ed0-8b3d-ee73f5eccb31"/>
 			<Metadata name="Catalog.ФизическиеЛица.Attribute.Имя" id="210fc875-c631-486c-b144-67019ff5d568"/>
 			<Metadata name="Catalog.ФизическиеЛица.Attribute.ИНН" id="374f6810-a0be-4dce-b31e-06b77b1ac82a"/>
@@ -1987,8 +1988,10 @@
 			<Metadata name="Catalog.ФизическиеЛица.Attribute.Пол" id="c1cce178-ef3f-489f-b69b-0cb1c7f12651"/>
 			<Metadata name="Catalog.ФизическиеЛица.Attribute.Отчество" id="f21f1ad8-9402-4d30-aaad-3ee94268e110"/>
 		</Metadata>
-		<Metadata name="Catalog.ФизическиеЛица.Form.ФормаЭлемента" id="ee64fbbf-6fac-45ac-b983-03e65ad4a264" configVersion="2d7e5df3d6aa8b499f22605a134c7cf800000000"/>
-		<Metadata name="Catalog.ФизическиеЛица.Form.ФормаЭлемента.Form" id="ee64fbbf-6fac-45ac-b983-03e65ad4a264.0" configVersion="6f55d293a7e4cc4b972fba3e74995ac900000000"/>
+		<Metadata name="Catalog.ФизическиеЛица.Form.ФормаСписка" id="4616e4ce-81b6-4f46-93a3-6ccf0e1c3397" configVersion="ec075ad8fab3c741b632018f9d3b40c900000000"/>
+		<Metadata name="Catalog.ФизическиеЛица.Form.ФормаСписка.Form" id="4616e4ce-81b6-4f46-93a3-6ccf0e1c3397.0" configVersion="bc97c450b9732b41863e6ae52f631e3500000000"/>
+		<Metadata name="Catalog.ФизическиеЛица.Form.ФормаЭлемента" id="ee64fbbf-6fac-45ac-b983-03e65ad4a264" configVersion="c45df5ef9d795d428a31def88a35718100000000"/>
+		<Metadata name="Catalog.ФизическиеЛица.Form.ФормаЭлемента.Form" id="ee64fbbf-6fac-45ac-b983-03e65ad4a264.0" configVersion="106784b705ff1342aefbe293c7c4a5f700000000"/>
 		<Metadata name="Catalog.ХранилищеДвоичныхДанных" id="bf1ab189-634d-4b31-82e3-35fb15305da9" configVersion="364be2cf55cf5b41b1a91de65dece3ef00000000">
 			<Metadata name="Catalog.ХранилищеДвоичныхДанных.Attribute.Размер" id="046d2201-5fe3-4451-9db0-6f784efadaf8"/>
 			<Metadata name="Catalog.ХранилищеДвоичныхДанных.Attribute.Хеш" id="bb532d83-69d8-4733-9d18-21d34ee0330a"/>
@@ -5035,7 +5038,7 @@
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="f3d655fe83bd6d4ea196999121e5336300000000"/>
 		<Metadata name="CommonTemplate.ШтампЭлектроннойПодписиOfficeOpen" id="faf89779-2290-4d37-b1ea-e81b1b79f74c" configVersion="da7c82c782145a4e91bc6108fee9299300000000"/>
 		<Metadata name="CommonTemplate.ШтампЭлектроннойПодписиOfficeOpen.Template" id="faf89779-2290-4d37-b1ea-e81b1b79f74c.0" configVersion="600274914f8f3845996ecfc739e525dc00000000"/>
-		<Metadata name="Configuration.ПриютДляКошек" id="91bf5bc6-d784-403e-89c6-97c82ec7988e" configVersion="8cd502971283cb46bb74143fdcae4f0800000000"/>
+		<Metadata name="Configuration.ПриютДляКошек" id="91bf5bc6-d784-403e-89c6-97c82ec7988e" configVersion="5d4979b19aed0a46a6f16b1c3d13e5e800000000"/>
 		<Metadata name="Configuration.ПриютДляКошек.ExternalConnectionModule" id="fa0a51d9-f620-42af-a8b9-0e51c1110ee6.5" configVersion="3dbd026985dcf146a6c6942d814ef34200000000"/>
 		<Metadata name="Configuration.ПриютДляКошек.MainSectionPicture" id="fa0a51d9-f620-42af-a8b9-0e51c1110ee6.c" configVersion="379b650863b0564f854bbddce452533b00000000"/>
 		<Metadata name="Configuration.ПриютДляКошек.ManagedApplicationModule" id="fa0a51d9-f620-42af-a8b9-0e51c1110ee6.6" configVersion="ef20b80d5fcb9545bb246799183ec69e00000000"/>
@@ -7053,7 +7056,7 @@
 		<Metadata name="DefinedType.СубъектПерсональныхДанныхОбъект" id="ea9d67eb-b552-48bd-a108-4938e5541735" configVersion="14b280940b9adf4f8c64c2918aca421100000000"/>
 		<Metadata name="DefinedType.УточнениеКонтекстаПроверокВеденияУчета" id="63fd620c-59a5-493c-a39e-457fad6fe35f" configVersion="16cc0b8bfe6d934cb670ac65a10a0d8e00000000"/>
 		<Metadata name="DefinedType.ФизическоеЛицо" id="46b0a5b3-1fa7-44ff-a941-c6de47d36e77" configVersion="8f3f35ba7e107e4487b4e0659180435700000000"/>
-		<Metadata name="Document.АктВыбытияЖивотного" id="61c35cd6-f4be-42df-b8e8-a4bc14132df1" configVersion="352f20534ceb1f459496e651236fe4ec00000000">
+		<Metadata name="Document.АктВыбытияЖивотного" id="61c35cd6-f4be-42df-b8e8-a4bc14132df1" configVersion="81418b02d0c64d4092dc742eb80ffaca00000000">
 			<Metadata name="Document.АктВыбытияЖивотного.Attribute.ТочнаяДата" id="3bfa11ed-94b4-49c8-b251-19e3cac82768"/>
 			<Metadata name="Document.АктВыбытияЖивотного.Attribute.Ответственный" id="4a3f18cd-a28d-41c3-a4b5-fd1960b1fde8"/>
 			<Metadata name="Document.АктВыбытияЖивотного.Attribute.Кошка" id="9f82241d-56c1-478b-906e-0b5e75e212e1"/>
@@ -7182,7 +7185,7 @@
 		<Metadata name="Document.Встреча.Form.ФормаСписка.Form" id="02abb5e3-9d4e-4c45-af19-71796966ed19.0" configVersion="dc522fdb6c64c948ba57ef4fd7e878bc00000000"/>
 		<Metadata name="Document.Встреча.ManagerModule" id="5657286b-114b-41de-ab7d-45d0f0d95e2d.2" configVersion="9b25e072e421a14d967ba3c7330979d600000000"/>
 		<Metadata name="Document.Встреча.ObjectModule" id="5657286b-114b-41de-ab7d-45d0f0d95e2d.0" configVersion="4f6919d21bb0c44396a3026e63a9201000000000"/>
-		<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют" id="0ca9347f-1777-4944-9bbf-136577489b37" configVersion="931cf9e63344fa488c01cc941bc618a800000000">
+		<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют" id="0ca9347f-1777-4944-9bbf-136577489b37" configVersion="02029c583bfce54f86dcee7f9680c54b00000000">
 			<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.Attribute.Ответственный" id="b3108635-2a12-460f-b517-ce848fe2bae3"/>
 			<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.Attribute.ДокументОснование" id="e5797b90-9208-4441-8279-8a201766ef7b"/>
 			<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.Attribute.Опекун" id="f7f1460d-4bb1-4d2f-b6fb-8287516168f0"/>
@@ -7190,8 +7193,8 @@
 		</Metadata>
 		<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.Form.ФормаДокумента" id="0817f3bb-972b-4e98-86e8-c64eccde3dd5" configVersion="f1b98cd1c40e514c9d2cf9bd0e2f71d200000000"/>
 		<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.Form.ФормаДокумента.Form" id="0817f3bb-972b-4e98-86e8-c64eccde3dd5.0" configVersion="847793b299af7444aac35c0f2839127d00000000"/>
-		<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.ObjectModule" id="0ca9347f-1777-4944-9bbf-136577489b37.0" configVersion="f991d018ccd34d4597dba7ffcfac38ac00000000"/>
-		<Metadata name="Document.ДоговорОтветственногоСодержания" id="410e82ec-4d93-4432-8476-c14ad1433d88" configVersion="98ee15c63b1e7a4887b6517b4c9057b700000000">
+		<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.ObjectModule" id="0ca9347f-1777-4944-9bbf-136577489b37.0" configVersion="e934c60ee56f4540b01e6a1a8f2138e300000000"/>
+		<Metadata name="Document.ДоговорОтветственногоСодержания" id="410e82ec-4d93-4432-8476-c14ad1433d88" configVersion="32f0cf70488f684c94ddd75a8a33a4d400000000">
 			<Metadata name="Document.ДоговорОтветственногоСодержания.Attribute.Ответственный" id="19420710-876f-4697-9f4c-b63cdb81876e"/>
 			<Metadata name="Document.ДоговорОтветственногоСодержания.Attribute.Укотовитель" id="29a6a597-37b8-4d7e-ba34-15941a5178df"/>
 			<Metadata name="Document.ДоговорОтветственногоСодержания.Attribute.Собеседование" id="861f86a3-040f-453c-91cd-6e26f413df36"/>
@@ -7202,7 +7205,7 @@
 		<Metadata name="Document.ДоговорОтветственногоСодержания.Form.ФормаДокумента" id="14f1932f-11ee-4967-856f-ec54ffd2c3db" configVersion="a3ac72388386de4981117710d0b8415400000000"/>
 		<Metadata name="Document.ДоговорОтветственногоСодержания.Form.ФормаДокумента.Form" id="14f1932f-11ee-4967-856f-ec54ffd2c3db.0" configVersion="77fe89c102f68f4c8e0eb6a24c3a61ff00000000"/>
 		<Metadata name="Document.ДоговорОтветственногоСодержания.ManagerModule" id="410e82ec-4d93-4432-8476-c14ad1433d88.2" configVersion="6a02320fcedf814fa74a22845b7ebc5000000000"/>
-		<Metadata name="Document.ДоговорОтветственногоСодержания.ObjectModule" id="410e82ec-4d93-4432-8476-c14ad1433d88.0" configVersion="fe0232a86c564b4896699c90c32cf20e00000000"/>
+		<Metadata name="Document.ДоговорОтветственногоСодержания.ObjectModule" id="410e82ec-4d93-4432-8476-c14ad1433d88.0" configVersion="14326e63fb04dc439e56c207373afba100000000"/>
 		<Metadata name="Document.ДоговорОтветственногоСодержания.Template.Печать" id="3d52e234-2edc-4c71-8f07-975d75b39d2a" configVersion="8b1a39ab3ed3ad4fb1c81138b2b60e0200000000"/>
 		<Metadata name="Document.ДоговорОтветственногоСодержания.Template.Печать.Template" id="3d52e234-2edc-4c71-8f07-975d75b39d2a.0" configVersion="f8cae79dcd027942be3577dda4f0145400000000"/>
 		<Metadata name="Document.ЗапланированноеВзаимодействие" id="53c4c3b2-9257-4d02-8df8-6b55fe9abdae" configVersion="6feeb5371e23fa4a976603b2d8e4506400000000">
@@ -9917,6 +9920,12 @@
 		<Metadata name="InformationRegister.ОбъектыНезарегистрированныеПриЗацикливании.Form.ФормаСписка" id="4e305be6-8bbf-4215-aeea-1283aba6d19e" configVersion="95c36c3b489d8e4ab2cccafa6d2fb17500000000"/>
 		<Metadata name="InformationRegister.ОбъектыНезарегистрированныеПриЗацикливании.Form.ФормаСписка.Form" id="4e305be6-8bbf-4215-aeea-1283aba6d19e.0" configVersion="ad9aa8935ee49f459d835a76f939835000000000"/>
 		<Metadata name="InformationRegister.ОбъектыНезарегистрированныеПриЗацикливании.ManagerModule" id="1117fce9-6e77-4d1d-aa86-49e7baddfe4b.2" configVersion="19a47cc06a10bf46aff780b2c836e82d00000000"/>
+		<Metadata name="InformationRegister.ОпекуныУкотовителиПодопечных" id="d106a921-528c-4593-bf82-066ab561486e" configVersion="6beeacc9769be74cabe7d6158440434b00000000">
+			<Metadata name="InformationRegister.ОпекуныУкотовителиПодопечных.Attribute.ВАрхиве" id="00603e8d-cb50-4dbb-a789-b394487fb8fc"/>
+			<Metadata name="InformationRegister.ОпекуныУкотовителиПодопечных.Resource.ФизическоеЛицо" id="5fbb7949-6350-429b-8cab-5be88f4a89f3"/>
+			<Metadata name="InformationRegister.ОпекуныУкотовителиПодопечных.Dimension.ОпекунУкотовитель" id="9f3bc116-b397-467c-9ed2-b70f377ac98e"/>
+			<Metadata name="InformationRegister.ОпекуныУкотовителиПодопечных.Dimension.Кошка" id="ab251a5c-4e53-4b2e-b89d-eca60ea86033"/>
+		</Metadata>
 		<Metadata name="InformationRegister.ОперацииСтатистики" id="ebedc283-5eb0-459b-b686-f8643666b8b8" configVersion="c99c3f2b7e97434db6ecf134bf484a3900000000">
 			<Metadata name="InformationRegister.ОперацииСтатистики.Resource.Наименование" id="6a6afffd-cfed-4801-8b59-34d27e46565c"/>
 			<Metadata name="InformationRegister.ОперацииСтатистики.Dimension.ИдентификаторОперации" id="6f312bda-1f4d-48a6-bd95-f23f34f0ea4b"/>
@@ -11034,8 +11043,8 @@
 		<Metadata name="Report.ЗадачиИстекающиеНаДату.Template.ОсновнаяСхемаКомпоновкиДанных" id="d85346db-be25-4dab-a2db-647c3d40dd17" configVersion="f038de4c5e1056428a9b60fb9da375c400000000"/>
 		<Metadata name="Report.ЗадачиИстекающиеНаДату.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="d85346db-be25-4dab-a2db-647c3d40dd17.0" configVersion="bab4c0c048465f4fbaece6ae7674839400000000"/>
 		<Metadata name="Report.ЗаполненностьКомнат" id="26643676-4973-477c-ae95-5624d565ece7" configVersion="440f0fa63f6e704882d8ff93c41a5f9b00000000"/>
-		<Metadata name="Report.ЗаполненностьКомнат.Template.ОсновнаяСхемаКомпоновкиДанных" id="6635a4ea-9903-425a-a612-134f9451b257" configVersion="0a5080060d510643bad0b222ef078c0100000000"/>
-		<Metadata name="Report.ЗаполненностьКомнат.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="6635a4ea-9903-425a-a612-134f9451b257.0" configVersion="f0bc0faa97095943b7453cabdd5c5f4e00000000"/>
+		<Metadata name="Report.ЗаполненностьКомнат.Template.ОсновнаяСхемаКомпоновкиДанных" id="6635a4ea-9903-425a-a612-134f9451b257" configVersion="bd60e92c90280d4f95671897d8805db900000000"/>
+		<Metadata name="Report.ЗаполненностьКомнат.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="6635a4ea-9903-425a-a612-134f9451b257.0" configVersion="e669031ba2dd104cbba6dc07293b011f00000000"/>
 		<Metadata name="Report.ИзменениеРазрешенныхЗначенийГруппДоступа" id="d51ce1df-6172-4682-9986-131e7daba89e" configVersion="802129456639e9468ac6b40b5704e03300000000"/>
 		<Metadata name="Report.ИзменениеРазрешенныхЗначенийГруппДоступа.ManagerModule" id="d51ce1df-6172-4682-9986-131e7daba89e.2" configVersion="aaf38317ddf63446beb8c4405dc45b5a00000000"/>
 		<Metadata name="Report.ИзменениеРазрешенныхЗначенийГруппДоступа.ObjectModule" id="d51ce1df-6172-4682-9986-131e7daba89e.0" configVersion="4ea229df7c135c458fa70d9a35069efa00000000"/>
@@ -11691,7 +11700,7 @@
 		<Metadata name="Subsystem.Администрирование.Subsystem.КонтрольРаботыПользователей.CommandInterface" id="fa04bf1e-69c0-4998-a939-039fcaba83c8.1" configVersion="d19a2ed72e4b0f4d962f110e5e93321c00000000"/>
 		<Metadata name="Subsystem.Ветеринария" id="4c3bbd86-490e-49bf-ba24-72d8f4c483a9" configVersion="153bd5c26f2ffe42816a0fa825c3daa600000000"/>
 		<Metadata name="Subsystem.Ветеринария.CommandInterface" id="4c3bbd86-490e-49bf-ba24-72d8f4c483a9.1" configVersion="69e160c10ef3a54bb78e9cb37803809000000000"/>
-		<Metadata name="Subsystem.Документооборот" id="e46972b3-5be2-4833-aebc-16fe83d50f15" configVersion="9d9e1b596eec62439d6992dec2d15dbb00000000"/>
+		<Metadata name="Subsystem.Документооборот" id="e46972b3-5be2-4833-aebc-16fe83d50f15" configVersion="e8791489a0892c4fb63789e98819ae4900000000"/>
 		<Metadata name="Subsystem.Запасы" id="45585412-cbb6-470c-953f-062872607a30" configVersion="925fbcb80984f84c8286b13cfb7b920800000000"/>
 		<Metadata name="Subsystem.Коты" id="21dbd90f-f7a6-4701-ba04-661f13e08f37" configVersion="77622c16cc32a14ea05ac887bf8a4b5200000000"/>
 		<Metadata name="Subsystem.Коты.CommandInterface" id="21dbd90f-f7a6-4701-ba04-661f13e08f37.1" configVersion="925c0693e70fe847aed53e19fe08ab9200000000"/>
