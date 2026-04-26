@@ -24,13 +24,13 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.РазмещенияЭлектронногоЧипа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DocumentJournal.ЖурналВетеринарныхМероприятий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Осмотр</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлассификаторБолезней</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НомераМикрочипов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РезультатыВзвешиваний</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РационыКормленияПодопечных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаДиалоги</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаСообщения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаВыбораФотографии</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.АктВыбытияЖивотного</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

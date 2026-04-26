@@ -1558,7 +1558,7 @@
 			<Metadata name="Catalog.Расходники.Attribute.ВидРасходника" id="a51152b8-5ac1-4165-a158-8ade6d2273db"/>
 		</Metadata>
 		<Metadata name="Catalog.Расходники.Predefined" id="b213ecc6-432f-42bc-bae5-9c6fe46b003f.1c" configVersion="31023a9c26471c40808db77248b9635400000000"/>
-		<Metadata name="Catalog.РационКормления" id="ca32daf6-5e19-4148-b2db-14863fa30eaa" configVersion="ba8fc87f182aaf41be6acf3287c893c100000000">
+		<Metadata name="Catalog.РационКормления" id="ca32daf6-5e19-4148-b2db-14863fa30eaa" configVersion="0d340048c1700a40a99db73bbfb69af200000000">
 			<Metadata name="Catalog.РационКормления.Attribute.Комментарий" id="3146956c-f957-430d-aa60-f247d0fbb486"/>
 			<Metadata name="Catalog.РационКормления.TabularSection.СоставРациона.Attribute.ЕдиницаИзмерения" id="3297d1b6-baa9-417a-9625-e23d6b6f002f"/>
 			<Metadata name="Catalog.РационКормления.Attribute.Составитель" id="408ae069-fade-419a-b3e7-04159744e9df"/>
@@ -11734,16 +11734,16 @@
 		<Metadata name="Subsystem.Администрирование.CommandInterface" id="9233322b-dfdb-4c66-91fe-1299292d40a5.1" configVersion="8f12fc9a7648064e8abcd2b0c87fd2e400000000"/>
 		<Metadata name="Subsystem.Администрирование.Subsystem.КонтрольРаботыПользователей" id="fa04bf1e-69c0-4998-a939-039fcaba83c8" configVersion="6f112d7affba6a499a5d9d46edc2b37e00000000"/>
 		<Metadata name="Subsystem.Администрирование.Subsystem.КонтрольРаботыПользователей.CommandInterface" id="fa04bf1e-69c0-4998-a939-039fcaba83c8.1" configVersion="d19a2ed72e4b0f4d962f110e5e93321c00000000"/>
-		<Metadata name="Subsystem.Ветеринария" id="4c3bbd86-490e-49bf-ba24-72d8f4c483a9" configVersion="d58082fed850b247ab25af112452eecc00000000"/>
+		<Metadata name="Subsystem.Ветеринария" id="4c3bbd86-490e-49bf-ba24-72d8f4c483a9" configVersion="036b86f216e7da4f90e1f7b653a8e8bc00000000"/>
 		<Metadata name="Subsystem.Ветеринария.CommandInterface" id="4c3bbd86-490e-49bf-ba24-72d8f4c483a9.1" configVersion="69e160c10ef3a54bb78e9cb37803809000000000"/>
-		<Metadata name="Subsystem.Документооборот" id="e46972b3-5be2-4833-aebc-16fe83d50f15" configVersion="e8791489a0892c4fb63789e98819ae4900000000"/>
-		<Metadata name="Subsystem.Запасы" id="45585412-cbb6-470c-953f-062872607a30" configVersion="925fbcb80984f84c8286b13cfb7b920800000000"/>
-		<Metadata name="Subsystem.Коты" id="21dbd90f-f7a6-4701-ba04-661f13e08f37" configVersion="77622c16cc32a14ea05ac887bf8a4b5200000000"/>
+		<Metadata name="Subsystem.Документооборот" id="e46972b3-5be2-4833-aebc-16fe83d50f15" configVersion="0f3f7fb01a3aab4ea4699097c754874700000000"/>
+		<Metadata name="Subsystem.Запасы" id="45585412-cbb6-470c-953f-062872607a30" configVersion="15d46806dce7744e91dd70188d5dba0700000000"/>
+		<Metadata name="Subsystem.Коты" id="21dbd90f-f7a6-4701-ba04-661f13e08f37" configVersion="7934098112b7dc4a9ea7519299fa168600000000"/>
 		<Metadata name="Subsystem.Коты.CommandInterface" id="21dbd90f-f7a6-4701-ba04-661f13e08f37.1" configVersion="925c0693e70fe847aed53e19fe08ab9200000000"/>
-		<Metadata name="Subsystem.НСИ" id="b5ece2e8-640f-4624-960e-b09e8cca8db9" configVersion="2cff1ef8f65060419e56126c48195bc200000000"/>
+		<Metadata name="Subsystem.НСИ" id="b5ece2e8-640f-4624-960e-b09e8cca8db9" configVersion="87e0ee8ea595c34688450b52457ba1b600000000"/>
 		<Metadata name="Subsystem.Персонал" id="c1bae911-bf80-4879-b38e-45488f493afa" configVersion="01d077d35de04f43930b9b0f9dae846900000000"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="7795348b-2f52-47f7-bf00-e11e5e795a43" configVersion="fe943af4fd0d2b4baa00fa7c0ebd8f8c00000000"/>
-		<Metadata name="Subsystem.Содержание" id="e992f064-df4d-4ff3-809a-626d5d867053" configVersion="51d57275e14e3040a56c350b37b34a5000000000"/>
+		<Metadata name="Subsystem.Содержание" id="e992f064-df4d-4ff3-809a-626d5d867053" configVersion="1dba11582e4fd1498ed98cfb2790e69800000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы" id="0421b67e-ed26-491d-ab98-ec59002ed4ce" configVersion="aceecdd2cfccf246bc541f9eda8e91da00000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.АдресныйКлассификатор" id="bb47ced2-31f9-4870-8633-20b986e53ccc" configVersion="b4b2ae3937fa7b4f88d7b109f0f3c0c100000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.Анкетирование" id="739c01a9-1125-45ef-ab4e-8c73af4eeff0" configVersion="6da65e1c27e4c24db5acb756d1031ce000000000"/>

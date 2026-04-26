@@ -17,9 +17,7 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ФизическиеЛица</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПричиныПередачиВПриют</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыДокументовФизическихЛиц</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаявкаНаПередачуЖивотногоВПриют</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ДоговорОПередачеЖивотногоВПриют</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДокументыФизическихЛиц</xr:Item>
