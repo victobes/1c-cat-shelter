@@ -2766,8 +2766,8 @@
 		<Metadata name="CommonForm.ЭлектроннаяПодпись" id="2cd04d4c-2619-40c9-adf4-7bb281f045b6" configVersion="f7406fe96b757b4ba1ab58c3e020e8ef00000000"/>
 		<Metadata name="CommonForm.ЭлектроннаяПодпись.Form" id="2cd04d4c-2619-40c9-adf4-7bb281f045b6.0" configVersion="8cbf5d1c994a0c4db333b903c36d666900000000"/>
 		<Metadata name="CommonForm.ЭлектроннаяПодпись.Help" id="2cd04d4c-2619-40c9-adf4-7bb281f045b6.1" configVersion="b64501d5a466fe4485ec82862846c27300000000"/>
-		<Metadata name="CommonModule.GigaChat_Сервер" id="ed879a11-0c75-4a70-9ec1-513bcfaa3a50" configVersion="67e39007bbcb0d40a1c5f8961d46295200000000"/>
-		<Metadata name="CommonModule.GigaChat_Сервер.Module" id="ed879a11-0c75-4a70-9ec1-513bcfaa3a50.0" configVersion="1572ef660396bc4eac1fa5d2c929c5ee00000000"/>
+		<Metadata name="CommonModule.GigaChat_Сервер" id="ed879a11-0c75-4a70-9ec1-513bcfaa3a50" configVersion="243ba7954b0609438145cfe56f3e1f0000000000"/>
+		<Metadata name="CommonModule.GigaChat_Сервер.Module" id="ed879a11-0c75-4a70-9ec1-513bcfaa3a50.0" configVersion="2d8f8815f13c5e4686f5dbe025428b9d00000000"/>
 		<Metadata name="CommonModule.GoogleПереводчик" id="ac847dc9-e222-45cf-af4a-6fa863c919a8" configVersion="d0fff9a04f7f29499c3a0cbdfd19e5ae00000000"/>
 		<Metadata name="CommonModule.GoogleПереводчик.Module" id="ac847dc9-e222-45cf-af4a-6fa863c919a8.0" configVersion="ea2c530d37d6d3458c53b54dc1f4bffd00000000"/>
 		<Metadata name="CommonModule.АвтономнаяРабота" id="a5cc5ae2-be80-4957-8aca-9e477433dfcc" configVersion="dde6b721ca2ea64f87ff4f7229cf023f00000000"/>
@@ -11730,7 +11730,7 @@
 		<Metadata name="StyleItem.ЦветШтампаЭП" id="43d91051-d5a2-4d2a-8447-7fa917e5ea38" configVersion="be46ce993b3ee140b973af0aab3aed9500000000"/>
 		<Metadata name="StyleItem.ШрифтМеток" id="e60e1771-c8c0-44b6-b1d3-24e9529d9bd0" configVersion="9cb71eadff362448ad724c21eb3b7e9200000000"/>
 		<Metadata name="StyleItem.ШрифтОченьКрупныйШрифтТекста" id="350535b3-05b5-49e7-b4af-1c2b8e645083" configVersion="85c17abe8279f84dacaf02d54b120f9900000000"/>
-		<Metadata name="Subsystem.Администрирование" id="9233322b-dfdb-4c66-91fe-1299292d40a5" configVersion="242e96256ab710498a69ea1b662c6c0b00000000"/>
+		<Metadata name="Subsystem.Администрирование" id="9233322b-dfdb-4c66-91fe-1299292d40a5" configVersion="c46df4626e2c034f8d98351c7ee8831d00000000"/>
 		<Metadata name="Subsystem.Администрирование.CommandInterface" id="9233322b-dfdb-4c66-91fe-1299292d40a5.1" configVersion="8f12fc9a7648064e8abcd2b0c87fd2e400000000"/>
 		<Metadata name="Subsystem.Администрирование.Subsystem.КонтрольРаботыПользователей" id="fa04bf1e-69c0-4998-a939-039fcaba83c8" configVersion="6f112d7affba6a499a5d9d46edc2b37e00000000"/>
 		<Metadata name="Subsystem.Администрирование.Subsystem.КонтрольРаботыПользователей.CommandInterface" id="fa04bf1e-69c0-4998-a939-039fcaba83c8.1" configVersion="d19a2ed72e4b0f4d962f110e5e93321c00000000"/>
