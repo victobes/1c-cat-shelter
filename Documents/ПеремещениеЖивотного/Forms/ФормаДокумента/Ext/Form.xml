@@ -5,6 +5,7 @@
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -28,6 +29,9 @@
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="КошкаКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="КошкаРасширеннаяПодсказка" id="9"/>
+			<Events>
+				<Event name="OnChange">КошкаПриИзменении</Event>
+			</Events>
 		</InputField>
 		<InputField name="КомнатаДо" id="10">
 			<DataPath>Объект.КомнатаДо</DataPath>

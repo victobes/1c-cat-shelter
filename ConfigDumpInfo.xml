@@ -7336,16 +7336,16 @@
 		<Metadata name="Document.ОтзывСогласияНаОбработкуПерсональныхДанных.Help" id="7d5b2b73-27e6-4a61-9558-eb2410eb9f2f.1" configVersion="a2cf03f98af0d44dbe2b7b0d303f4a7000000000"/>
 		<Metadata name="Document.ОтзывСогласияНаОбработкуПерсональныхДанных.ManagerModule" id="7d5b2b73-27e6-4a61-9558-eb2410eb9f2f.2" configVersion="222de98648983c4ea12be3ad61fbd9c300000000"/>
 		<Metadata name="Document.ОтзывСогласияНаОбработкуПерсональныхДанных.ObjectModule" id="7d5b2b73-27e6-4a61-9558-eb2410eb9f2f.0" configVersion="b11bc41182f63e40b9db55868d261ba900000000"/>
-		<Metadata name="Document.ПеремещениеЖивотного" id="61619a5a-35d1-46cc-9883-164bcc308887" configVersion="c7fbe112213adb4faa1814a395b4ac4e00000000">
+		<Metadata name="Document.ПеремещениеЖивотного" id="61619a5a-35d1-46cc-9883-164bcc308887" configVersion="ef62cfdc87b2b144b9841216529b144800000000">
 			<Metadata name="Document.ПеремещениеЖивотного.Attribute.КомнатаПосле" id="16c88ef1-d75d-4f0f-a01d-35023852170f"/>
 			<Metadata name="Document.ПеремещениеЖивотного.Attribute.Кошка" id="4c1ec6fe-3aaf-4c6c-8f4f-d98923336cfb"/>
 			<Metadata name="Document.ПеремещениеЖивотного.Attribute.КомнатаДо" id="5bf90044-9b26-413c-a5e6-1c936ceea318"/>
 			<Metadata name="Document.ПеремещениеЖивотного.Attribute.Ответственный" id="b0b3b271-5759-4240-bdfc-1df82aa467de"/>
 			<Metadata name="Document.ПеремещениеЖивотного.Attribute.ПричинаПеремещения" id="ee48f140-daeb-4cc3-89b5-ebce0dcd4879"/>
 		</Metadata>
-		<Metadata name="Document.ПеремещениеЖивотного.Form.ФормаДокумента" id="f3613749-c80a-4693-ab21-468dd48e3ed5" configVersion="89e020b4d0cf0440998783edb05502fd00000000"/>
-		<Metadata name="Document.ПеремещениеЖивотного.Form.ФормаДокумента.Form" id="f3613749-c80a-4693-ab21-468dd48e3ed5.0" configVersion="792063eb03f0af4cbb40e3ff6288560b00000000"/>
-		<Metadata name="Document.ПеремещениеЖивотного.ObjectModule" id="61619a5a-35d1-46cc-9883-164bcc308887.0" configVersion="c5a0f8f53758ce4c953eb0697bffc56e00000000"/>
+		<Metadata name="Document.ПеремещениеЖивотного.Form.ФормаДокумента" id="f3613749-c80a-4693-ab21-468dd48e3ed5" configVersion="72ffec827990cf458729ed2eb1d703bd00000000"/>
+		<Metadata name="Document.ПеремещениеЖивотного.Form.ФормаДокумента.Form" id="f3613749-c80a-4693-ab21-468dd48e3ed5.0" configVersion="0ed62c7f5598c043b686831bfea0cb7f00000000"/>
+		<Metadata name="Document.ПеремещениеЖивотного.ObjectModule" id="61619a5a-35d1-46cc-9883-164bcc308887.0" configVersion="653509bf2cfd6a43bda8db493a4fc9e000000000"/>
 		<Metadata name="Document.ПоступлениеРасходников" id="c6a67833-c29d-4e50-b08c-604cd29e81bf" configVersion="668c59134fadf647af5dee645762366900000000">
 			<Metadata name="Document.ПоступлениеРасходников.TabularSection.Расходники.Attribute.Расходник" id="0a2fd839-d386-4ef4-88d5-8ee582917991"/>
 			<Metadata name="Document.ПоступлениеРасходников.TabularSection.Расходники.Attribute.КоличествоВсего" id="3b68d3bf-e2c3-4ced-b5ad-ac0d4946fe0d"/>
@@ -8268,7 +8268,8 @@
 			<Metadata name="Enum.СтатусыОбработчиковОбновления.EnumValue.НеВыполнялся" id="f37b7b25-abd2-4e19-9712-78aafceb4f43"/>
 		</Metadata>
 		<Metadata name="Enum.СтатусыОбработчиковОбновления.ManagerModule" id="36b15776-5211-4afa-9b6c-c042121218c0.0" configVersion="b102b30667c2704f9c66a2ecf8165cd800000000"/>
-		<Metadata name="Enum.СтатусыПребыванияЖивотных" id="c186095c-97ac-4748-a786-e13f7140f406" configVersion="03a69dfc0a59bf4db7cef6115e42faed00000000">
+		<Metadata name="Enum.СтатусыПребыванияЖивотных" id="c186095c-97ac-4748-a786-e13f7140f406" configVersion="48f32e4799a1f74b83757364758fd8fe00000000">
+			<Metadata name="Enum.СтатусыПребыванияЖивотных.EnumValue.Мертв" id="02664707-9bd5-4f10-a98d-698941796d58"/>
 			<Metadata name="Enum.СтатусыПребыванияЖивотных.EnumValue.ГотовКУкотовлению" id="088f7fc0-2c4d-49b3-a334-c7627535440f"/>
 			<Metadata name="Enum.СтатусыПребыванияЖивотных.EnumValue.Укотовлен" id="11996b2e-37bf-4aab-9967-cedcfff31a65"/>
 			<Metadata name="Enum.СтатусыПребыванияЖивотных.EnumValue.НаЛеченииПриют" id="19055355-5819-4e8b-939a-0ce9a65e8d7e"/>
