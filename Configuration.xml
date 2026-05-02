@@ -2650,6 +2650,7 @@
 			<Report>ЗаполненностьКомнат</Report>
 			<Report>ОстаткиРасходников</Report>
 			<Report>ИспользованиеРасходниковЗаПериод</Report>
+			<Report>ГрафикКормленияКошек</Report>
 			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
 			<DataProcessor>АктивныеПользователи</DataProcessor>
 			<DataProcessor>БлокировкаРаботыПользователей</DataProcessor>

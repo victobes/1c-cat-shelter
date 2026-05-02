@@ -5049,7 +5049,7 @@
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="f3d655fe83bd6d4ea196999121e5336300000000"/>
 		<Metadata name="CommonTemplate.ШтампЭлектроннойПодписиOfficeOpen" id="faf89779-2290-4d37-b1ea-e81b1b79f74c" configVersion="da7c82c782145a4e91bc6108fee9299300000000"/>
 		<Metadata name="CommonTemplate.ШтампЭлектроннойПодписиOfficeOpen.Template" id="faf89779-2290-4d37-b1ea-e81b1b79f74c.0" configVersion="600274914f8f3845996ecfc739e525dc00000000"/>
-		<Metadata name="Configuration.ПриютДляКошек" id="91bf5bc6-d784-403e-89c6-97c82ec7988e" configVersion="db768da73803e54b9f0caa0f1dd0e05500000000"/>
+		<Metadata name="Configuration.ПриютДляКошек" id="91bf5bc6-d784-403e-89c6-97c82ec7988e" configVersion="548d50e0dd3e3f4394fa4be1f5a23da200000000"/>
 		<Metadata name="Configuration.ПриютДляКошек.ExternalConnectionModule" id="fa0a51d9-f620-42af-a8b9-0e51c1110ee6.5" configVersion="3dbd026985dcf146a6c6942d814ef34200000000"/>
 		<Metadata name="Configuration.ПриютДляКошек.MainSectionPicture" id="fa0a51d9-f620-42af-a8b9-0e51c1110ee6.c" configVersion="379b650863b0564f854bbddce452533b00000000"/>
 		<Metadata name="Configuration.ПриютДляКошек.ManagedApplicationModule" id="fa0a51d9-f620-42af-a8b9-0e51c1110ee6.6" configVersion="ef20b80d5fcb9545bb246799183ec69e00000000"/>
@@ -7195,7 +7195,7 @@
 		<Metadata name="Document.Встреча.Form.ФормаСписка.Form" id="02abb5e3-9d4e-4c45-af19-71796966ed19.0" configVersion="dc522fdb6c64c948ba57ef4fd7e878bc00000000"/>
 		<Metadata name="Document.Встреча.ManagerModule" id="5657286b-114b-41de-ab7d-45d0f0d95e2d.2" configVersion="9b25e072e421a14d967ba3c7330979d600000000"/>
 		<Metadata name="Document.Встреча.ObjectModule" id="5657286b-114b-41de-ab7d-45d0f0d95e2d.0" configVersion="4f6919d21bb0c44396a3026e63a9201000000000"/>
-		<Metadata name="Document.ВыдачаКормаСписком" id="2050e390-0e40-4251-ab0c-12f117138bbe" configVersion="75497af6e5554e4ab0e2d23f171a701200000000">
+		<Metadata name="Document.ВыдачаКормаСписком" id="2050e390-0e40-4251-ab0c-12f117138bbe" configVersion="761fd42b53bf2b4996e78165d8ceed5900000000">
 			<Metadata name="Document.ВыдачаКормаСписком.TabularSection.Расходники.Attribute.КоличествоНаПорцию" id="0093ab25-3b05-4b3f-a173-ef54f1eda94c"/>
 			<Metadata name="Document.ВыдачаКормаСписком.TabularSection.Расходники.Attribute.ЕдиницаИзмерения" id="3b37bf33-4d96-44b9-93c4-f5cb78b449f2"/>
 			<Metadata name="Document.ВыдачаКормаСписком.TabularSection.Расходники.Attribute.НомерПриемаПищи" id="482f7418-3aa0-4d02-bdf9-38df1c133920"/>
@@ -7207,7 +7207,7 @@
 		</Metadata>
 		<Metadata name="Document.ВыдачаКормаСписком.Form.ФормаДокумента" id="f40f65e5-6b2b-452e-b232-7ea5c95d579c" configVersion="d100b4d842698945a9a01824bca4aabe00000000"/>
 		<Metadata name="Document.ВыдачаКормаСписком.Form.ФормаДокумента.Form" id="f40f65e5-6b2b-452e-b232-7ea5c95d579c.0" configVersion="b80a83659d883e43b4e2c04adccc01bd00000000"/>
-		<Metadata name="Document.ВыдачаКормаСписком.ObjectModule" id="2050e390-0e40-4251-ab0c-12f117138bbe.0" configVersion="f6de1314cd3380408425988acd4879b100000000"/>
+		<Metadata name="Document.ВыдачаКормаСписком.ObjectModule" id="2050e390-0e40-4251-ab0c-12f117138bbe.0" configVersion="2b957d96cb639a4bb2b9ca375344c0ea00000000"/>
 		<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют" id="0ca9347f-1777-4944-9bbf-136577489b37" configVersion="02029c583bfce54f86dcee7f9680c54b00000000">
 			<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.Attribute.Ответственный" id="b3108635-2a12-460f-b517-ce848fe2bae3"/>
 			<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.Attribute.ДокументОснование" id="e5797b90-9208-4441-8279-8a201766ef7b"/>
@@ -11056,6 +11056,9 @@
 		<Metadata name="Report.БизнесПроцессы.ObjectModule" id="c5f91669-13d8-4f0a-a054-2701078da38a.0" configVersion="bb72055ff57b90439511a2e720ea26a300000000"/>
 		<Metadata name="Report.БизнесПроцессы.Template.Макет" id="34f9872b-e02e-4093-ba06-3cb5b8995850" configVersion="0510bbae50f5fe49a3327cf732bbe5ab00000000"/>
 		<Metadata name="Report.БизнесПроцессы.Template.Макет.Template" id="34f9872b-e02e-4093-ba06-3cb5b8995850.0" configVersion="0341d17e95f994499e1d1ad0cfcf095200000000"/>
+		<Metadata name="Report.ГрафикКормленияКошек" id="9dc7d4ca-fa2e-48f2-a2f5-c188b235e983" configVersion="f5847e8261cbe843897793d802c3d64d00000000"/>
+		<Metadata name="Report.ГрафикКормленияКошек.Template.ОсновнаяСхемаКомпоновкиДанных" id="0a0c18a4-6d09-49c5-94cb-0091ee9c2fe5" configVersion="012ebf7757217f4488ca7b9d394e1b0000000000"/>
+		<Metadata name="Report.ГрафикКормленияКошек.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="0a0c18a4-6d09-49c5-94cb-0091ee9c2fe5.0" configVersion="8b4883698f2e364b9bc2f8c5330d9b1100000000"/>
 		<Metadata name="Report.ДатыЗапретаЗагрузки" id="18515c19-c9ef-4c9f-8d12-4f58ffa251e8" configVersion="0f7a93d041cd3242815c1e015f66a5e000000000"/>
 		<Metadata name="Report.ДатыЗапретаЗагрузки.Form.ФормаОтчета" id="3afe11f6-7424-4b41-a42f-91db33756fa3" configVersion="ad4fc8908cffc1498da33ec5c5a6c0fe00000000"/>
 		<Metadata name="Report.ДатыЗапретаЗагрузки.Form.ФормаОтчета.Form" id="3afe11f6-7424-4b41-a42f-91db33756fa3.0" configVersion="8bfc1b099091a2498f43f2dd0cf7faaf00000000"/>
@@ -11782,7 +11785,7 @@
 		<Metadata name="Subsystem.НСИ" id="b5ece2e8-640f-4624-960e-b09e8cca8db9" configVersion="87e0ee8ea595c34688450b52457ba1b600000000"/>
 		<Metadata name="Subsystem.Персонал" id="c1bae911-bf80-4879-b38e-45488f493afa" configVersion="01d077d35de04f43930b9b0f9dae846900000000"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="7795348b-2f52-47f7-bf00-e11e5e795a43" configVersion="fe943af4fd0d2b4baa00fa7c0ebd8f8c00000000"/>
-		<Metadata name="Subsystem.Содержание" id="e992f064-df4d-4ff3-809a-626d5d867053" configVersion="ade93888550ec645b979437d7877518c00000000"/>
+		<Metadata name="Subsystem.Содержание" id="e992f064-df4d-4ff3-809a-626d5d867053" configVersion="c7d938252f223d43a46012018dc1db8100000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы" id="0421b67e-ed26-491d-ab98-ec59002ed4ce" configVersion="aceecdd2cfccf246bc541f9eda8e91da00000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.АдресныйКлассификатор" id="bb47ced2-31f9-4870-8633-20b986e53ccc" configVersion="b4b2ae3937fa7b4f88d7b109f0f3c0c100000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.Анкетирование" id="739c01a9-1125-45ef-ab4e-8c73af4eeff0" configVersion="6da65e1c27e4c24db5acb756d1031ce000000000"/>
