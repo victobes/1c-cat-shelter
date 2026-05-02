@@ -21,6 +21,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СтатусыМестаСодержанияЖивотных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ЗаполненностьКомнат</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РационыКормленияПодопечных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыдачаКормаСписком</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикПолученияКормаПодопечными</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УборкаМестаСодержания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикУборкиМестСодержанияПодопечных</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -2496,6 +2496,8 @@
 			<Document>ЭлектронноеПисьмоВходящее</Document>
 			<Document>ЭлектронноеПисьмоИсходящее</Document>
 			<Document>ЗаявкаНаУчастиеВСобеседовании</Document>
+			<Document>ВыдачаКормаСписком</Document>
+			<Document>УборкаМестаСодержания</Document>
 			<DocumentJournal>ЖурналВетеринарныхМероприятий</DocumentJournal>
 			<DocumentJournal>Взаимодействия</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>
@@ -2646,6 +2648,8 @@
 			<Report>УчастникиГруппДоступа</Report>
 			<Report>УчастникиГруппПользователей</Report>
 			<Report>ЗаполненностьКомнат</Report>
+			<Report>ОстаткиРасходников</Report>
+			<Report>ИспользованиеРасходниковЗаПериод</Report>
 			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
 			<DataProcessor>АктивныеПользователи</DataProcessor>
 			<DataProcessor>БлокировкаРаботыПользователей</DataProcessor>
@@ -2923,6 +2927,8 @@
 			<InformationRegister>GigaChat_ТокеныАвторизации</InformationRegister>
 			<InformationRegister>GigaChat_Диалоги</InformationRegister>
 			<InformationRegister>GigaChat_Сообщения</InformationRegister>
+			<InformationRegister>ГрафикПолученияКормаПодопечными</InformationRegister>
+			<InformationRegister>ГрафикУборкиМестСодержанияПодопечных</InformationRegister>
 			<AccumulationRegister>ЗаполненностьКомнат</AccumulationRegister>
 			<AccumulationRegister>ОстаткиРасходников</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ВопросыДляАнкетирования</ChartOfCharacteristicTypes>
