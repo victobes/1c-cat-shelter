@@ -11080,8 +11080,8 @@
 		<Metadata name="Report.ЗадачиИстекающиеНаДату.Template.ОсновнаяСхемаКомпоновкиДанных" id="d85346db-be25-4dab-a2db-647c3d40dd17" configVersion="f038de4c5e1056428a9b60fb9da375c400000000"/>
 		<Metadata name="Report.ЗадачиИстекающиеНаДату.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="d85346db-be25-4dab-a2db-647c3d40dd17.0" configVersion="bab4c0c048465f4fbaece6ae7674839400000000"/>
 		<Metadata name="Report.ЗаполненностьКомнат" id="26643676-4973-477c-ae95-5624d565ece7" configVersion="440f0fa63f6e704882d8ff93c41a5f9b00000000"/>
-		<Metadata name="Report.ЗаполненностьКомнат.Template.ОсновнаяСхемаКомпоновкиДанных" id="6635a4ea-9903-425a-a612-134f9451b257" configVersion="bd60e92c90280d4f95671897d8805db900000000"/>
-		<Metadata name="Report.ЗаполненностьКомнат.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="6635a4ea-9903-425a-a612-134f9451b257.0" configVersion="e669031ba2dd104cbba6dc07293b011f00000000"/>
+		<Metadata name="Report.ЗаполненностьКомнат.Template.ОсновнаяСхемаКомпоновкиДанных" id="6635a4ea-9903-425a-a612-134f9451b257" configVersion="53eebf81cc4137459c9adaa7bf73766a00000000"/>
+		<Metadata name="Report.ЗаполненностьКомнат.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="6635a4ea-9903-425a-a612-134f9451b257.0" configVersion="a5ac8cac50c68a4182200234f93e69f300000000"/>
 		<Metadata name="Report.ИзменениеРазрешенныхЗначенийГруппДоступа" id="d51ce1df-6172-4682-9986-131e7daba89e" configVersion="802129456639e9468ac6b40b5704e03300000000"/>
 		<Metadata name="Report.ИзменениеРазрешенныхЗначенийГруппДоступа.ManagerModule" id="d51ce1df-6172-4682-9986-131e7daba89e.2" configVersion="aaf38317ddf63446beb8c4405dc45b5a00000000"/>
 		<Metadata name="Report.ИзменениеРазрешенныхЗначенийГруппДоступа.ObjectModule" id="d51ce1df-6172-4682-9986-131e7daba89e.0" configVersion="4ea229df7c135c458fa70d9a35069efa00000000"/>

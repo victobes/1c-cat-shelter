@@ -22,6 +22,18 @@
 					<v8:content>Количество котов</v8:content>
 				</v8:item>
 			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧН=0</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Назначение</dataPath>
@@ -34,12 +46,12 @@
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Вместимость</dataPath>
-			<field>Вместимость</field>
+			<dataPath>Свободно</dataPath>
+			<field>Свободно</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Вместимость</v8:content>
+					<v8:content>Свободно</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -48,20 +60,18 @@
 	ЗаполненностьКомнатОстатки.Комната КАК Комната,
 	ЗаполненностьКомнатОстатки.КоличествоКотовОстаток КАК КоличествоКотов,
 	ЗаполненностьКомнатОстатки.Комната.Назначение КАК Назначение,
-	ЗаполненностьКомнатОстатки.Комната.Вместимость КАК Вместимость
+	ЗаполненностьКомнатОстатки.Комната.Вместимость - ЗаполненностьКомнатОстатки.КоличествоКотовОстаток КАК Свободно
 ИЗ
-	РегистрНакопления.ЗаполненностьКомнат.Остатки(, ) КАК ЗаполненностьКомнатОстатки</query>
+	РегистрНакопления.ЗаполненностьКомнат.Остатки(, НЕ Комната = ЗНАЧЕНИЕ(Справочник.Комнаты.ПустаяСсылка)) КАК ЗаполненностьКомнатОстатки</query>
 	</dataSet>
-	<calculatedField>
+	<totalField>
+		<dataPath>КоличествоКотов</dataPath>
+		<expression>Сумма(КоличествоКотов)</expression>
+	</totalField>
+	<totalField>
 		<dataPath>Свободно</dataPath>
-		<expression>Вместимость - КоличествоКотов</expression>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Свободно</v8:content>
-			</v8:item>
-		</title>
-	</calculatedField>
+		<expression>Сумма(Свободно)</expression>
+	</totalField>
 	<parameter>
 		<name>Период</name>
 		<title xsi:type="v8:LocalStringType">
@@ -129,6 +139,9 @@
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Назначение</dcsset:field>
 				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Свободно</dcsset:field>
+				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -138,6 +151,48 @@
 					<dcsset:userSettingID>ad4bd739-1017-4e5f-b0aa-0c9eea17f2d7</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>Свободно</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Вместимость</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КоличествоКотов</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Зеленый</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">End</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
@@ -154,6 +209,16 @@
 				<dcsset:selection>
 					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 				</dcsset:selection>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>РасположениеИтогов</dcscor:parameter>
+						<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Begin</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+						<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">End</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
 				<dcsset:item xsi:type="dcsset:StructureItemGroup">
 					<dcsset:order>
 						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
@@ -164,12 +229,6 @@
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
 							<dcsset:field>КоличествоКотов</dcsset:field>
-							<dcsset:lwsTitle>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Занято</v8:content>
-								</v8:item>
-							</dcsset:lwsTitle>
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
 							<dcsset:field>Свободно</dcsset:field>
