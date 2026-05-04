@@ -2651,6 +2651,7 @@
 			<Report>ОстаткиРасходников</Report>
 			<Report>ИспользованиеРасходниковЗаПериод</Report>
 			<Report>ГрафикКормленияКошек</Report>
+			<Report>ГрафикУборкиМестСодержания</Report>
 			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
 			<DataProcessor>АктивныеПользователи</DataProcessor>
 			<DataProcessor>БлокировкаРаботыПользователей</DataProcessor>

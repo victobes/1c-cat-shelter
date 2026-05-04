@@ -6,6 +6,12 @@
 		<Description>Аксессуар</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="9c774775-2c25-4b30-b1a9-69f94093d958">
+		<Name>Вакцина</Name>
+		<Code>000000006</Code>
+		<Description>Вакцина</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="4370e28c-e5e2-4af7-9600-a98c0ca269c7">
 		<Name>Груминг</Name>
 		<Code>000000004</Code>

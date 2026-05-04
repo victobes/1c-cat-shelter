@@ -26,6 +26,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.УборкаМестаСодержания</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикУборкиМестСодержанияПодопечных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ГрафикКормленияКошек</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ГрафикУборкиМестСодержания</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
