@@ -5049,7 +5049,7 @@
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="f3d655fe83bd6d4ea196999121e5336300000000"/>
 		<Metadata name="CommonTemplate.ШтампЭлектроннойПодписиOfficeOpen" id="faf89779-2290-4d37-b1ea-e81b1b79f74c" configVersion="da7c82c782145a4e91bc6108fee9299300000000"/>
 		<Metadata name="CommonTemplate.ШтампЭлектроннойПодписиOfficeOpen.Template" id="faf89779-2290-4d37-b1ea-e81b1b79f74c.0" configVersion="600274914f8f3845996ecfc739e525dc00000000"/>
-		<Metadata name="Configuration.ПриютДляКошек" id="91bf5bc6-d784-403e-89c6-97c82ec7988e" configVersion="d8d63c45ed3b124b961afb60b88435f800000000"/>
+		<Metadata name="Configuration.ПриютДляКошек" id="91bf5bc6-d784-403e-89c6-97c82ec7988e" configVersion="3fd2d7afe1cf5c4fa69b5ec7b505b97000000000"/>
 		<Metadata name="Configuration.ПриютДляКошек.ExternalConnectionModule" id="fa0a51d9-f620-42af-a8b9-0e51c1110ee6.5" configVersion="3dbd026985dcf146a6c6942d814ef34200000000"/>
 		<Metadata name="Configuration.ПриютДляКошек.MainSectionPicture" id="fa0a51d9-f620-42af-a8b9-0e51c1110ee6.c" configVersion="379b650863b0564f854bbddce452533b00000000"/>
 		<Metadata name="Configuration.ПриютДляКошек.ManagedApplicationModule" id="fa0a51d9-f620-42af-a8b9-0e51c1110ee6.6" configVersion="ef20b80d5fcb9545bb246799183ec69e00000000"/>
@@ -11060,9 +11060,14 @@
 		<Metadata name="Report.ГрафикКормленияКошек" id="9dc7d4ca-fa2e-48f2-a2f5-c188b235e983" configVersion="f5847e8261cbe843897793d802c3d64d00000000"/>
 		<Metadata name="Report.ГрафикКормленияКошек.Template.ОсновнаяСхемаКомпоновкиДанных" id="0a0c18a4-6d09-49c5-94cb-0091ee9c2fe5" configVersion="012ebf7757217f4488ca7b9d394e1b0000000000"/>
 		<Metadata name="Report.ГрафикКормленияКошек.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="0a0c18a4-6d09-49c5-94cb-0091ee9c2fe5.0" configVersion="8b4883698f2e364b9bc2f8c5330d9b1100000000"/>
-		<Metadata name="Report.ГрафикУборкиМестСодержания" id="6b1ca44a-69e5-409c-a17a-7acf70563457" configVersion="bf6003f6d33abc4bbadd3ef453a55d7500000000"/>
-		<Metadata name="Report.ГрафикУборкиМестСодержания.Template.ОсновнаяСхемаКомпоновкиДанных" id="44333b81-184a-4417-bf37-0adba71be035" configVersion="562a0fdebb024a4aa74ff77ea864439500000000"/>
-		<Metadata name="Report.ГрафикУборкиМестСодержания.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="44333b81-184a-4417-bf37-0adba71be035.0" configVersion="f38fda8ddf9af84fb0ce466eeb11671400000000"/>
+		<Metadata name="Report.ГрафикУборкиМестСодержанияПоДням" id="0e8e8ad0-b83f-4ded-b6ea-f68d7c20e414" configVersion="cb6e04ddf485a74e9162718431e903b600000000"/>
+		<Metadata name="Report.ГрафикУборкиМестСодержанияПоДням.Form.ФормаОтчета" id="f6955b15-5590-4829-9b67-356683fd040b" configVersion="b19e82ec6090614d88fe2d8badb27ad700000000"/>
+		<Metadata name="Report.ГрафикУборкиМестСодержанияПоДням.Form.ФормаОтчета.Form" id="f6955b15-5590-4829-9b67-356683fd040b.0" configVersion="533aded18ddb7f49b6dec3552cf0040800000000"/>
+		<Metadata name="Report.ГрафикУборкиМестСодержанияПоДням.Help" id="0e8e8ad0-b83f-4ded-b6ea-f68d7c20e414.1" configVersion="130777e4f244b54486016036bd33696c00000000"/>
+		<Metadata name="Report.ГрафикУборкиМестСодержанияПоДням.ManagerModule" id="0e8e8ad0-b83f-4ded-b6ea-f68d7c20e414.2" configVersion="9d76bd0689e537478e21bcb01b9bfb5700000000"/>
+		<Metadata name="Report.ГрафикУборкиМестСодержанияПоДням.ObjectModule" id="0e8e8ad0-b83f-4ded-b6ea-f68d7c20e414.0" configVersion="f628c2fab588f84da185b4bba51515b500000000"/>
+		<Metadata name="Report.ГрафикУборкиМестСодержанияПоДням.Template.ОсновнаяСхемаКомпоновкиДанных" id="8ba5a1c7-7ac5-4fb3-bcc0-cc1421bff62d" configVersion="38f91c8c1d55794e85a25af71849089900000000"/>
+		<Metadata name="Report.ГрафикУборкиМестСодержанияПоДням.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="8ba5a1c7-7ac5-4fb3-bcc0-cc1421bff62d.0" configVersion="a810b54e2c39c54db9373128e3c5b39700000000"/>
 		<Metadata name="Report.ДатыЗапретаЗагрузки" id="18515c19-c9ef-4c9f-8d12-4f58ffa251e8" configVersion="0f7a93d041cd3242815c1e015f66a5e000000000"/>
 		<Metadata name="Report.ДатыЗапретаЗагрузки.Form.ФормаОтчета" id="3afe11f6-7424-4b41-a42f-91db33756fa3" configVersion="ad4fc8908cffc1498da33ec5c5a6c0fe00000000"/>
 		<Metadata name="Report.ДатыЗапретаЗагрузки.Form.ФормаОтчета.Form" id="3afe11f6-7424-4b41-a42f-91db33756fa3.0" configVersion="8bfc1b099091a2498f43f2dd0cf7faaf00000000"/>
@@ -11669,8 +11674,8 @@
 		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов.Form.ПанельДругихОтчетов" id="b2f17ef1-3f6f-4029-b3e2-28d6b79c5b76" configVersion="3e15726bf3cd3544893066602135304c00000000"/>
 		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов.Form.ПанельДругихОтчетов.Form" id="b2f17ef1-3f6f-4029-b3e2-28d6b79c5b76.0" configVersion="392938362ca22347873e7537acf225c400000000"/>
 		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов.Form.ПанельДругихОтчетов.Help" id="b2f17ef1-3f6f-4029-b3e2-28d6b79c5b76.1" configVersion="4d7146fbe12b5c438f113780f5b9f7f800000000"/>
-		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов.Form.СохранениеВариантаОтчета" id="364cbfe2-bc44-4387-aa7e-6b4aa086c9e9" configVersion="79fead1cc81cf84bad050f5c13c27ace00000000"/>
-		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов.Form.СохранениеВариантаОтчета.Form" id="364cbfe2-bc44-4387-aa7e-6b4aa086c9e9.0" configVersion="0805b4db273978478b8820adb3f353f200000000"/>
+		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов.Form.СохранениеВариантаОтчета" id="364cbfe2-bc44-4387-aa7e-6b4aa086c9e9" configVersion="1e4f7381ad11c641a7c762aa77035eb700000000"/>
+		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов.Form.СохранениеВариантаОтчета.Form" id="364cbfe2-bc44-4387-aa7e-6b4aa086c9e9.0" configVersion="45e5c6fa9722ac44b911a68a6ff58e5200000000"/>
 		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов.Form.СохранениеВариантаОтчета.Help" id="364cbfe2-bc44-4387-aa7e-6b4aa086c9e9.1" configVersion="9cf6caea68e3b04a85ca1ebed8186fed00000000"/>
 		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов.Form.СохранениеВариантаОтчетаВФайл" id="7433b2a9-f634-4af7-ac85-6aa1280ea239" configVersion="751ba8c3187c2243a9691ab8199b1f0100000000"/>
 		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов.Form.СохранениеВариантаОтчетаВФайл.Form" id="7433b2a9-f634-4af7-ac85-6aa1280ea239.0" configVersion="c96ee197399a9e4a942a7c20c2f8c1f000000000"/>
@@ -11789,7 +11794,7 @@
 		<Metadata name="Subsystem.НСИ" id="b5ece2e8-640f-4624-960e-b09e8cca8db9" configVersion="87e0ee8ea595c34688450b52457ba1b600000000"/>
 		<Metadata name="Subsystem.Персонал" id="c1bae911-bf80-4879-b38e-45488f493afa" configVersion="01d077d35de04f43930b9b0f9dae846900000000"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="7795348b-2f52-47f7-bf00-e11e5e795a43" configVersion="fe943af4fd0d2b4baa00fa7c0ebd8f8c00000000"/>
-		<Metadata name="Subsystem.Содержание" id="e992f064-df4d-4ff3-809a-626d5d867053" configVersion="4cca0719394e3946bcf36595b38cb0aa00000000"/>
+		<Metadata name="Subsystem.Содержание" id="e992f064-df4d-4ff3-809a-626d5d867053" configVersion="fee8d7be050f11499485f0277853540800000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы" id="0421b67e-ed26-491d-ab98-ec59002ed4ce" configVersion="aceecdd2cfccf246bc541f9eda8e91da00000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.АдресныйКлассификатор" id="bb47ced2-31f9-4870-8633-20b986e53ccc" configVersion="b4b2ae3937fa7b4f88d7b109f0f3c0c100000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.Анкетирование" id="739c01a9-1125-45ef-ab4e-8c73af4eeff0" configVersion="6da65e1c27e4c24db5acb756d1031ce000000000"/>
