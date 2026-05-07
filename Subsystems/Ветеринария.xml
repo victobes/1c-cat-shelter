@@ -14,12 +14,14 @@
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<UseOneCommand>false</UseOneCommand>
 			<Explanation/>
-			<Picture/>
+			<Picture>
+				<xr:Ref>CommonPicture.Ветеринария</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Взвешивание</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Вакцинация</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ИндексыКондицииТела</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВетеринарныеМероприятия</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Чипирование</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.РазмещенияЭлектронногоЧипа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DocumentJournal.ЖурналВетеринарныхМероприятий</xr:Item>
@@ -31,6 +33,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаСообщения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаВыбораФотографии</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.АктВыбытияЖивотного</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикВакцинации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ГрафикВакцинации</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

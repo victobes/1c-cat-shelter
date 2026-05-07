@@ -121,7 +121,7 @@
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Период</dcscor:parameter>
 					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
-					<dcsset:userSettingID>0af43ccd-dc63-4e00-87a3-54c3b91fa086</dcsset:userSettingID>
+					<dcsset:userSettingID>15e9e1b2-3b90-4c67-851d-f18256633047</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:order>

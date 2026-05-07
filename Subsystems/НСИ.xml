@@ -14,15 +14,16 @@
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<UseOneCommand>false</UseOneCommand>
 			<Explanation/>
-			<Picture/>
+			<Picture>
+				<xr:Ref>CommonPicture.НСИ</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыКонтрагентов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.СтатусыПребыванияЖивотных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.Пол</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтраныМира</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЕдиницыИзмерения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АдминистративныеМероприятия</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПродолжительностьМероприятий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.НаименованиеОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПолноеНаименованиеОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИНН</xr:Item>
@@ -31,23 +32,19 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.АдресЭлектроннойПочтыОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ТелефонОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.СведенияОбОрганизации</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ШаблоныПротоколовОсмотра</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.GigaChat_ТокеныАвторизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.GigaChat_Диалоги</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.GigaChat_Сообщения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Породы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Окрасы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПричиныПередачиВПриют</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыДокументовФизическихЛиц</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПричиныПеремещенияЖивотных</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.НазначенияКомнат</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоответствиеСтатусовНазначениюКомнат</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Комнаты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РационКормления</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыРасходников</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлассификаторБолезней</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Персонал</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.НСИ</xr:Item>
 			</Content>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Subsystem>Кошки</Subsystem>
+			<Subsystem>Запасы</Subsystem>
+			<Subsystem>Ветеринария</Subsystem>
+			<Subsystem>Документооборот</Subsystem>
+			<Subsystem>Содержание</Subsystem>
+		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

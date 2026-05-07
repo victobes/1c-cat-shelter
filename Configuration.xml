@@ -254,7 +254,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>Коты</Subsystem>
+			<Subsystem>Кошки</Subsystem>
 			<Subsystem>Персонал</Subsystem>
 			<Subsystem>Запасы</Subsystem>
 			<Subsystem>Документооборот</Subsystem>
@@ -923,6 +923,13 @@
 			<CommonPicture>ЯндексДиск</CommonPicture>
 			<CommonPicture>ЯндексКарты</CommonPicture>
 			<CommonPicture>УдалитьИнформация</CommonPicture>
+			<CommonPicture>Ветеринария</CommonPicture>
+			<CommonPicture>Запасы</CommonPicture>
+			<CommonPicture>Содержание</CommonPicture>
+			<CommonPicture>Персонал</CommonPicture>
+			<CommonPicture>Кошки</CommonPicture>
+			<CommonPicture>Документооборот</CommonPicture>
+			<CommonPicture>НСИ</CommonPicture>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
 			<SessionParameter>ВерсииШаблоновОграниченияДоступа</SessionParameter>
@@ -1663,6 +1670,7 @@
 			<CommonModule>ОбновлениеИнформационнойБазыПриютДляКошек</CommonModule>
 			<CommonModule>РаботаСРасходникамиВызовСервера</CommonModule>
 			<CommonModule>GigaChat_Сервер</CommonModule>
+			<CommonModule>РаботаСДокументамиСервер</CommonModule>
 			<CommonAttribute>КомментарийЯзык1</CommonAttribute>
 			<CommonAttribute>КомментарийЯзык2</CommonAttribute>
 			<CommonAttribute>НаименованиеЯзык1</CommonAttribute>
@@ -2471,6 +2479,7 @@
 			<Catalog>ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЯзыкиПечатныхФорм</Catalog>
 			<Catalog>ШаблоныПротоколовОсмотра</Catalog>
+			<Catalog>ПричиныСмерти</Catalog>
 			<Document>ЗаявкаНаПередачуЖивотногоВПриют</Document>
 			<Document>ПеремещениеЖивотного</Document>
 			<Document>ДоговорОПередачеЖивотногоВПриют</Document>
@@ -2652,6 +2661,7 @@
 			<Report>ИспользованиеРасходниковЗаПериод</Report>
 			<Report>ГрафикКормленияКошек</Report>
 			<Report>ГрафикУборкиМестСодержанияПоДням</Report>
+			<Report>ГрафикВакцинации</Report>
 			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
 			<DataProcessor>АктивныеПользователи</DataProcessor>
 			<DataProcessor>БлокировкаРаботыПользователей</DataProcessor>
@@ -2729,6 +2739,9 @@
 			<DataProcessor>УправлениеИтогамиИАгрегатами</DataProcessor>
 			<DataProcessor>УправлениеПодключениемDSS</DataProcessor>
 			<DataProcessor>УстановкаОбновлений</DataProcessor>
+			<InformationRegister>GigaChat_Диалоги</InformationRegister>
+			<InformationRegister>GigaChat_Сообщения</InformationRegister>
+			<InformationRegister>GigaChat_ТокеныАвторизации</InformationRegister>
 			<InformationRegister>АдминистративнаяИерархия</InformationRegister>
 			<InformationRegister>АдресныеОбъекты</InformationRegister>
 			<InformationRegister>АрхивСообщенийОбменов</InformationRegister>
@@ -2740,6 +2753,8 @@
 			<InformationRegister>ВерсииПодсистем</InformationRegister>
 			<InformationRegister>ВерсииПодсистемОбластейДанных</InformationRegister>
 			<InformationRegister>ГрафикАдминистративныхМероприятий</InformationRegister>
+			<InformationRegister>ГрафикПолученияКормаПодопечными</InformationRegister>
+			<InformationRegister>ГрафикУборкиМестСодержанияПодопечных</InformationRegister>
 			<InformationRegister>ГруппыЗначенийДоступа</InformationRegister>
 			<InformationRegister>ДампыПлатформы</InformationRegister>
 			<InformationRegister>ДанныеБизнесПроцессов</InformationRegister>
@@ -2834,6 +2849,7 @@
 			<InformationRegister>ОбщиеНастройкиУзловИнформационныхБаз</InformationRegister>
 			<InformationRegister>ОбщиеПоставляемыеМакетыПечати</InformationRegister>
 			<InformationRegister>ОбъектыНезарегистрированныеПриЗацикливании</InformationRegister>
+			<InformationRegister>ОпекуныУкотовителиПодопечных</InformationRegister>
 			<InformationRegister>ОперацииСтатистики</InformationRegister>
 			<InformationRegister>ОповещенияПользователейСертификатов</InformationRegister>
 			<InformationRegister>ОсновныеПечатныеФормыКонтрагентов</InformationRegister>
@@ -2866,6 +2882,7 @@
 			<InformationRegister>ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux</InformationRegister>
 			<InformationRegister>РабочиеКаталогиФайлов</InformationRegister>
 			<InformationRegister>РазрешенияНаИспользованиеВнешнихРесурсов</InformationRegister>
+			<InformationRegister>РационыКормленияПодопечных</InformationRegister>
 			<InformationRegister>РежимыПодключенияВнешнихМодулей</InformationRegister>
 			<InformationRegister>РезультатыВзвешиваний</InformationRegister>
 			<InformationRegister>РезультатыОбменаДанными</InformationRegister>
@@ -2924,13 +2941,7 @@
 			<InformationRegister>ХранилищеФайлов</InformationRegister>
 			<InformationRegister>ЭлектронныеПодписи</InformationRegister>
 			<InformationRegister>ЭлектронныеПодписиМЧД</InformationRegister>
-			<InformationRegister>РационыКормленияПодопечных</InformationRegister>
-			<InformationRegister>ОпекуныУкотовителиПодопечных</InformationRegister>
-			<InformationRegister>GigaChat_ТокеныАвторизации</InformationRegister>
-			<InformationRegister>GigaChat_Диалоги</InformationRegister>
-			<InformationRegister>GigaChat_Сообщения</InformationRegister>
-			<InformationRegister>ГрафикПолученияКормаПодопечными</InformationRegister>
-			<InformationRegister>ГрафикУборкиМестСодержанияПодопечных</InformationRegister>
+			<InformationRegister>ГрафикВакцинации</InformationRegister>
 			<AccumulationRegister>ЗаполненностьКомнат</AccumulationRegister>
 			<AccumulationRegister>ОстаткиРасходников</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ВопросыДляАнкетирования</ChartOfCharacteristicTypes>
