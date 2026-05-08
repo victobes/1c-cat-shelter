@@ -45,6 +45,7 @@
 			<Subsystem>Ветеринария</Subsystem>
 			<Subsystem>Документооборот</Subsystem>
 			<Subsystem>Содержание</Subsystem>
+			<Subsystem>Персонал</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

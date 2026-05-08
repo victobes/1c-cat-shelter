@@ -7,37 +7,40 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Расходник</dataPath>
-			<field>Расходник</field>
+			<dataPath>Кошка</dataPath>
+			<field>Кошка</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Количество</dataPath>
-			<field>Количество</field>
+			<dataPath>ДатаПовторнойОбработки</dataPath>
+			<field>ДатаПовторнойОбработки</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>РасходникВидРасходника</dataPath>
-			<field>РасходникВидРасходника</field>
+			<dataPath>ДатаОбработки</dataPath>
+			<field>ДатаОбработки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата обработки</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>РасходникЕдиницаИзмерения</dataPath>
-			<field>РасходникЕдиницаИзмерения</field>
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ОстаткиРасходников.Расходник КАК Расходник,
-	СУММА(ОстаткиРасходников.Количество) КАК Количество,
-	ОстаткиРасходников.Расходник.ВидРасходника КАК РасходникВидРасходника,
-	ОстаткиРасходников.Расходник.ЕдиницаИзмерения КАК РасходникЕдиницаИзмерения
+	ГрафикОбработкиОтПаразитов.Кошка КАК Кошка,
+	ГрафикОбработкиОтПаразитов.ДатаПовторнойОбработки КАК ДатаПовторнойОбработки,
+	ГрафикОбработкиОтПаразитов.Период КАК ДатаОбработки,
+	ГрафикОбработкиОтПаразитов.Регистратор КАК Регистратор
 ИЗ
-	РегистрНакопления.ОстаткиРасходников КАК ОстаткиРасходников
-ГДЕ
-	ОстаткиРасходников.Период МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
-	И ОстаткиРасходников.ВидДвижения = ЗНАЧЕНИЕ(ВидДвиженияНакопления.Расход)
-
-СГРУППИРОВАТЬ ПО
-	ОстаткиРасходников.Расходник,
-	ОстаткиРасходников.Расходник.ВидРасходника,
-	ОстаткиРасходников.Расходник.ЕдиницаИзмерения</query>
+	РегистрСведений.ГрафикОбработкиОтПаразитов КАК ГрафикОбработкиОтПаразитов
+{ГДЕ
+	(ГрафикОбработкиОтПаразитов.ДатаПовторнойОбработки МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания)}</query>
 	</dataSet>
 	<parameter>
 		<name>ДатаНачала</name>
@@ -50,7 +53,7 @@
 		<valueType>
 			<v8:Type>xs:dateTime</v8:Type>
 			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
+				<v8:DateFractions>Date</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
@@ -68,7 +71,7 @@
 		<valueType>
 			<v8:Type>xs:dateTime</v8:Type>
 			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
+				<v8:DateFractions>Date</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
@@ -99,19 +102,16 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Расходник</dcsset:field>
+					<dcsset:field>Кошка</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>РасходникЕдиницаИзмерения</dcsset:field>
-					<dcsset:lwsTitle>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Ед. изм.</v8:content>
-						</v8:item>
-					</dcsset:lwsTitle>
+					<dcsset:field>ДатаОбработки</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Количество</dcsset:field>
+					<dcsset:field>Регистратор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПовторнойОбработки</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
@@ -123,19 +123,43 @@
 						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
 						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
 					</dcscor:value>
-					<dcsset:userSettingID>c69bea96-73e6-41f6-a464-868c87c3642b</dcsset:userSettingID>
+					<dcsset:userSettingID>9a1b7778-06a4-4d26-bbf8-096232878601</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДатаОбработки</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДатаПовторнойОбработки</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Кошка</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Регистратор</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДатаПовторнойОбработки</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="v8:StandardBeginningDate">
+								<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+							</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#FFCC99</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
 			<dcsset:outputParameters>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>МакетОформления</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">Море</dcscor:value>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
-					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
-					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">End</dcscor:value>
-				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
 					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
@@ -146,29 +170,12 @@
 				</dcscor:item>
 			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
-				<dcsset:groupItems>
-					<dcsset:item xsi:type="dcsset:GroupItemField">
-						<dcsset:field>РасходникВидРасходника</dcsset:field>
-						<dcsset:groupType>Items</dcsset:groupType>
-						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
-						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
-						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
-					</dcsset:item>
-				</dcsset:groupItems>
 				<dcsset:order>
 					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 				</dcsset:order>
 				<dcsset:selection>
 					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 				</dcsset:selection>
-				<dcsset:item xsi:type="dcsset:StructureItemGroup">
-					<dcsset:order>
-						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
-					</dcsset:order>
-					<dcsset:selection>
-						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
-					</dcsset:selection>
-				</dcsset:item>
 			</dcsset:item>
 		</dcsset:settings>
 	</settingsVariant>

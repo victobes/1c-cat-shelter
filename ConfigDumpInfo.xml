@@ -202,8 +202,8 @@
 		<Metadata name="Catalog.ВерсииФайлов.Help" id="eb3dfdc7-58b8-4b1f-b079-368c262364c9.1" configVersion="a52e7cf48ffed8468bb05cc7f206113200000000"/>
 		<Metadata name="Catalog.ВерсииФайлов.ManagerModule" id="eb3dfdc7-58b8-4b1f-b079-368c262364c9.3" configVersion="59cfaabf61354a44918770e4a58b791700000000"/>
 		<Metadata name="Catalog.ВерсииФайлов.ObjectModule" id="eb3dfdc7-58b8-4b1f-b079-368c262364c9.0" configVersion="c431081bc919424daf139434e3c1cc9000000000"/>
-		<Metadata name="Catalog.ВетеринарныеМероприятия" id="4bc6758c-68a4-43e9-b71e-162b25dec4eb" configVersion="14830201066b394d8315b3d231592c4d00000000"/>
-		<Metadata name="Catalog.ВетеринарныеМероприятия.Predefined" id="4bc6758c-68a4-43e9-b71e-162b25dec4eb.1c" configVersion="0e67f25df85472488aa464f02ef039a200000000"/>
+		<Metadata name="Catalog.ВетеринарныеМероприятия" id="4bc6758c-68a4-43e9-b71e-162b25dec4eb" configVersion="bbc5b7097d3b7c41833d67be73fd90a000000000"/>
+		<Metadata name="Catalog.ВетеринарныеМероприятия.Predefined" id="4bc6758c-68a4-43e9-b71e-162b25dec4eb.1c" configVersion="f96f167dcd6da149bc1728b380c87f6900000000"/>
 		<Metadata name="Catalog.ВидыДокументовФизическихЛиц" id="79408c32-117e-4f71-aaa6-daced8ff8508" configVersion="c32aa5c286f73945adb99cda7d42b97500000000">
 			<Metadata name="Catalog.ВидыДокументовФизическихЛиц.Attribute.КодПФР" id="2a1980a4-40b0-49a0-b1f6-6442b12c7f4f"/>
 			<Metadata name="Catalog.ВидыДокументовФизическихЛиц.Attribute.КодФНС" id="3aafce5b-5848-419a-88d6-6332417280be"/>
@@ -5066,7 +5066,7 @@
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="f3d655fe83bd6d4ea196999121e5336300000000"/>
 		<Metadata name="CommonTemplate.ШтампЭлектроннойПодписиOfficeOpen" id="faf89779-2290-4d37-b1ea-e81b1b79f74c" configVersion="da7c82c782145a4e91bc6108fee9299300000000"/>
 		<Metadata name="CommonTemplate.ШтампЭлектроннойПодписиOfficeOpen.Template" id="faf89779-2290-4d37-b1ea-e81b1b79f74c.0" configVersion="600274914f8f3845996ecfc739e525dc00000000"/>
-		<Metadata name="Configuration.ПриютДляКошек" id="91bf5bc6-d784-403e-89c6-97c82ec7988e" configVersion="ed34222b89271847a3212490b9f7fee200000000"/>
+		<Metadata name="Configuration.ПриютДляКошек" id="91bf5bc6-d784-403e-89c6-97c82ec7988e" configVersion="315e77f8a060194dab5f39b6a9c4f3e000000000"/>
 		<Metadata name="Configuration.ПриютДляКошек.ExternalConnectionModule" id="fa0a51d9-f620-42af-a8b9-0e51c1110ee6.5" configVersion="3dbd026985dcf146a6c6942d814ef34200000000"/>
 		<Metadata name="Configuration.ПриютДляКошек.MainSectionPicture" id="fa0a51d9-f620-42af-a8b9-0e51c1110ee6.c" configVersion="379b650863b0564f854bbddce452533b00000000"/>
 		<Metadata name="Configuration.ПриютДляКошек.ManagedApplicationModule" id="fa0a51d9-f620-42af-a8b9-0e51c1110ee6.6" configVersion="ef20b80d5fcb9545bb246799183ec69e00000000"/>
@@ -7334,6 +7334,14 @@
 		<Metadata name="Document.НазначениеОпросов.Form.ФормаСписка.Form" id="d7fb9441-1aef-4257-af3f-7f16340ac85e.0" configVersion="72462e9a18efa94ea99d2ed14efa2b4a00000000"/>
 		<Metadata name="Document.НазначениеОпросов.Form.ФормаСписка.Help" id="d7fb9441-1aef-4257-af3f-7f16340ac85e.1" configVersion="ae3568a8e812344a9bef3fee155b296a00000000"/>
 		<Metadata name="Document.НазначениеОпросов.ManagerModule" id="3d315df6-e000-4cbd-810d-0b26c0d1bc54.2" configVersion="592453b38b00944bbaa845e27dda7a7f00000000"/>
+		<Metadata name="Document.ОбработкаОтПаразитов" id="2acd2b4a-06da-4ad5-a1df-12f228e87350" configVersion="7fd5019d4a982142b5a5c6bf358f688800000000">
+			<Metadata name="Document.ОбработкаОтПаразитов.Attribute.ДатаПовторнойОбработки" id="123f96a7-b363-4575-8e3c-1ad148295c23"/>
+			<Metadata name="Document.ОбработкаОтПаразитов.Attribute.Препарат" id="39e3ea1e-e026-40e1-8233-737afda72619"/>
+			<Metadata name="Document.ОбработкаОтПаразитов.Attribute.ВетеринарноеМероприятие" id="6fd8e5bd-fa33-46c0-9d11-2bd7a8dd0adf"/>
+			<Metadata name="Document.ОбработкаОтПаразитов.Attribute.Количество" id="9d84ebd3-fdfe-4ae8-ba41-586bc2bed200"/>
+			<Metadata name="Document.ОбработкаОтПаразитов.Attribute.Кошка" id="fadde874-e849-48fa-bd75-1c8df04fe774"/>
+		</Metadata>
+		<Metadata name="Document.ОбработкаОтПаразитов.ObjectModule" id="2acd2b4a-06da-4ad5-a1df-12f228e87350.0" configVersion="d9a244a9c3870649a2db493a669176b000000000"/>
 		<Metadata name="Document.Осмотр" id="becb2aed-2354-47d8-bd7f-bcc117acc6e0" configVersion="5f5830e2221b3e49b0a7fced52d9d0e200000000">
 			<Metadata name="Document.Осмотр.Attribute.РационКормления" id="1e653397-95c9-4b41-9bee-52955380021c"/>
 			<Metadata name="Document.Осмотр.Attribute.Ответственный" id="2f8b9036-eda3-46d3-81f1-d8fefe525c7f"/>
@@ -8898,6 +8906,10 @@
 			<Metadata name="InformationRegister.ГрафикВакцинации.Attribute.Болезнь" id="5ccb4610-4f88-4713-a703-8c4d3357a012"/>
 			<Metadata name="InformationRegister.ГрафикВакцинации.Dimension.Кошка" id="76f45e8c-d273-4fbc-b34f-e64191f3b1b8"/>
 			<Metadata name="InformationRegister.ГрафикВакцинации.Dimension.Вакцина" id="9324e6ff-b2b4-4bcb-a8e5-4982783c2bae"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ГрафикОбработкиОтПаразитов" id="480ab358-7535-4848-8712-8011a601bbae" configVersion="f843801cac868946a9db5b2dfadba9b000000000">
+			<Metadata name="InformationRegister.ГрафикОбработкиОтПаразитов.Dimension.Кошка" id="7482fd21-6e81-48da-adb8-ea647892b5fc"/>
+			<Metadata name="InformationRegister.ГрафикОбработкиОтПаразитов.Resource.ДатаПовторнойОбработки" id="96c2feca-b9ef-4854-bc40-849617114967"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ГрафикПолученияКормаПодопечными" id="a844e734-e57c-4be2-ae94-29b1025637b4" configVersion="3910fe4b1ff2c94eb8ccbc5f68b0386100000000">
 			<Metadata name="InformationRegister.ГрафикПолученияКормаПодопечными.Attribute.РационКормления" id="3d6e972a-6f25-4fde-866d-66a03c3c9461"/>
@@ -11091,6 +11103,9 @@
 		<Metadata name="Report.ГрафикКормленияКошек" id="9dc7d4ca-fa2e-48f2-a2f5-c188b235e983" configVersion="f5847e8261cbe843897793d802c3d64d00000000"/>
 		<Metadata name="Report.ГрафикКормленияКошек.Template.ОсновнаяСхемаКомпоновкиДанных" id="0a0c18a4-6d09-49c5-94cb-0091ee9c2fe5" configVersion="95637ee672f0564eaa424a839e62fab400000000"/>
 		<Metadata name="Report.ГрафикКормленияКошек.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="0a0c18a4-6d09-49c5-94cb-0091ee9c2fe5.0" configVersion="b3cb8f42b0bee348ae80039906cea39e00000000"/>
+		<Metadata name="Report.ГрафикОбработкиОтПаразитов" id="a6e425fb-a198-421c-ab5e-6766b4db4103" configVersion="7207300d798be248a8e3f55bd4daa90900000000"/>
+		<Metadata name="Report.ГрафикОбработкиОтПаразитов.Template.ОсновнаяСхемаКомпоновкиДанных" id="b9fde679-d708-4712-8a21-728b3d9c50b8" configVersion="8240e67c08ebdb4dbb11bf5a844cec3a00000000"/>
+		<Metadata name="Report.ГрафикОбработкиОтПаразитов.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="b9fde679-d708-4712-8a21-728b3d9c50b8.0" configVersion="134a9b5af30b404abff4f0d9e4faf44100000000"/>
 		<Metadata name="Report.ГрафикУборкиМестСодержанияПоДням" id="0e8e8ad0-b83f-4ded-b6ea-f68d7c20e414" configVersion="cb6e04ddf485a74e9162718431e903b600000000"/>
 		<Metadata name="Report.ГрафикУборкиМестСодержанияПоДням.Form.ФормаОтчета" id="f6955b15-5590-4829-9b67-356683fd040b" configVersion="b19e82ec6090614d88fe2d8badb27ad700000000"/>
 		<Metadata name="Report.ГрафикУборкиМестСодержанияПоДням.Form.ФормаОтчета.Form" id="f6955b15-5590-4829-9b67-356683fd040b.0" configVersion="533aded18ddb7f49b6dec3552cf0040800000000"/>
@@ -11185,8 +11200,8 @@
 		<Metadata name="Report.ИзменениеУчетныхЗаписей.Template.Макет" id="1102079f-d424-4ebb-8496-d48f596c5c62" configVersion="05ab9f8baf3a744bbfbb00208e2a456000000000"/>
 		<Metadata name="Report.ИзменениеУчетныхЗаписей.Template.Макет.Template" id="1102079f-d424-4ebb-8496-d48f596c5c62.0" configVersion="c6cd1f0d011b094bbad60f9db938c7c800000000"/>
 		<Metadata name="Report.ИспользованиеРасходниковЗаПериод" id="4333e403-557a-45ce-bceb-15bbba2a4cef" configVersion="3e50e3d372c47645b764c1757ba64e6600000000"/>
-		<Metadata name="Report.ИспользованиеРасходниковЗаПериод.Template.ОсновнаяСхемаКомпоновкиДанных" id="0e3b462d-a297-4513-aa7c-a2f8dd98702d" configVersion="e2c6dc0aacbded4d92c85af2b78c22ef00000000"/>
-		<Metadata name="Report.ИспользованиеРасходниковЗаПериод.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="0e3b462d-a297-4513-aa7c-a2f8dd98702d.0" configVersion="96e7a3fab7658548a47d8fc16f8a9a5e00000000"/>
+		<Metadata name="Report.ИспользованиеРасходниковЗаПериод.Template.ОсновнаяСхемаКомпоновкиДанных" id="0e3b462d-a297-4513-aa7c-a2f8dd98702d" configVersion="4ecc899a8f987e43a22873c16d3adc7400000000"/>
+		<Metadata name="Report.ИспользованиеРасходниковЗаПериод.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="0e3b462d-a297-4513-aa7c-a2f8dd98702d.0" configVersion="2d9441636fd82946ab0aeee011d15d7800000000"/>
 		<Metadata name="Report.ИспользуемыеВнешниеРесурсы" id="c7bafd34-5b15-42ec-b329-0be3002775ad" configVersion="8b4482f0188c89448633cda849010acc00000000"/>
 		<Metadata name="Report.ИспользуемыеВнешниеРесурсы.Help" id="c7bafd34-5b15-42ec-b329-0be3002775ad.1" configVersion="a411a47beb28c5498b1177a8f28dc46a00000000"/>
 		<Metadata name="Report.ИспользуемыеВнешниеРесурсы.ManagerModule" id="c7bafd34-5b15-42ec-b329-0be3002775ad.2" configVersion="81204b0a04e8b342a695834c8f1d396f00000000"/>
@@ -11213,6 +11228,9 @@
 		<Metadata name="Report.ОстаткиРасходников" id="e0c199eb-b544-421a-aa74-3270d1891699" configVersion="02b8e2c9778ca343a320adeefbc0bf0e00000000"/>
 		<Metadata name="Report.ОстаткиРасходников.Template.ОсновнаяСхемаКомпоновкиДанных" id="c1f696b3-90e3-4339-b2eb-18267ee3c0ae" configVersion="7004e1f3532ff64e90ae23b16510393900000000"/>
 		<Metadata name="Report.ОстаткиРасходников.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="c1f696b3-90e3-4339-b2eb-18267ee3c0ae.0" configVersion="f10c35b37c36c441ad09cd1357604fad00000000"/>
+		<Metadata name="Report.ОтчетПоПодопечным" id="0e174771-271c-4f2e-a9ed-03a6871aea0e" configVersion="92bb80bd931ea24fb4ca9fa5dca89e1f00000000"/>
+		<Metadata name="Report.ОтчетПоПодопечным.Template.ОсновнаяСхемаКомпоновкиДанных" id="203a3da4-4440-4889-b755-a2649fa0b645" configVersion="3369f04e49f7fa468ecf0115cb51496400000000"/>
+		<Metadata name="Report.ОтчетПоПодопечным.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="203a3da4-4440-4889-b755-a2649fa0b645.0" configVersion="28bb69099e4d7f4baef40fd1cedef91b00000000"/>
 		<Metadata name="Report.ОценкаПроизводительности" id="269ada84-71a9-4b4b-9604-caa40c5b7067" configVersion="680e74fe5d6dda408a2b78c8a051f18d00000000"/>
 		<Metadata name="Report.ОценкаПроизводительности.Help" id="269ada84-71a9-4b4b-9604-caa40c5b7067.1" configVersion="ce393d65c6b4ad41b3880791f4828d3900000000"/>
 		<Metadata name="Report.ОценкаПроизводительности.ManagerModule" id="269ada84-71a9-4b4b-9604-caa40c5b7067.2" configVersion="04a5c668a9a6d940947b9f836a63746c00000000"/>
@@ -11816,14 +11834,14 @@
 		<Metadata name="Subsystem.Администрирование.CommandInterface" id="9233322b-dfdb-4c66-91fe-1299292d40a5.1" configVersion="8f12fc9a7648064e8abcd2b0c87fd2e400000000"/>
 		<Metadata name="Subsystem.Администрирование.Subsystem.КонтрольРаботыПользователей" id="fa04bf1e-69c0-4998-a939-039fcaba83c8" configVersion="6f112d7affba6a499a5d9d46edc2b37e00000000"/>
 		<Metadata name="Subsystem.Администрирование.Subsystem.КонтрольРаботыПользователей.CommandInterface" id="fa04bf1e-69c0-4998-a939-039fcaba83c8.1" configVersion="d19a2ed72e4b0f4d962f110e5e93321c00000000"/>
-		<Metadata name="Subsystem.Ветеринария" id="4c3bbd86-490e-49bf-ba24-72d8f4c483a9" configVersion="e6eee2e631cef5498fb1b4436a5b97a100000000"/>
+		<Metadata name="Subsystem.Ветеринария" id="4c3bbd86-490e-49bf-ba24-72d8f4c483a9" configVersion="f66c8075612a4d41b75af1a6c97cfdcf00000000"/>
 		<Metadata name="Subsystem.Ветеринария.CommandInterface" id="4c3bbd86-490e-49bf-ba24-72d8f4c483a9.1" configVersion="69e160c10ef3a54bb78e9cb37803809000000000"/>
 		<Metadata name="Subsystem.Документооборот" id="e46972b3-5be2-4833-aebc-16fe83d50f15" configVersion="5509f4e460d6f549b28aa8f6af7ae6d000000000"/>
 		<Metadata name="Subsystem.Документооборот.CommandInterface" id="e46972b3-5be2-4833-aebc-16fe83d50f15.1" configVersion="d3b8bf00c0af5849b01a19fcfbc9e03e00000000"/>
 		<Metadata name="Subsystem.Запасы" id="45585412-cbb6-470c-953f-062872607a30" configVersion="b8256ff3ef4a25498e422ad11941375b00000000"/>
-		<Metadata name="Subsystem.Кошки" id="21dbd90f-f7a6-4701-ba04-661f13e08f37" configVersion="589e52de3c93e64f9e56bad0f04e3bdd00000000"/>
+		<Metadata name="Subsystem.Кошки" id="21dbd90f-f7a6-4701-ba04-661f13e08f37" configVersion="877ce61cebf0934796a52932a633bf8f00000000"/>
 		<Metadata name="Subsystem.Кошки.CommandInterface" id="21dbd90f-f7a6-4701-ba04-661f13e08f37.1" configVersion="925c0693e70fe847aed53e19fe08ab9200000000"/>
-		<Metadata name="Subsystem.НСИ" id="b5ece2e8-640f-4624-960e-b09e8cca8db9" configVersion="d06e573cc67fd94fada8c92d3a11f74700000000"/>
+		<Metadata name="Subsystem.НСИ" id="b5ece2e8-640f-4624-960e-b09e8cca8db9" configVersion="d3496e6e1863764d859c919fc542b87a00000000"/>
 		<Metadata name="Subsystem.НСИ.Subsystem.Ветеринария" id="fadc20fe-1329-4f56-86c2-72cb06befb71" configVersion="26b5b801ac0e23428cf6299364e0ec5000000000"/>
 		<Metadata name="Subsystem.НСИ.Subsystem.Документооборот" id="e9b02e12-4454-4430-ae02-277588f3874a" configVersion="4eb1c5bc831c1a488009b4d1284164ad00000000"/>
 		<Metadata name="Subsystem.НСИ.Subsystem.Запасы" id="89d357b2-126e-4a37-bef2-73d256e3a8fe" configVersion="1d882ae369ce794c9de4b8d4809d52d100000000"/>
@@ -11832,8 +11850,9 @@
 		<Metadata name="Subsystem.НСИ.Subsystem.Кошки" id="856fc29f-0646-48e7-9fb0-471f4a589b11" configVersion="2fb97f58cb190944a29e3d0beb7a495e00000000"/>
 		<Metadata name="Subsystem.НСИ.Subsystem.Кошки.CommandInterface" id="856fc29f-0646-48e7-9fb0-471f4a589b11.1" configVersion="49bc2ac6888e784b90d36026a0ad1f8100000000"/>
 		<Metadata name="Subsystem.НСИ.Subsystem.Кошки.Help" id="856fc29f-0646-48e7-9fb0-471f4a589b11.0" configVersion="08785db450b5a84eb9679464abc7553100000000"/>
+		<Metadata name="Subsystem.НСИ.Subsystem.Персонал" id="5a3fef4d-0293-4f20-a7ad-9d609a0d25f3" configVersion="1eceb1fb31eed74d914388a0106e567d00000000"/>
 		<Metadata name="Subsystem.НСИ.Subsystem.Содержание" id="4c7dd066-2bd9-4e1f-ba28-7280873b67fe" configVersion="af5e795f0f98894296768302c787523700000000"/>
-		<Metadata name="Subsystem.Персонал" id="c1bae911-bf80-4879-b38e-45488f493afa" configVersion="71b89ebb19c80443b188c47c257649ec00000000"/>
+		<Metadata name="Subsystem.Персонал" id="c1bae911-bf80-4879-b38e-45488f493afa" configVersion="98ebf8df3244764a9800bcf06842e9a900000000"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="7795348b-2f52-47f7-bf00-e11e5e795a43" configVersion="fe943af4fd0d2b4baa00fa7c0ebd8f8c00000000"/>
 		<Metadata name="Subsystem.Содержание" id="e992f064-df4d-4ff3-809a-626d5d867053" configVersion="a58184279c4d6b4ea26bc179c787563000000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы" id="0421b67e-ed26-491d-ab98-ec59002ed4ce" configVersion="aceecdd2cfccf246bc541f9eda8e91da00000000"/>

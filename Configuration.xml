@@ -2507,6 +2507,7 @@
 			<Document>ЗаявкаНаУчастиеВСобеседовании</Document>
 			<Document>ВыдачаКормаСписком</Document>
 			<Document>УборкаМестаСодержания</Document>
+			<Document>ОбработкаОтПаразитов</Document>
 			<DocumentJournal>ЖурналВетеринарныхМероприятий</DocumentJournal>
 			<DocumentJournal>Взаимодействия</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>
@@ -2662,6 +2663,8 @@
 			<Report>ГрафикКормленияКошек</Report>
 			<Report>ГрафикУборкиМестСодержанияПоДням</Report>
 			<Report>ГрафикВакцинации</Report>
+			<Report>ГрафикОбработкиОтПаразитов</Report>
+			<Report>ОтчетПоПодопечным</Report>
 			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
 			<DataProcessor>АктивныеПользователи</DataProcessor>
 			<DataProcessor>БлокировкаРаботыПользователей</DataProcessor>
@@ -2942,6 +2945,7 @@
 			<InformationRegister>ЭлектронныеПодписи</InformationRegister>
 			<InformationRegister>ЭлектронныеПодписиМЧД</InformationRegister>
 			<InformationRegister>ГрафикВакцинации</InformationRegister>
+			<InformationRegister>ГрафикОбработкиОтПаразитов</InformationRegister>
 			<AccumulationRegister>ЗаполненностьКомнат</AccumulationRegister>
 			<AccumulationRegister>ОстаткиРасходников</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ВопросыДляАнкетирования</ChartOfCharacteristicTypes>

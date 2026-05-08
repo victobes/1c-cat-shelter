@@ -12,6 +12,12 @@
 		<Description>Взвешивание</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="3b246758-5109-4f30-b997-c8ee2fcdb11a">
+		<Name>ОбработкаОтПаразитов</Name>
+		<Code>000000006</Code>
+		<Description>Обработка от паразитов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="5ffd4de6-692e-480c-8624-69f0f9a767f5">
 		<Name>Осмотр</Name>
 		<Code>000000004</Code>

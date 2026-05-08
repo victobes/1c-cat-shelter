@@ -35,6 +35,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.АктВыбытияЖивотного</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикВакцинации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ГрафикВакцинации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОбработкаОтПаразитов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ГрафикОбработкиОтПаразитов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикОбработкиОтПаразитов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
