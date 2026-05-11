@@ -31,6 +31,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Чипирование</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Вакцинация</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Взвешивание</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Осмотр</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОбработкаОтПаразитов</xr:Item>
 			</RegisteredDocuments>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<ListPresentation/>

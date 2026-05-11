@@ -60,7 +60,6 @@
 						</InputField>
 						<InputField name="НомерМикрочипа" id="57">
 							<DataPath>НомерМикрочипа</DataPath>
-							<ReadOnly>true</ReadOnly>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="НомерМикрочипаКонтекстноеМеню" id="58"/>
 							<ExtendedTooltip name="НомерМикрочипаРасширеннаяПодсказка" id="59"/>

@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>25</DescriptionLength>
+			<DescriptionLength>100</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -133,11 +133,11 @@
 			</Attribute>
 			<Attribute uuid="2a1980a4-40b0-49a0-b1f6-6442b12c7f4f">
 				<Properties>
-					<Name>КодПФР</Name>
+					<Name>КодСФР</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Код ПФР</v8:content>
+							<v8:content>Код СФР</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

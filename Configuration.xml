@@ -2447,6 +2447,7 @@
 			<Catalog>ПредопределенныеВариантыОтчетовРасширений</Catalog>
 			<Catalog>ПричиныПередачиВПриют</Catalog>
 			<Catalog>ПричиныПеремещенияЖивотных</Catalog>
+			<Catalog>ПричиныСмерти</Catalog>
 			<Catalog>ПричиныСписанияРасходников</Catalog>
 			<Catalog>ПрограммыЭлектроннойПодписиИШифрования</Catalog>
 			<Catalog>ПроизводственныеКалендари</Catalog>
@@ -2472,42 +2473,41 @@
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>ХранилищеДвоичныхДанных</Catalog>
 			<Catalog>ШаблоныАнкет</Catalog>
+			<Catalog>ШаблоныПротоколовОсмотра</Catalog>
 			<Catalog>ШаблоныСообщений</Catalog>
 			<Catalog>ШаблоныСообщенийПрисоединенныеФайлы</Catalog>
 			<Catalog>ЭкземплярыСервераDSS</Catalog>
 			<Catalog>ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЯзыкиПечатныхФорм</Catalog>
-			<Catalog>ШаблоныПротоколовОсмотра</Catalog>
-			<Catalog>ПричиныСмерти</Catalog>
-			<Document>ЗаявкаНаПередачуЖивотногоВПриют</Document>
-			<Document>ПеремещениеЖивотного</Document>
-			<Document>ДоговорОПередачеЖивотногоВПриют</Document>
 			<Document>АктВыбытияЖивотного</Document>
-			<Document>ДоговорОтветственногоСодержания</Document>
-			<Document>Собеседование</Document>
-			<Document>ПоступлениеРасходников</Document>
-			<Document>СписаниеРасходников</Document>
-			<Document>Взвешивание</Document>
-			<Document>Вакцинация</Document>
-			<Document>Чипирование</Document>
-			<Document>Осмотр</Document>
-			<Document>ТабельУчетаРабочегоВремени</Document>
 			<Document>АктОбУничтоженииПерсональныхДанных</Document>
 			<Document>Анкета</Document>
+			<Document>Вакцинация</Document>
+			<Document>Взвешивание</Document>
 			<Document>Встреча</Document>
+			<Document>ВыдачаКормаСписком</Document>
+			<Document>ДоговорОПередачеЖивотногоВПриют</Document>
+			<Document>ДоговорОтветственногоСодержания</Document>
 			<Document>ЗапланированноеВзаимодействие</Document>
+			<Document>ЗаявкаНаПередачуЖивотногоВПриют</Document>
+			<Document>ЗаявкаНаУчастиеВСобеседовании</Document>
 			<Document>НазначениеОпросов</Document>
+			<Document>ОбработкаОтПаразитов</Document>
+			<Document>Осмотр</Document>
 			<Document>ОтзывСогласияНаОбработкуПерсональныхДанных</Document>
+			<Document>ПеремещениеЖивотного</Document>
+			<Document>ПоступлениеРасходников</Document>
+			<Document>Собеседование</Document>
 			<Document>СогласиеНаОбработкуПерсональныхДанных</Document>
 			<Document>СообщениеSMS</Document>
+			<Document>СписаниеРасходников</Document>
+			<Document>ТабельУчетаРабочегоВремени</Document>
 			<Document>ТелефонныйЗвонок</Document>
+			<Document>УборкаМестаСодержания</Document>
+			<Document>Чипирование</Document>
 			<Document>ЭлектронноеПисьмоВходящее</Document>
 			<Document>ЭлектронноеПисьмоИсходящее</Document>
-			<Document>ЗаявкаНаУчастиеВСобеседовании</Document>
-			<Document>ВыдачаКормаСписком</Document>
-			<Document>УборкаМестаСодержания</Document>
-			<Document>ОбработкаОтПаразитов</Document>
 			<DocumentJournal>ЖурналВетеринарныхМероприятий</DocumentJournal>
 			<DocumentJournal>Взаимодействия</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>
