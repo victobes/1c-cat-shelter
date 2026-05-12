@@ -2517,6 +2517,7 @@
 			<Document>Чипирование</Document>
 			<Document>ЭлектронноеПисьмоВходящее</Document>
 			<Document>ЭлектронноеПисьмоИсходящее</Document>
+			<Document>УборкаМестСодержанияСписком</Document>
 			<DocumentJournal>ЖурналВетеринарныхМероприятий</DocumentJournal>
 			<DocumentJournal>Взаимодействия</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>
@@ -2751,6 +2752,7 @@
 			<DataProcessor>УправлениеИтогамиИАгрегатами</DataProcessor>
 			<DataProcessor>УправлениеПодключениемDSS</DataProcessor>
 			<DataProcessor>УстановкаОбновлений</DataProcessor>
+			<DataProcessor>АРМКотоняни</DataProcessor>
 			<InformationRegister>GigaChat_Диалоги</InformationRegister>
 			<InformationRegister>GigaChat_Сообщения</InformationRegister>
 			<InformationRegister>GigaChat_ТокеныАвторизации</InformationRegister>

@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Комната" id="47">
+			<DataPath>Объект.Комната</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КомнатаКонтекстноеМеню" id="48"/>
+			<ExtendedTooltip name="КомнатаРасширеннаяПодсказка" id="49"/>
+			<Events>
+				<Event name="OnChange">КомнатаПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="Ответственный" id="52">
+			<DataPath>Объект.Ответственный</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="53"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="54"/>
+		</InputField>
+		<Pages name="ГруппаКормлениеУборка" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа кормление уборка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа кормление уборка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаКормлениеУборкаРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="ГруппаКормление" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КОРМЛЕНИЕ</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа кормление</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаКормлениеРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<CheckBoxField name="СкрытьПокормленных" id="55">
+							<DataPath>СкрытьПокормленных</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="СкрытьПокормленныхКонтекстноеМеню" id="56"/>
+							<ExtendedTooltip name="СкрытьПокормленныхРасширеннаяПодсказка" id="57"/>
+							<Events>
+								<Event name="OnChange">СкрытьПокормленныхПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<Table name="ГрафикКормления" id="7">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ГрафикКормления</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+							</CommandSet>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ГрафикКормленияКонтекстноеМеню" id="8"/>
+							<AutoCommandBar name="ГрафикКормленияКоманднаяПанель" id="9">
+								<ChildItems>
+									<Button name="ГрафикКормленияВыдачаКормаСписком" id="50">
+										<Type>CommandBarButton</Type>
+										<DefaultButton>true</DefaultButton>
+										<CommandName>Form.Command.ВыдачаКормаСписком</CommandName>
+										<ExtendedTooltip name="ГрафикКормленияВыдачаКормаСпискомРасширеннаяПодсказка" id="51"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ГрафикКормленияРасширеннаяПодсказка" id="10"/>
+							<SearchStringAddition name="ГрафикКормленияСтрокаПоиска" id="11">
+								<AdditionSource>
+									<Item>ГрафикКормления</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ГрафикКормленияСтрокаПоискаКонтекстноеМеню" id="12"/>
+								<ExtendedTooltip name="ГрафикКормленияСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ГрафикКормленияСостояниеПросмотра" id="14">
+								<AdditionSource>
+									<Item>ГрафикКормления</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ГрафикКормленияСостояниеПросмотраКонтекстноеМеню" id="15"/>
+								<ExtendedTooltip name="ГрафикКормленияСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ГрафикКормленияУправлениеПоиском" id="17">
+								<AdditionSource>
+									<Item>ГрафикКормления</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ГрафикКормленияУправлениеПоискомКонтекстноеМеню" id="18"/>
+								<ExtendedTooltip name="ГрафикКормленияУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ГрафикКормленияНомерСтроки" id="20">
+									<DataPath>Объект.ГрафикКормления.LineNumber</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>Directly</EditMode>
+									<ContextMenu name="ГрафикКормленияНомерСтрокиКонтекстноеМеню" id="21"/>
+									<ExtendedTooltip name="ГрафикКормленияНомерСтрокиРасширеннаяПодсказка" id="22"/>
+								</LabelField>
+								<CheckBoxField name="ГрафикКормленияПокормлен" id="23">
+									<DataPath>Объект.ГрафикКормления.Покормлен</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ГрафикКормленияПокормленКонтекстноеМеню" id="24"/>
+									<ExtendedTooltip name="ГрафикКормленияПокормленРасширеннаяПодсказка" id="25"/>
+								</CheckBoxField>
+								<InputField name="ГрафикКормленияКошка" id="26">
+									<DataPath>Объект.ГрафикКормления.Кошка</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ГрафикКормленияКошкаКонтекстноеМеню" id="27"/>
+									<ExtendedTooltip name="ГрафикКормленияКошкаРасширеннаяПодсказка" id="28"/>
+								</InputField>
+								<InputField name="ГрафикКормленияВремяВыдачи" id="29">
+									<DataPath>Объект.ГрафикКормления.ВремяВыдачи</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ГрафикКормленияВремяВыдачиКонтекстноеМеню" id="30"/>
+									<ExtendedTooltip name="ГрафикКормленияВремяВыдачиРасширеннаяПодсказка" id="31"/>
+								</InputField>
+								<InputField name="ГрафикКормленияНомерПриемаПищи" id="32">
+									<DataPath>Объект.ГрафикКормления.НомерПриемаПищи</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ГрафикКормленияНомерПриемаПищиКонтекстноеМеню" id="33"/>
+									<ExtendedTooltip name="ГрафикКормленияНомерПриемаПищиРасширеннаяПодсказка" id="34"/>
+								</InputField>
+								<InputField name="ГрафикКормленияРасходник" id="35">
+									<DataPath>Объект.ГрафикКормления.Расходник</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ГрафикКормленияРасходникКонтекстноеМеню" id="36"/>
+									<ExtendedTooltip name="ГрафикКормленияРасходникРасширеннаяПодсказка" id="37"/>
+								</InputField>
+								<InputField name="ГрафикКормленияЕдиницаИзмерения" id="38">
+									<DataPath>Объект.ГрафикКормления.ЕдиницаИзмерения</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ГрафикКормленияЕдиницаИзмеренияКонтекстноеМеню" id="39"/>
+									<ExtendedTooltip name="ГрафикКормленияЕдиницаИзмеренияРасширеннаяПодсказка" id="40"/>
+								</InputField>
+								<InputField name="ГрафикКормленияКоличествоНаПорцию" id="41">
+									<DataPath>Объект.ГрафикКормления.КоличествоНаПорцию</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ГрафикКормленияКоличествоНаПорциюКонтекстноеМеню" id="42"/>
+									<ExtendedTooltip name="ГрафикКормленияКоличествоНаПорциюРасширеннаяПодсказка" id="43"/>
+								</InputField>
+								<InputField name="ГрафикКормленияРационКормления" id="44">
+									<DataPath>Объект.ГрафикКормления.РационКормления</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ГрафикКормленияРационКормленияКонтекстноеМеню" id="45"/>
+									<ExtendedTooltip name="ГрафикКормленияРационКормленияРасширеннаяПодсказка" id="46"/>
+								</InputField>
+								<InputField name="ГрафикКормленияРегистратор" id="58">
+									<DataPath>Объект.ГрафикКормления.Регистратор</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ГрафикКормленияРегистраторКонтекстноеМеню" id="59"/>
+									<ExtendedTooltip name="ГрафикКормленияРегистраторРасширеннаяПодсказка" id="60"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаУборка" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>УБОРКА</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа уборка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаУборкаРасширеннаяПодсказка" id="6"/>
+					<ChildItems>
+						<CheckBoxField name="СкрытьУбранных" id="110">
+							<DataPath>СкрытьУбранных</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="СкрытьУбранныхКонтекстноеМеню" id="111"/>
+							<ExtendedTooltip name="СкрытьУбранныхРасширеннаяПодсказка" id="112"/>
+							<Events>
+								<Event name="OnChange">СкрытьУбранныхПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<Table name="ГрафикУборки" id="86">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ГрафикУборки</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+							</CommandSet>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ГрафикУборкиКонтекстноеМеню" id="87"/>
+							<AutoCommandBar name="ГрафикУборкиКоманднаяПанель" id="88">
+								<ChildItems>
+									<Button name="УборкаСписком" id="108">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.УборкаСписком</CommandName>
+										<BackColor>style:ImportantColor</BackColor>
+										<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+										<Shape>Usual</Shape>
+										<ExtendedTooltip name="УборкаСпискомРасширеннаяПодсказка" id="109"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ГрафикУборкиРасширеннаяПодсказка" id="89"/>
+							<SearchStringAddition name="ГрафикУборкиСтрокаПоиска" id="90">
+								<AdditionSource>
+									<Item>ГрафикУборки</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ГрафикУборкиСтрокаПоискаКонтекстноеМеню" id="91"/>
+								<ExtendedTooltip name="ГрафикУборкиСтрокаПоискаРасширеннаяПодсказка" id="92"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ГрафикУборкиСостояниеПросмотра" id="93">
+								<AdditionSource>
+									<Item>ГрафикУборки</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ГрафикУборкиСостояниеПросмотраКонтекстноеМеню" id="94"/>
+								<ExtendedTooltip name="ГрафикУборкиСостояниеПросмотраРасширеннаяПодсказка" id="95"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ГрафикУборкиУправлениеПоиском" id="96">
+								<AdditionSource>
+									<Item>ГрафикУборки</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ГрафикУборкиУправлениеПоискомКонтекстноеМеню" id="97"/>
+								<ExtendedTooltip name="ГрафикУборкиУправлениеПоискомРасширеннаяПодсказка" id="98"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ГрафикУборкиНомерСтроки" id="99">
+									<DataPath>Объект.ГрафикУборки.LineNumber</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ГрафикУборкиНомерСтрокиКонтекстноеМеню" id="100"/>
+									<ExtendedTooltip name="ГрафикУборкиНомерСтрокиРасширеннаяПодсказка" id="101"/>
+								</LabelField>
+								<CheckBoxField name="ГрафикУборкиУбрано" id="102">
+									<DataPath>Объект.ГрафикУборки.Убрано</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ГрафикУборкиУбраноКонтекстноеМеню" id="103"/>
+									<ExtendedTooltip name="ГрафикУборкиУбраноРасширеннаяПодсказка" id="104"/>
+								</CheckBoxField>
+								<InputField name="ГрафикУборкиКошка" id="105">
+									<DataPath>Объект.ГрафикУборки.Кошка</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ГрафикУборкиКошкаКонтекстноеМеню" id="106"/>
+									<ExtendedTooltip name="ГрафикУборкиКошкаРасширеннаяПодсказка" id="107"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<Table name="РасходникиНаУборку" id="61">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.РасходникиНаУборку</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РасходникиНаУборкуКонтекстноеМеню" id="62"/>
+							<AutoCommandBar name="РасходникиНаУборкуКоманднаяПанель" id="63"/>
+							<ExtendedTooltip name="РасходникиНаУборкуРасширеннаяПодсказка" id="64"/>
+							<SearchStringAddition name="РасходникиНаУборкуСтрокаПоиска" id="65">
+								<AdditionSource>
+									<Item>РасходникиНаУборку</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасходникиНаУборкуСтрокаПоискаКонтекстноеМеню" id="66"/>
+								<ExtendedTooltip name="РасходникиНаУборкуСтрокаПоискаРасширеннаяПодсказка" id="67"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РасходникиНаУборкуСостояниеПросмотра" id="68">
+								<AdditionSource>
+									<Item>РасходникиНаУборку</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасходникиНаУборкуСостояниеПросмотраКонтекстноеМеню" id="69"/>
+								<ExtendedTooltip name="РасходникиНаУборкуСостояниеПросмотраРасширеннаяПодсказка" id="70"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РасходникиНаУборкуУправлениеПоиском" id="71">
+								<AdditionSource>
+									<Item>РасходникиНаУборку</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РасходникиНаУборкуУправлениеПоискомКонтекстноеМеню" id="72"/>
+								<ExtendedTooltip name="РасходникиНаУборкуУправлениеПоискомРасширеннаяПодсказка" id="73"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="РасходникиНаУборкуНомерСтроки" id="74">
+									<DataPath>Объект.РасходникиНаУборку.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РасходникиНаУборкуНомерСтрокиКонтекстноеМеню" id="75"/>
+									<ExtendedTooltip name="РасходникиНаУборкуНомерСтрокиРасширеннаяПодсказка" id="76"/>
+								</LabelField>
+								<InputField name="РасходникиНаУборкуРасходник" id="77">
+									<DataPath>Объект.РасходникиНаУборку.Расходник</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="РасходникиНаУборкуРасходникКонтекстноеМеню" id="78"/>
+									<ExtendedTooltip name="РасходникиНаУборкуРасходникРасширеннаяПодсказка" id="79"/>
+									<Events>
+										<Event name="OnChange">РасходникиНаУборкуРасходникПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="РасходникиНаУборкуЕдиницаИзмерения" id="80">
+									<DataPath>Объект.РасходникиНаУборку.ЕдиницаИзмерения</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="РасходникиНаУборкуЕдиницаИзмеренияКонтекстноеМеню" id="81"/>
+									<ExtendedTooltip name="РасходникиНаУборкуЕдиницаИзмеренияРасширеннаяПодсказка" id="82"/>
+								</InputField>
+								<InputField name="РасходникиНаУборкуКоличество" id="83">
+									<DataPath>Объект.РасходникиНаУборку.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="РасходникиНаУборкуКоличествоКонтекстноеМеню" id="84"/>
+									<ExtendedTooltip name="РасходникиНаУборкуКоличествоРасширеннаяПодсказка" id="85"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.АРМКотоняни</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="СкрытьПокормленных" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скрыть покормленных</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="СкрытьУбранных" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скрыть убранных</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыдачаКормаСписком" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выдача корма списком</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выдача корма списком</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыдачаКормаСписком</Action>
+		</Command>
+		<Command name="УборкаСписком" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уборка списком</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уборка списком</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УборкаСписком</Action>
+		</Command>
+	</Commands>
+</Form>
