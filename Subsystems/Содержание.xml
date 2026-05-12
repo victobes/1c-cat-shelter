@@ -29,8 +29,14 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.УборкаМестаСодержания</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикУборкиМестСодержанияПодопечных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ГрафикКормленияКошек</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">6b1ca44a-69e5-409c-a17a-7acf70563457</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ГрафикУборкиМестСодержанияПоДням</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеРационыКормления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеВыдачаКормаСписком</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеУборкаМестаСодержания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ПодсистемаСодержание</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ОтчетГрафикКормленияКошек</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ОтчетГрафикУборкиМестСодержанияПоДням</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеСтатусыМестаСодержания</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -26,6 +26,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.БрендыРасходников</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиРасходников</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ИспользованиеРасходниковЗаПериод</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеРасходники</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

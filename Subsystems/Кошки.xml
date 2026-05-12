@@ -25,6 +25,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.Пол</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ФотографииКошек</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетПоПодопечным</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеКошки</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
