@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Ответственный" id="7">
+			<DataPath>Объект.Ответственный</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Pages name="Страницы" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="11"/>
+			<ChildItems>
+				<Page name="ГруппаРасходники" id="12">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расходники</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаРасходникиРасширеннаяПодсказка" id="13"/>
+					<ChildItems>
+						<Table name="Расходники" id="14">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Расходники</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РасходникиКонтекстноеМеню" id="15"/>
+							<AutoCommandBar name="РасходникиКоманднаяПанель" id="16"/>
+							<ExtendedTooltip name="РасходникиРасширеннаяПодсказка" id="17"/>
+							<SearchStringAddition name="РасходникиСтрокаПоиска" id="18">
+								<AdditionSource>
+									<Item>Расходники</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасходникиСтрокаПоискаКонтекстноеМеню" id="19"/>
+								<ExtendedTooltip name="РасходникиСтрокаПоискаРасширеннаяПодсказка" id="20"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РасходникиСостояниеПросмотра" id="21">
+								<AdditionSource>
+									<Item>Расходники</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РасходникиСостояниеПросмотраКонтекстноеМеню" id="22"/>
+								<ExtendedTooltip name="РасходникиСостояниеПросмотраРасширеннаяПодсказка" id="23"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РасходникиУправлениеПоиском" id="24">
+								<AdditionSource>
+									<Item>Расходники</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РасходникиУправлениеПоискомКонтекстноеМеню" id="25"/>
+								<ExtendedTooltip name="РасходникиУправлениеПоискомРасширеннаяПодсказка" id="26"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="РасходникиНомерСтроки" id="27">
+									<DataPath>Объект.Расходники.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РасходникиНомерСтрокиКонтекстноеМеню" id="28"/>
+									<ExtendedTooltip name="РасходникиНомерСтрокиРасширеннаяПодсказка" id="29"/>
+								</LabelField>
+								<InputField name="РасходникиРасходник" id="30">
+									<DataPath>Объект.Расходники.Расходник</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="РасходникиРасходникКонтекстноеМеню" id="31"/>
+									<ExtendedTooltip name="РасходникиРасходникРасширеннаяПодсказка" id="32"/>
+								</InputField>
+								<InputField name="РасходникиЕдиницаИзмерения" id="33">
+									<DataPath>Объект.Расходники.ЕдиницаИзмерения</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="РасходникиЕдиницаИзмеренияКонтекстноеМеню" id="34"/>
+									<ExtendedTooltip name="РасходникиЕдиницаИзмеренияРасширеннаяПодсказка" id="35"/>
+								</InputField>
+								<InputField name="РасходникиКоличество" id="36">
+									<DataPath>Объект.Расходники.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="РасходникиКоличествоКонтекстноеМеню" id="37"/>
+									<ExtendedTooltip name="РасходникиКоличествоРасширеннаяПодсказка" id="38"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаКошки" id="39">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кошки</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаКошкиРасширеннаяПодсказка" id="40"/>
+					<ChildItems>
+						<Table name="Кошки" id="41">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Кошки</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="КошкиКонтекстноеМеню" id="42"/>
+							<AutoCommandBar name="КошкиКоманднаяПанель" id="43"/>
+							<ExtendedTooltip name="КошкиРасширеннаяПодсказка" id="44"/>
+							<SearchStringAddition name="КошкиСтрокаПоиска" id="45">
+								<AdditionSource>
+									<Item>Кошки</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КошкиСтрокаПоискаКонтекстноеМеню" id="46"/>
+								<ExtendedTooltip name="КошкиСтрокаПоискаРасширеннаяПодсказка" id="47"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КошкиСостояниеПросмотра" id="48">
+								<AdditionSource>
+									<Item>Кошки</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КошкиСостояниеПросмотраКонтекстноеМеню" id="49"/>
+								<ExtendedTooltip name="КошкиСостояниеПросмотраРасширеннаяПодсказка" id="50"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КошкиУправлениеПоиском" id="51">
+								<AdditionSource>
+									<Item>Кошки</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КошкиУправлениеПоискомКонтекстноеМеню" id="52"/>
+								<ExtendedTooltip name="КошкиУправлениеПоискомРасширеннаяПодсказка" id="53"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="КошкиНомерСтроки" id="54">
+									<DataPath>Объект.Кошки.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КошкиНомерСтрокиКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="КошкиНомерСтрокиРасширеннаяПодсказка" id="56"/>
+								</LabelField>
+								<InputField name="КошкиКошка" id="57">
+									<DataPath>Объект.Кошки.Кошка</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="КошкиКошкаКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="КошкиКошкаРасширеннаяПодсказка" id="59"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.УборкаМестСодержанияСписком</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

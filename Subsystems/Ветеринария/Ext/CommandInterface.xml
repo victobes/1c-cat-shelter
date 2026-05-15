@@ -11,6 +11,11 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Document.ОбработкаОтПаразитов.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="Document.Осмотр.StandardCommand.Create">
 			<Visibility>
 				<xr:Common>true</xr:Common>

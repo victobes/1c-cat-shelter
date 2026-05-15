@@ -12,6 +12,12 @@
 		<Description>Прием животного</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="a92c82ad-62d8-4aa7-bce2-9e6dc118e225">
+		<Name>Смерть</Name>
+		<Code>000000004</Code>
+		<Description>Смерть</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="7a19f04a-a14b-4f17-b4d7-643592ed4f17">
 		<Name>Укотовление</Name>
 		<Code>000000003</Code>

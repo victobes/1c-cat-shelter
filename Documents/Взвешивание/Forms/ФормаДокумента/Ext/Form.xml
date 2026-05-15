@@ -24,18 +24,10 @@
 		</InputField>
 		<InputField name="ВетеринарноеМероприятие" id="7">
 			<DataPath>Объект.ВетеринарноеМероприятие</DataPath>
-			<Visible>false</Visible>
 			<EditMode>EnterOnInput</EditMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ВетеринарноеМероприятиеКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ВетеринарноеМероприятиеРасширеннаяПодсказка" id="9"/>
-		</InputField>
-		<InputField name="Ответственный" id="13">
-			<DataPath>Объект.Ответственный</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="15"/>
 		</InputField>
 		<Table name="Кошки" id="16">
 			<Representation>List</Representation>
@@ -107,6 +99,13 @@
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="КомментарийКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Ответственный" id="13">
+			<DataPath>Объект.Ответственный</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="15"/>
 		</InputField>
 	</ChildItems>
 	<Attributes>

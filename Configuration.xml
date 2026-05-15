@@ -2514,10 +2514,10 @@
 			<Document>ТабельУчетаРабочегоВремени</Document>
 			<Document>ТелефонныйЗвонок</Document>
 			<Document>УборкаМестаСодержания</Document>
+			<Document>УборкаМестСодержанияСписком</Document>
 			<Document>Чипирование</Document>
 			<Document>ЭлектронноеПисьмоВходящее</Document>
 			<Document>ЭлектронноеПисьмоИсходящее</Document>
-			<Document>УборкаМестСодержанияСписком</Document>
 			<DocumentJournal>ЖурналВетеринарныхМероприятий</DocumentJournal>
 			<DocumentJournal>Взаимодействия</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>

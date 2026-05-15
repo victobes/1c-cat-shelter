@@ -4,6 +4,9 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
@@ -18,13 +21,6 @@
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
-		</InputField>
-		<InputField name="Ответственный" id="7">
-			<DataPath>Объект.Ответственный</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="9"/>
 		</InputField>
 		<Table name="Расходники" id="10">
 			<Representation>List</Representation>
@@ -122,6 +118,13 @@
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="КомментарийКонтекстноеМеню" id="51"/>
 			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="52"/>
+		</InputField>
+		<InputField name="Ответственный" id="7">
+			<DataPath>Объект.Ответственный</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="9"/>
 		</InputField>
 	</ChildItems>
 	<Attributes>
