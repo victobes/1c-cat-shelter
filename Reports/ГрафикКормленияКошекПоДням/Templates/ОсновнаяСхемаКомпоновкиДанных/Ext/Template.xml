@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Кошка</dataPath>
+			<field>Кошка</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоНаПорцию</dataPath>
+			<field>КоличествоНаПорцию</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МестоСодержания</dataPath>
+			<field>МестоСодержания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РационКормления</dataPath>
+			<field>РационКормления</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходник</dataPath>
+			<field>Расходник</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЕдиницаИзмерения</dataPath>
+			<field>ЕдиницаИзмерения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяВыдачи</dataPath>
+			<field>ВремяВыдачи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Покормлен</dataPath>
+			<field>Покормлен</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Покормлен</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерПриемаПищи</dataPath>
+			<field>НомерПриемаПищи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистратор</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	СтатусыМестаСодержанияЖивотныхСрезПоследних.Кошка КАК Кошка,
+	СтатусыМестаСодержанияЖивотныхСрезПоследних.МестоСодержания КАК МестоСодержания
+ПОМЕСТИТЬ ВТ_КошкиВПриюте
+ИЗ
+	РегистрСведений.СтатусыМестаСодержанияЖивотных.СрезПоследних(
+			&amp;Период,
+			НЕ Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыПребыванияЖивотных.Укотовлен)
+				И НЕ Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыПребыванияЖивотных.Мертв)) КАК СтатусыМестаСодержанияЖивотныхСрезПоследних
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_КошкиВПриюте.Кошка КАК Кошка,
+	ВТ_КошкиВПриюте.МестоСодержания КАК МестоСодержания,
+	РационыКормленияПодопечныхСрезПоследних.РационКормления КАК РационКормления
+ПОМЕСТИТЬ ВТ_КошкиВПриютеСРационами
+ИЗ
+	ВТ_КошкиВПриюте КАК ВТ_КошкиВПриюте
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.РационыКормленияПодопечных.СрезПоследних(&amp;Период, ) КАК РационыКормленияПодопечныхСрезПоследних
+		ПО ВТ_КошкиВПриюте.Кошка = РационыКормленияПодопечныхСрезПоследних.Кошка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_КошкиВПриютеСРационами.Кошка КАК Кошка,
+	ВТ_КошкиВПриютеСРационами.МестоСодержания КАК МестоСодержания,
+	ВТ_КошкиВПриютеСРационами.РационКормления КАК РационКормления,
+	РационКормленияСоставРациона.Расходник КАК Расходник,
+	РационКормленияСоставРациона.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+	РационКормленияСоставРациона.КоличествоНаПорцию КАК КоличествоНаПорцию,
+	РационКормленияСоставРациона.ВремяВыдачи КАК ВремяВыдачи,
+	РационКормленияСоставРациона.НомерПриемаПищи КАК НомерПриемаПищи
+ПОМЕСТИТЬ ВТ_ВсеОКормлении
+ИЗ
+	ВТ_КошкиВПриютеСРационами КАК ВТ_КошкиВПриютеСРационами
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.РационКормления.СоставРациона КАК РационКормленияСоставРациона
+		ПО ВТ_КошкиВПриютеСРационами.РационКормления = РационКормленияСоставРациона.Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ВсеОКормлении.Кошка КАК Кошка,
+	ВТ_ВсеОКормлении.МестоСодержания КАК МестоСодержания,
+	ВТ_ВсеОКормлении.РационКормления КАК РационКормления,
+	ВТ_ВсеОКормлении.Расходник КАК Расходник,
+	ВТ_ВсеОКормлении.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+	ВТ_ВсеОКормлении.КоличествоНаПорцию КАК КоличествоНаПорцию,
+	ВТ_ВсеОКормлении.ВремяВыдачи КАК ВремяВыдачи,
+	ВТ_ВсеОКормлении.НомерПриемаПищи КАК НомерПриемаПищи,
+	ЕСТЬNULL(ГрафикПолученияКормаПодопечными.Получен, ЛОЖЬ) КАК Покормлен,
+	ЕСТЬNULL(ГрафикПолученияКормаПодопечными.Регистратор, ЗНАЧЕНИЕ(Документ.ВыдачаКормаСписком.ПустаяСсылка)) КАК Регистратор
+ИЗ
+	ВТ_ВсеОКормлении КАК ВТ_ВсеОКормлении
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ГрафикПолученияКормаПодопечными КАК ГрафикПолученияКормаПодопечными
+		ПО ВТ_ВсеОКормлении.Кошка = ГрафикПолученияКормаПодопечными.Кошка
+			И ВТ_ВсеОКормлении.НомерПриемаПищи = ГрафикПолученияКормаПодопечными.НомерПриемаПищи
+			И (ГрафикПолученияКормаПодопечными.Период МЕЖДУ НАЧАЛОПЕРИОДА(&amp;Период, ДЕНЬ) И КОНЕЦПЕРИОДА(&amp;Период, ДЕНЬ))</query>
+	</dataSet>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<expression>ТекущаяДата()</expression>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяВыдачи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЕдиницаИзмерения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоНаПорцию</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Кошка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Расходник</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РационКормления</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Покормлен</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					<dcsset:userSettingID>15958260-c6ee-432a-ad43-b5d04ad3b301</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>d1c66313-aa5d-4802-90ba-cd6577298093</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ВремяВыдачи</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Море</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>МестоСодержания</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Покормлен</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Кошка</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ВремяВыдачи</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>НомерПриемаПищи</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Расходник</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЕдиницаИзмерения</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>КоличествоНаПорцию</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>РационКормления</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Регистратор</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

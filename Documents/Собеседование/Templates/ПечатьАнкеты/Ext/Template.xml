@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>11</size>
+		<size>14</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -26,7 +26,7 @@
 	</columns>
 	<columns>
 		<id>af63c045-7ff1-49fd-b0d5-cd25d5e1db02</id>
-		<size>2</size>
+		<size>13</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -86,7 +86,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Собеседование</v8:content>
+							<v8:content>АНКЕТА</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -95,8 +95,14 @@
 	</rowsItem>
 	<rowsItem>
 		<index>2</index>
-		<indexTo>3</indexTo>
 		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>3</index>
+		<row>
+			<formatIndex>9</formatIndex>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
@@ -104,22 +110,43 @@
 		<index>4</index>
 		<row>
 			<columnsID>a62b4230-3152-4bb4-b5c5-c7f9db233472</columnsID>
+			<formatIndex>9</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>9</f>
+					<f>10</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номер</v8:content>
+							<v8:content>№ собеседования</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>10</f>
+					<f>11</f>
 					<parameter>Номер</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>12</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
 				</c>
 			</c>
 		</row>
@@ -128,10 +155,11 @@
 		<index>5</index>
 		<row>
 			<columnsID>a62b4230-3152-4bb4-b5c5-c7f9db233472</columnsID>
+			<formatIndex>9</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>9</f>
+					<f>10</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -142,7 +170,7 @@
 			</c>
 			<c>
 				<c>
-					<f>10</f>
+					<f>14</f>
 					<parameter>Дата</parameter>
 				</c>
 			</c>
@@ -152,10 +180,11 @@
 		<index>6</index>
 		<row>
 			<columnsID>a62b4230-3152-4bb4-b5c5-c7f9db233472</columnsID>
+			<formatIndex>9</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>9</f>
+					<f>10</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -166,7 +195,7 @@
 			</c>
 			<c>
 				<c>
-					<f>10</f>
+					<f>14</f>
 					<parameter>Кошка</parameter>
 				</c>
 			</c>
@@ -176,10 +205,11 @@
 		<index>7</index>
 		<row>
 			<columnsID>a62b4230-3152-4bb4-b5c5-c7f9db233472</columnsID>
+			<formatIndex>9</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>9</f>
+					<f>10</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -190,7 +220,7 @@
 			</c>
 			<c>
 				<c>
-					<f>10</f>
+					<f>14</f>
 					<parameter>Укотовитель</parameter>
 				</c>
 			</c>
@@ -200,10 +230,11 @@
 		<index>8</index>
 		<row>
 			<columnsID>a62b4230-3152-4bb4-b5c5-c7f9db233472</columnsID>
+			<formatIndex>9</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>9</f>
+					<f>10</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -214,7 +245,7 @@
 			</c>
 			<c>
 				<c>
-					<f>10</f>
+					<f>14</f>
 					<parameter>Ответственный</parameter>
 				</c>
 			</c>
@@ -223,16 +254,18 @@
 	<rowsItem>
 		<index>9</index>
 		<row>
+			<formatIndex>9</formatIndex>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>10</index>
 		<row>
+			<formatIndex>9</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>0</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -246,10 +279,11 @@
 	<rowsItem>
 		<index>11</index>
 		<row>
+			<formatIndex>9</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>0</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -260,7 +294,7 @@
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -271,42 +305,42 @@
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 				</c>
 			</c>
 		</row>
@@ -314,10 +348,11 @@
 	<rowsItem>
 		<index>12</index>
 		<row>
+			<formatIndex>9</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>0</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -328,7 +363,7 @@
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>13</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -339,42 +374,42 @@
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 				</c>
 			</c>
 		</row>
@@ -382,10 +417,560 @@
 	<rowsItem>
 		<index>13</index>
 		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>15</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Другое</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>14</index>
+		<row>
+			<formatIndex>9</formatIndex>
 			<c>
 				<i>2</i>
 				<c>
-					<f>11</f>
+					<f>16</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>15</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>2</i>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>16</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Был ли у Вас опыт содержания кошки или кота?</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>17</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[ ]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Да</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>18</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[ ]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нет, это будет мой первый опыт</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>19</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>2</i>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>20</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>17</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Есть ли у вас сейчас домашние животные, коротко расскажите о них, пожалуйста (не забывайте о бабочках, хомячках, птичках, кроликах, ящерицах, змеях и рыбках)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>21</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>22</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>18</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>23</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>24</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>17</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Были ли у вас животные раньше, где они сейчас; если умерли, то от чего и во сколько лет?</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>25</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>26</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>18</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>27</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>28</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>У Вас установлены на окнах сетки-антикошки?</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>29</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[ ]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Да</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>30</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[ ]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нет</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>31</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>2</i>
+				<c>
+					<f>13</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -397,77 +982,204 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>14</index>
+		<index>32</index>
 		<row>
+			<formatIndex>9</formatIndex>
 			<c>
 				<i>2</i>
 				<c>
-					<f>12</f>
+					<f>16</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>13</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>13</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>13</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>13</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>13</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>13</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>13</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>15</index>
+		<index>33</index>
 		<row>
+			<formatIndex>9</formatIndex>
 			<c>
 				<i>2</i>
 				<c>
-					<f>11</f>
+					<f>13</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>16</index>
+		<index>34</index>
 		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Чем Вы будете кормить животное?</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>35</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>19</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>36</index>
+		<row>
+			<formatIndex>9</formatIndex>
 			<c>
 				<i>2</i>
 				<c>
-					<f>11</f>
+					<f>13</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>37</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>17</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Как вы относитесь к кастрации/стерилизации; были ли кастрированы/стерилизованы ваши животные?</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>38</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>39</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>18</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>40</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>9</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>11</defaultFormatIndex>
-	<height>16</height>
-	<vgRows>16</vgRows>
+	<defaultFormatIndex>20</defaultFormatIndex>
+	<height>41</height>
+	<vgRows>41</vgRows>
+	<merge>
+		<r>1</r>
+		<c>1</c>
+		<w>11</w>
+	</merge>
 	<merge>
 		<r>4</r>
 		<c>2</c>
@@ -494,12 +1206,85 @@
 		<w>1</w>
 	</merge>
 	<merge>
+		<r>10</r>
+		<c>1</c>
+		<w>12</w>
+	</merge>
+	<merge>
 		<r>14</r>
 		<c>2</c>
 		<w>7</w>
 	</merge>
 	<merge>
+		<r>18</r>
+		<c>2</c>
+		<w>8</w>
+	</merge>
+	<merge>
+		<r>20</r>
+		<c>1</c>
+		<h>1</h>
+		<w>12</w>
+	</merge>
+	<merge>
+		<r>22</r>
+		<c>1</c>
+		<w>8</w>
+	</merge>
+	<merge>
+		<r>24</r>
+		<c>1</c>
+		<h>1</h>
+		<w>12</w>
+	</merge>
+	<merge>
+		<r>26</r>
+		<c>1</c>
+		<w>8</w>
+	</merge>
+	<merge>
+		<r>28</r>
+		<c>1</c>
+		<w>12</w>
+	</merge>
+	<merge>
+		<r>32</r>
+		<c>2</c>
+		<w>7</w>
+	</merge>
+	<merge>
+		<r>34</r>
+		<c>1</c>
+		<w>8</w>
+	</merge>
+	<merge>
+		<r>35</r>
+		<c>1</c>
+		<w>8</w>
+	</merge>
+	<merge>
+		<r>37</r>
+		<c>1</c>
+		<h>1</h>
+		<w>12</w>
+	</merge>
+	<merge>
+		<r>39</r>
+		<c>1</c>
+		<w>8</w>
+	</merge>
+	<merge>
 		<r>11</r>
+		<c>-1</c>
+		<h>1</h>
+	</merge>
+	<merge>
+		<r>17</r>
+		<c>-1</c>
+		<h>1</h>
+	</merge>
+	<merge>
+		<r>29</r>
 		<c>-1</c>
 		<h>1</h>
 	</merge>
@@ -553,12 +1338,112 @@
 		<c>10</c>
 		<h>1</h>
 	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>17</r>
+		<c>1</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>17</r>
+		<c>2</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>17</r>
+		<c>3</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>17</r>
+		<c>4</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>17</r>
+		<c>5</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>17</r>
+		<c>6</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>17</r>
+		<c>7</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>17</r>
+		<c>8</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>17</r>
+		<c>9</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>17</r>
+		<c>10</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>29</r>
+		<c>1</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>29</r>
+		<c>2</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>29</r>
+		<c>3</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>29</r>
+		<c>4</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>29</r>
+		<c>5</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>29</r>
+		<c>6</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>29</r>
+		<c>7</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>29</r>
+		<c>8</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>29</r>
+		<c>9</c>
+		<h>1</h>
+	</horizontalUnmerge>
+	<horizontalUnmerge>
+		<r>29</r>
+		<c>10</c>
+		<h>1</h>
+	</horizontalUnmerge>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Жилье</name>
+		<name>Вопросы</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>10</beginRow>
-			<endRow>15</endRow>
+			<beginRow>9</beginRow>
+			<endRow>40</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -588,17 +1473,19 @@
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
 	<font faceName="Arial" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="14" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
 		<width>16</width>
 	</format>
 	<format>
-		<width>17</width>
+		<width>27</width>
 	</format>
 	<format>
-		<width>640</width>
+		<width>106</width>
 	</format>
 	<format>
-		<width>124</width>
+		<width>197</width>
 	</format>
 	<format>
 		<width>0</width>
@@ -610,23 +1497,66 @@
 		<font>0</font>
 	</format>
 	<format>
+		<font>1</font>
+		<horizontalAlignment>Center</horizontalAlignment>
 		<textPlacement>Wrap</textPlacement>
 	</format>
 	<format>
+		<font>2</font>
+	</format>
+	<format>
+		<font>2</font>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 	</format>
 	<format>
+		<font>2</font>
+		<width>0</width>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 		<markNegatives>false</markNegatives>
 	</format>
 	<format>
+		<font>2</font>
+		<width>515</width>
+	</format>
+	<format>
+		<font>2</font>
 		<width>72</width>
 	</format>
 	<format>
+		<font>2</font>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+		<markNegatives>false</markNegatives>
+	</format>
+	<format>
+		<font>2</font>
+		<width>27</width>
+	</format>
+	<format>
+		<font>2</font>
 		<bottomBorder>0</bottomBorder>
+		<width>72</width>
+	</format>
+	<format>
+		<font>2</font>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>2</font>
+		<bottomBorder>0</bottomBorder>
+		<width>17</width>
+	</format>
+	<format>
+		<font>2</font>
+		<bottomBorder>0</bottomBorder>
+	</format>
+	<format>
 		<width>72</width>
 	</format>
 </document>

@@ -2675,6 +2675,7 @@
 			<Report>ГрафикВакцинации</Report>
 			<Report>ГрафикОбработкиОтПаразитов</Report>
 			<Report>ОтчетПоПодопечным</Report>
+			<Report>ГрафикКормленияКошекПоДням</Report>
 			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
 			<DataProcessor>АктивныеПользователи</DataProcessor>
 			<DataProcessor>БлокировкаРаботыПользователей</DataProcessor>

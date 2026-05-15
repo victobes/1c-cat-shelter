@@ -324,7 +324,12 @@
 			<Command uuid="0b74d7c4-1677-4061-9f54-4bba290c5ca3">
 				<Properties>
 					<Name>ПечатьАнкеты</Name>
-					<Synonym/>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Печать анкеты</v8:content>
+						</v8:item>
+					</Synonym>
 					<Comment/>
 					<Group>FormCommandBarImportant</Group>
 					<CommandParameterType>
