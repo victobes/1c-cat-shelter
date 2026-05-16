@@ -4212,6 +4212,8 @@
 		<Metadata name="CommonPicture.КонтактнаяИнформацияОтправитьЭлектронноеПисьмо.Picture" id="639c2ffc-4514-4b79-89e2-d49caadf828d.0" configVersion="af2cacb6bcb5f24e8ed67945e1b5767100000000"/>
 		<Metadata name="CommonPicture.КонтактнаяИнформацияПерейтиПоСсылке" id="c9a03f19-42bb-4e07-8ce8-1b954e431ada" configVersion="6814503c7917b149bf563ab90b923ff900000000"/>
 		<Metadata name="CommonPicture.КонтактнаяИнформацияПерейтиПоСсылке.Picture" id="c9a03f19-42bb-4e07-8ce8-1b954e431ada.0" configVersion="f928d1cd3935ac4fa7243479b38d38b200000000"/>
+		<Metadata name="CommonPicture.Кормление" id="d792467c-ed51-4099-b3a8-d8e1c9cc0e96" configVersion="dcabe8ea7ef4144e87d1894c64192d2b00000000"/>
+		<Metadata name="CommonPicture.Кормление.Picture" id="d792467c-ed51-4099-b3a8-d8e1c9cc0e96.0" configVersion="f93c5534b3c30f43a9f70e0aba41756000000000"/>
 		<Metadata name="CommonPicture.Кошки" id="9625f477-ea0d-4cda-961b-b18c04075578" configVersion="a807e951a510124caa8dfefdd509fa3d00000000"/>
 		<Metadata name="CommonPicture.Кошки.Picture" id="9625f477-ea0d-4cda-961b-b18c04075578.0" configVersion="cbcc6f764a5e604fbc4658a8fa0c4af200000000"/>
 		<Metadata name="CommonPicture.КурсивноеНачертание" id="ed4edc6f-048a-40d5-8f61-989895c95cf3" configVersion="b21591f70797f249919fabed58fbc68b00000000"/>
@@ -5066,7 +5068,7 @@
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="f3d655fe83bd6d4ea196999121e5336300000000"/>
 		<Metadata name="CommonTemplate.ШтампЭлектроннойПодписиOfficeOpen" id="faf89779-2290-4d37-b1ea-e81b1b79f74c" configVersion="da7c82c782145a4e91bc6108fee9299300000000"/>
 		<Metadata name="CommonTemplate.ШтампЭлектроннойПодписиOfficeOpen.Template" id="faf89779-2290-4d37-b1ea-e81b1b79f74c.0" configVersion="600274914f8f3845996ecfc739e525dc00000000"/>
-		<Metadata name="Configuration.ПриютДляКошек" id="91bf5bc6-d784-403e-89c6-97c82ec7988e" configVersion="dbea5ac0172d014b972ffa626c03c87b00000000"/>
+		<Metadata name="Configuration.ПриютДляКошек" id="91bf5bc6-d784-403e-89c6-97c82ec7988e" configVersion="c90fae6fd4399848bdfccad8136b416200000000"/>
 		<Metadata name="Configuration.ПриютДляКошек.ExternalConnectionModule" id="fa0a51d9-f620-42af-a8b9-0e51c1110ee6.5" configVersion="3dbd026985dcf146a6c6942d814ef34200000000"/>
 		<Metadata name="Configuration.ПриютДляКошек.HomePageWorkArea" id="fa0a51d9-f620-42af-a8b9-0e51c1110ee6.8" configVersion="7653c4b42e378e409694357f4311735f00000000"/>
 		<Metadata name="Configuration.ПриютДляКошек.MainSectionPicture" id="fa0a51d9-f620-42af-a8b9-0e51c1110ee6.c" configVersion="379b650863b0564f854bbddce452533b00000000"/>
@@ -5313,7 +5315,7 @@
 		<Metadata name="Constant.ЭтоАвтономноеРабочееМесто" id="d8621f68-106e-4058-963f-56010491ae2e" configVersion="7555821009734c4f9960247572e792c600000000"/>
 		<Metadata name="Constant.ЭтоАвтономноеРабочееМесто.ValueManagerModule" id="d8621f68-106e-4058-963f-56010491ae2e.0" configVersion="25f9628e95e3e6419d38f3b7f979353000000000"/>
 		<Metadata name="Constant.ЮридическийАдрес" id="884fb7ad-99ea-440b-a95d-80beecf097d4" configVersion="229dc64a7bdb6049ba9d47b75e45421200000000"/>
-		<Metadata name="DataProcessor.АРМКотоняни" id="4f263e7a-92ae-4698-853f-c7defc3e0ca7" configVersion="60cb43367aa52347acf9172eb1f559ac00000000">
+		<Metadata name="DataProcessor.АРМКотоняни" id="4f263e7a-92ae-4698-853f-c7defc3e0ca7" configVersion="c6b2d47d4df38a409426b7e5f1f4ec7c00000000">
 			<Metadata name="DataProcessor.АРМКотоняни.TabularSection.ГрафикУборки.Attribute.Регистратор" id="04a725f8-c54c-4f5b-b462-4b4d7729f21d"/>
 			<Metadata name="DataProcessor.АРМКотоняни.TabularSection.ГрафикКормления.Attribute.Кошка" id="0f5b4512-8cac-489f-967e-29532f2b6460"/>
 			<Metadata name="DataProcessor.АРМКотоняни.TabularSection.ГрафикКормления.Attribute.ВремяВыдачи" id="13ef1772-79ac-443b-934b-82831598d401"/>
@@ -5335,8 +5337,8 @@
 			<Metadata name="DataProcessor.АРМКотоняни.TabularSection.РасходникиНаУборку.Attribute.Расходник" id="d47ac1b2-f95e-4d13-b5f4-54f03ab2f18b"/>
 			<Metadata name="DataProcessor.АРМКотоняни.TabularSection.ГрафикКормления.Attribute.НомерПриемаПищи" id="eb8002ec-330b-45a0-bb1d-7361d3acd54f"/>
 		</Metadata>
-		<Metadata name="DataProcessor.АРМКотоняни.Form.Форма" id="70f89fab-3488-4e44-93c7-7aa5f6e681a8" configVersion="b80f39e6f886bb48b3990f6d071eb67400000000"/>
-		<Metadata name="DataProcessor.АРМКотоняни.Form.Форма.Form" id="70f89fab-3488-4e44-93c7-7aa5f6e681a8.0" configVersion="e8073be2c81d2441ad8c31019fb3aa2a00000000"/>
+		<Metadata name="DataProcessor.АРМКотоняни.Form.Форма" id="70f89fab-3488-4e44-93c7-7aa5f6e681a8" configVersion="4b26443d3b82a546b3d261d89333daf500000000"/>
+		<Metadata name="DataProcessor.АРМКотоняни.Form.Форма.Form" id="70f89fab-3488-4e44-93c7-7aa5f6e681a8.0" configVersion="035ee4e4c4a17f40af91b2645539521500000000"/>
 		<Metadata name="DataProcessor.АвтоматическоеИзвлечениеТекстов" id="3326bbcb-b277-44db-a252-2448119e8146" configVersion="4f47bb37e18cbb48a1dbcaa240aaef8700000000">
 			<Metadata name="DataProcessor.АвтоматическоеИзвлечениеТекстов.Command.АвтоматическоеИзвлечениеТекстов" id="304304b1-36a4-42bb-8ab9-b23b59795001"/>
 		</Metadata>
@@ -11930,7 +11932,7 @@
 		<Metadata name="Subsystem.НСИ.Subsystem.Содержание" id="4c7dd066-2bd9-4e1f-ba28-7280873b67fe" configVersion="af5e795f0f98894296768302c787523700000000"/>
 		<Metadata name="Subsystem.Персонал" id="c1bae911-bf80-4879-b38e-45488f493afa" configVersion="82c5666f71e4db4abd2b0221fd067f3200000000"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="7795348b-2f52-47f7-bf00-e11e5e795a43" configVersion="fe943af4fd0d2b4baa00fa7c0ebd8f8c00000000"/>
-		<Metadata name="Subsystem.Содержание" id="e992f064-df4d-4ff3-809a-626d5d867053" configVersion="813f8adcb4263f408a09f086dc86c28e00000000"/>
+		<Metadata name="Subsystem.Содержание" id="e992f064-df4d-4ff3-809a-626d5d867053" configVersion="14f7109040af44429eaf062c14b02f1b00000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы" id="0421b67e-ed26-491d-ab98-ec59002ed4ce" configVersion="aceecdd2cfccf246bc541f9eda8e91da00000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.АдресныйКлассификатор" id="bb47ced2-31f9-4870-8633-20b986e53ccc" configVersion="b4b2ae3937fa7b4f88d7b109f0f3c0c100000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.Анкетирование" id="739c01a9-1125-45ef-ab4e-8c73af4eeff0" configVersion="6da65e1c27e4c24db5acb756d1031ce000000000"/>

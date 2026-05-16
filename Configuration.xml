@@ -930,6 +930,7 @@
 			<CommonPicture>Кошки</CommonPicture>
 			<CommonPicture>Документооборот</CommonPicture>
 			<CommonPicture>НСИ</CommonPicture>
+			<CommonPicture>Кормление</CommonPicture>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
 			<SessionParameter>ВерсииШаблоновОграниченияДоступа</SessionParameter>

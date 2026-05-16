@@ -16,7 +16,6 @@
 		</InputField>
 		<InputField name="Ответственный" id="52">
 			<DataPath>Объект.Ответственный</DataPath>
-			<ReadOnly>true</ReadOnly>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="53"/>
 			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="54"/>
@@ -43,16 +42,19 @@
 							<v8:content>КОРМЛЕНИЕ</v8:content>
 						</v8:item>
 					</Title>
+					<TitleFont ref="style:NormalTextFont" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа кормление</v8:content>
 						</v8:item>
 					</ToolTip>
+					<BackColor>web:FloralWhite</BackColor>
 					<ExtendedTooltip name="ГруппаКормлениеРасширеннаяПодсказка" id="4"/>
 					<ChildItems>
 						<CheckBoxField name="СкрытьПокормленных" id="55">
 							<DataPath>СкрытьПокормленных</DataPath>
+							<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="СкрытьПокормленныхКонтекстноеМеню" id="56"/>
 							<ExtendedTooltip name="СкрытьПокормленныхРасширеннаяПодсказка" id="57"/>
@@ -129,6 +131,7 @@
 								</CheckBoxField>
 								<InputField name="ГрафикКормленияКошка" id="26">
 									<DataPath>Объект.ГрафикКормления.Кошка</DataPath>
+									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ГрафикКормленияКошкаКонтекстноеМеню" id="27"/>
@@ -178,6 +181,7 @@
 								</InputField>
 								<InputField name="ГрафикКормленияРегистратор" id="58">
 									<DataPath>Объект.ГрафикКормления.Регистратор</DataPath>
+									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ГрафикКормленияРегистраторКонтекстноеМеню" id="59"/>
@@ -194,16 +198,19 @@
 							<v8:content>УБОРКА</v8:content>
 						</v8:item>
 					</Title>
+					<TitleFont ref="style:NormalTextFont" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Группа уборка</v8:content>
 						</v8:item>
 					</ToolTip>
+					<BackColor>web:GhostWhite</BackColor>
 					<ExtendedTooltip name="ГруппаУборкаРасширеннаяПодсказка" id="6"/>
 					<ChildItems>
 						<CheckBoxField name="СкрытьУбранных" id="110">
 							<DataPath>СкрытьУбранных</DataPath>
+							<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="СкрытьУбранныхКонтекстноеМеню" id="111"/>
 							<ExtendedTooltip name="СкрытьУбранныхРасширеннаяПодсказка" id="112"/>
@@ -282,10 +289,19 @@
 								</CheckBoxField>
 								<InputField name="ГрафикУборкиКошка" id="105">
 									<DataPath>Объект.ГрафикУборки.Кошка</DataPath>
+									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ГрафикУборкиКошкаКонтекстноеМеню" id="106"/>
 									<ExtendedTooltip name="ГрафикУборкиКошкаРасширеннаяПодсказка" id="107"/>
+								</InputField>
+								<InputField name="ГрафикУборкиРегистратор" id="113">
+									<DataPath>Объект.ГрафикУборки.Регистратор</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ГрафикУборкиРегистраторКонтекстноеМеню" id="114"/>
+									<ExtendedTooltip name="ГрафикУборкиРегистраторРасширеннаяПодсказка" id="115"/>
 								</InputField>
 							</ChildItems>
 						</Table>
@@ -294,6 +310,11 @@
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>Объект.РасходникиНаУборку</DataPath>
+							<CommandSet>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+							</CommandSet>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="РасходникиНаУборкуКонтекстноеМеню" id="62"/>
 							<AutoCommandBar name="РасходникиНаУборкуКоманднаяПанель" id="63"/>
@@ -390,6 +411,51 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ГрафикКормленияПокормлен</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.ГрафикКормления.Регистратор</dcsset:left>
+						<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Доступность</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ГрафикУборкиУбрано</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.ГрафикУборки.Регистратор</dcsset:left>
+						<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
 	</Attributes>
 	<Commands>
 		<Command name="ВыдачаКормаСписком" id="1">
