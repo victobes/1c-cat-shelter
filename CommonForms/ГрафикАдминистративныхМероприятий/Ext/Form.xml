@@ -5,6 +5,40 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
+		<UsualGroup name="ГруппаУправление" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа управление</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа управление</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаУправлениеРасширеннаяПодсказка" id="10"/>
+			<ChildItems>
+				<InputField name="ПериодОтбора" id="6">
+					<DataPath>ПериодОтбора</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПериодОтбораКонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="ПериодОтбораРасширеннаяПодсказка" id="8"/>
+					<Events>
+						<Event name="OnChange">ПериодОтбораПриИзменении</Event>
+					</Events>
+				</InputField>
+				<Button name="ФормаОбновитьГрафик" id="4">
+					<Type>UsualButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.Command.ОбновитьГрафик</CommandName>
+					<ExtendedTooltip name="ФормаОбновитьГрафикРасширеннаяПодсказка" id="5"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 		<PlannerField name="Планировщик" id="1">
 			<DataPath>Планировщик</DataPath>
 			<TitleLocation>None</TitleLocation>
@@ -125,5 +159,33 @@
 				<pl:newItemsTextType>String</pl:newItemsTextType>
 			</Settings>
 		</Attribute>
+		<Attribute name="ПериодОтбора" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:StandardPeriod</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ОбновитьГрафик" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить график</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьГрафик</Action>
+		</Command>
+	</Commands>
 </Form>

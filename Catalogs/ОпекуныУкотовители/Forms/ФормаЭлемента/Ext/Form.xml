@@ -121,6 +121,7 @@
 				</LabelField>
 				<CheckBoxField name="КошкиВАрхиве" id="44">
 					<DataPath>Кошки.ВАрхиве</DataPath>
+					<Visible>false</Visible>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="КошкиВАрхивеКонтекстноеМеню" id="45"/>
 					<ExtendedTooltip name="КошкиВАрхивеРасширеннаяПодсказка" id="46"/>
@@ -222,7 +223,6 @@
 					<dcssch:value xsi:nil="true"/>
 					<dcssch:useRestriction>true</dcssch:useRestriction>
 					<dcssch:availableAsField>false</dcssch:availableAsField>
-					<dcssch:denyIncompleteValues>true</dcssch:denyIncompleteValues>
 					<dcssch:use>Always</dcssch:use>
 				</Parameter>
 				<Parameter>
@@ -239,7 +239,6 @@
 					<dcssch:value xsi:nil="true"/>
 					<dcssch:useRestriction>true</dcssch:useRestriction>
 					<dcssch:availableAsField>false</dcssch:availableAsField>
-					<dcssch:denyIncompleteValues>true</dcssch:denyIncompleteValues>
 					<dcssch:use>Always</dcssch:use>
 				</Parameter>
 				<MainTable>InformationRegister.ОпекуныУкотовителиПодопечных</MainTable>

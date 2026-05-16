@@ -1105,6 +1105,7 @@
 			<Role>ОтчетГрафикКормленияКошек</Role>
 			<Role>ОтчетГрафикУборкиМестСодержанияПоДням</Role>
 			<Role>ЧтениеСтатусыМестаСодержания</Role>
+			<Role>ИспользованиеОбработкиАРМКотоняни</Role>
 			<CommonTemplate>ВидыДокументовУдостоверяющихЛичность</CommonTemplate>
 			<CommonTemplate>ДанныеПечатиОбщиеРеквизиты</CommonTemplate>
 			<CommonTemplate>ДанныеПечатиРегистрСимволов</CommonTemplate>

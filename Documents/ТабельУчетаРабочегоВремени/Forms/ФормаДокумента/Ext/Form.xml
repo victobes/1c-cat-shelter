@@ -5,6 +5,7 @@
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -107,6 +108,7 @@
 				</InputField>
 				<InputField name="ДанныеОВремениВремяИтог" id="128">
 					<DataPath>Объект.ДанныеОВремени.ВремяИтог</DataPath>
+					<Visible>false</Visible>
 					<EditMode>EnterOnInput</EditMode>
 					<FixingInTable>Left</FixingInTable>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
