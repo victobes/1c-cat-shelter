@@ -38,6 +38,14 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ОбработкаОтПаразитов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ГрафикОбработкиОтПаразитов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикОбработкиОтПаразитов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеВакцинация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ПодсистемаВетеринария</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ОтчетГрафикОбработкиОтПаразитов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ОтчетГрафикВакцинации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеОбработкаОтПаразитов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЧипирование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеОсмотр</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеВзвешивание</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -32,6 +32,12 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.СведенияОбОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Персонал</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.НСИ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеОкрасы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеПороды</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеПричиныСмерти</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеВетеринарныеМероприятия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеШаблоныПротоколовОсмотра</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеРационыКормления</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

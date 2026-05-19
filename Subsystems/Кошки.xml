@@ -26,6 +26,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ФотографииКошек</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетПоПодопечным</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеКошки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ИзменениеКошки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ПодсистемаКошки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеФотографииКошек</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
