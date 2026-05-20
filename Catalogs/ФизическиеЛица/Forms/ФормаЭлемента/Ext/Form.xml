@@ -124,6 +124,7 @@
 						</InputField>
 						<InputField name="ИНН" id="22">
 							<DataPath>Объект.ИНН</DataPath>
+							<Visible>false</Visible>
 							<EditMode>EnterOnInput</EditMode>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="ИННКонтекстноеМеню" id="23"/>
@@ -135,6 +136,45 @@
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="ФИОКонтекстноеМеню" id="26"/>
 							<ExtendedTooltip name="ФИОРасширеннаяПодсказка" id="27"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаКонтакты" id="55">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контакты</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница контакты</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаКонтактыРасширеннаяПодсказка" id="56"/>
+					<ChildItems>
+						<InputField name="Телефон" id="82">
+							<DataPath>Объект.Телефон</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТелефонКонтекстноеМеню" id="83"/>
+							<ExtendedTooltip name="ТелефонРасширеннаяПодсказка" id="84"/>
+						</InputField>
+						<InputField name="АдресЭП" id="85">
+							<DataPath>Объект.АдресЭП</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="АдресЭПКонтекстноеМеню" id="86"/>
+							<ExtendedTooltip name="АдресЭПРасширеннаяПодсказка" id="87"/>
+							<Events>
+								<Event name="OnChange">АдресЭППриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="МестоЖительства" id="96">
+							<DataPath>Объект.МестоЖительства</DataPath>
+							<MultiLine>true</MultiLine>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="МестоЖительстваКонтекстноеМеню" id="97"/>
+							<ExtendedTooltip name="МестоЖительстваРасширеннаяПодсказка" id="98"/>
 						</InputField>
 					</ChildItems>
 				</Page>
@@ -256,45 +296,6 @@
 							<CommandName>Form.Command.СохранитьПаспортныеДанные</CommandName>
 							<ExtendedTooltip name="СохранитьПаспортныеДанныеРасширеннаяПодсказка" id="95"/>
 						</Button>
-					</ChildItems>
-				</Page>
-				<Page name="СтраницаКонтакты" id="55">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Контакты</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Страница контакты</v8:content>
-						</v8:item>
-					</ToolTip>
-					<ExtendedTooltip name="СтраницаКонтактыРасширеннаяПодсказка" id="56"/>
-					<ChildItems>
-						<InputField name="Телефон" id="82">
-							<DataPath>Объект.Телефон</DataPath>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<ContextMenu name="ТелефонКонтекстноеМеню" id="83"/>
-							<ExtendedTooltip name="ТелефонРасширеннаяПодсказка" id="84"/>
-						</InputField>
-						<InputField name="АдресЭП" id="85">
-							<DataPath>Объект.АдресЭП</DataPath>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<ContextMenu name="АдресЭПКонтекстноеМеню" id="86"/>
-							<ExtendedTooltip name="АдресЭПРасширеннаяПодсказка" id="87"/>
-							<Events>
-								<Event name="OnChange">АдресЭППриИзменении</Event>
-							</Events>
-						</InputField>
-						<InputField name="МестоЖительства" id="96">
-							<DataPath>Объект.МестоЖительства</DataPath>
-							<MultiLine>true</MultiLine>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<ContextMenu name="МестоЖительстваКонтекстноеМеню" id="97"/>
-							<ExtendedTooltip name="МестоЖительстваРасширеннаяПодсказка" id="98"/>
-						</InputField>
 					</ChildItems>
 				</Page>
 			</ChildItems>

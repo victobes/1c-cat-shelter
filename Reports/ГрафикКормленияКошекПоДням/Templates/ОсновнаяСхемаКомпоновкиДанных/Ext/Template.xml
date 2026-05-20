@@ -7,6 +7,16 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
+			<dataPath>Покормлен</dataPath>
+			<field>Покормлен</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Покормлен</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
 			<dataPath>Кошка</dataPath>
 			<field>Кошка</field>
 			<role>
@@ -16,6 +26,10 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>КоличествоНаПорцию</dataPath>
 			<field>КоличествоНаПорцию</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерПриемаПищи</dataPath>
+			<field>НомерПриемаПищи</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>МестоСодержания</dataPath>
@@ -38,20 +52,6 @@
 			<field>ВремяВыдачи</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Покормлен</dataPath>
-			<field>Покормлен</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Покормлен</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>НомерПриемаПищи</dataPath>
-			<field>НомерПриемаПищи</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Регистратор</dataPath>
 			<field>Регистратор</field>
 			<title xsi:type="v8:LocalStringType">
@@ -61,16 +61,27 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПЕРИОД</dataPath>
+			<field>ПЕРИОД</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ПЕРИОД</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	СтатусыМестаСодержанияЖивотныхСрезПоследних.Кошка КАК Кошка,
 	СтатусыМестаСодержанияЖивотныхСрезПоследних.МестоСодержания КАК МестоСодержания
 ПОМЕСТИТЬ ВТ_КошкиВПриюте
 ИЗ
-	РегистрСведений.СтатусыМестаСодержанияЖивотных.СрезПоследних(
-			&amp;Период,
-			НЕ Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыПребыванияЖивотных.Укотовлен)
-				И НЕ Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыПребыванияЖивотных.Мертв)) КАК СтатусыМестаСодержанияЖивотныхСрезПоследних
+	РегистрСведений.СтатусыМестаСодержанияЖивотных.СрезПоследних(&amp;Период, ) КАК СтатусыМестаСодержанияЖивотныхСрезПоследних
+ГДЕ
+	НЕ СтатусыМестаСодержанияЖивотныхСрезПоследних.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыПребыванияЖивотных.Укотовлен)
+	И НЕ СтатусыМестаСодержанияЖивотныхСрезПоследних.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыПребыванияЖивотных.Мертв)
+	И НЕ СтатусыМестаСодержанияЖивотныхСрезПоследних.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыПребыванияЖивотных.НаЛеченииВетклиника)
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -104,6 +115,7 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 ВЫБРАТЬ
+	&amp;Период КАК ПЕРИОД,
 	ВТ_ВсеОКормлении.Кошка КАК Кошка,
 	ВТ_ВсеОКормлении.МестоСодержания КАК МестоСодержания,
 	ВТ_ВсеОКормлении.РационКормления КАК РационКормления,
@@ -120,6 +132,7 @@
 		ПО ВТ_ВсеОКормлении.Кошка = ГрафикПолученияКормаПодопечными.Кошка
 			И ВТ_ВсеОКормлении.НомерПриемаПищи = ГрафикПолученияКормаПодопечными.НомерПриемаПищи
 			И (ГрафикПолученияКормаПодопечными.Период МЕЖДУ НАЧАЛОПЕРИОДА(&amp;Период, ДЕНЬ) И КОНЕЦПЕРИОДА(&amp;Период, ДЕНЬ))</query>
+		<useQueryGroupIfPossible>false</useQueryGroupIfPossible>
 	</dataSet>
 	<parameter>
 		<name>Период</name>
@@ -137,7 +150,7 @@
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>false</useRestriction>
-		<expression>ТекущаяДата()</expression>
+		<use>Always</use>
 	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
@@ -175,7 +188,9 @@
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Период</dcscor:parameter>
-					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+					</dcscor:value>
 					<dcsset:userSettingID>d1c66313-aa5d-4802-90ba-cd6577298093</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
@@ -246,6 +261,10 @@
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
 							<dcsset:field>Регистратор</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:field>ПЕРИОД</dcsset:field>
 						</dcsset:item>
 					</dcsset:selection>
 				</dcsset:item>
