@@ -7273,7 +7273,7 @@
 		<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.Form.ФормаДокумента" id="0817f3bb-972b-4e98-86e8-c64eccde3dd5" configVersion="6ab6e024b2dc0c469ec3d68e1d88afd100000000"/>
 		<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.Form.ФормаДокумента.Form" id="0817f3bb-972b-4e98-86e8-c64eccde3dd5.0" configVersion="7eb1b2976e8d0948a9607690cb0842db00000000"/>
 		<Metadata name="Document.ДоговорОПередачеЖивотногоВПриют.ObjectModule" id="0ca9347f-1777-4944-9bbf-136577489b37.0" configVersion="ab3a051a295c11459bd0f360c8b5e22800000000"/>
-		<Metadata name="Document.ДоговорОтветственногоСодержания" id="410e82ec-4d93-4432-8476-c14ad1433d88" configVersion="6699615d6372424394d4581f17425a1100000000">
+		<Metadata name="Document.ДоговорОтветственногоСодержания" id="410e82ec-4d93-4432-8476-c14ad1433d88" configVersion="7465e28edce8a941b5c3caec83a30a5200000000">
 			<Metadata name="Document.ДоговорОтветственногоСодержания.Attribute.Ответственный" id="19420710-876f-4697-9f4c-b63cdb81876e"/>
 			<Metadata name="Document.ДоговорОтветственногоСодержания.Attribute.Укотовитель" id="29a6a597-37b8-4d7e-ba34-15941a5178df"/>
 			<Metadata name="Document.ДоговорОтветственногоСодержания.Attribute.Собеседование" id="861f86a3-040f-453c-91cd-6e26f413df36"/>
@@ -7283,10 +7283,10 @@
 		<Metadata name="Document.ДоговорОтветственногоСодержания.Command.Печать.CommandModule" id="cda0bbb4-78c1-4bd8-9a29-6f0674077a26.2" configVersion="d7703e1cd23df744ac3d2bf21134706400000000"/>
 		<Metadata name="Document.ДоговорОтветственногоСодержания.Form.ФормаДокумента" id="14f1932f-11ee-4967-856f-ec54ffd2c3db" configVersion="58767ef064683942925b2702a9ebc94b00000000"/>
 		<Metadata name="Document.ДоговорОтветственногоСодержания.Form.ФормаДокумента.Form" id="14f1932f-11ee-4967-856f-ec54ffd2c3db.0" configVersion="5ffe6b8a2e1fc4499f7ee86bea4fa22300000000"/>
-		<Metadata name="Document.ДоговорОтветственногоСодержания.ManagerModule" id="410e82ec-4d93-4432-8476-c14ad1433d88.2" configVersion="4464fa2a400983418f81b2f6a0cfb00f00000000"/>
+		<Metadata name="Document.ДоговорОтветственногоСодержания.ManagerModule" id="410e82ec-4d93-4432-8476-c14ad1433d88.2" configVersion="903fe7c24634384a852f2a6b81dbde9500000000"/>
 		<Metadata name="Document.ДоговорОтветственногоСодержания.ObjectModule" id="410e82ec-4d93-4432-8476-c14ad1433d88.0" configVersion="aea42e150573d0489aa7e5df13a1a82100000000"/>
-		<Metadata name="Document.ДоговорОтветственногоСодержания.Template.Печать" id="3d52e234-2edc-4c71-8f07-975d75b39d2a" configVersion="09421969aaee0443bdf0f7c82d38924c00000000"/>
-		<Metadata name="Document.ДоговорОтветственногоСодержания.Template.Печать.Template" id="3d52e234-2edc-4c71-8f07-975d75b39d2a.0" configVersion="33fc7d05953b8f4eaa4fee86a35a70d200000000"/>
+		<Metadata name="Document.ДоговорОтветственногоСодержания.Template.Печать" id="3d52e234-2edc-4c71-8f07-975d75b39d2a" configVersion="5dffec3a5a01c843b96712c68eb7c2f200000000"/>
+		<Metadata name="Document.ДоговорОтветственногоСодержания.Template.Печать.Template" id="3d52e234-2edc-4c71-8f07-975d75b39d2a.0" configVersion="fe598b011093eb40b0e18a4d861f3dc200000000"/>
 		<Metadata name="Document.ЗапланированноеВзаимодействие" id="53c4c3b2-9257-4d02-8df8-6b55fe9abdae" configVersion="6feeb5371e23fa4a976603b2d8e4506400000000">
 			<Metadata name="Document.ЗапланированноеВзаимодействие.TabularSection.НаборыЗначенийДоступа.Attribute.Чтение" id="0d743731-da5d-4c99-b19f-e93c69b77e14"/>
 			<Metadata name="Document.ЗапланированноеВзаимодействие.TabularSection.Участники" id="23b46ecd-14dc-4cc5-8ff0-c676a8337aee"/>
